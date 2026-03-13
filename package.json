@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "Datenbank für Das Schwarze Auge 5",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "db:generate": "exec drizzle-kit generate",
+    "db:migrate": "exec drizzle-kit migrate",
+    "db:seed": "tsx src/db/seed.ts"
+  },
   "keywords": [
     "dsa5",
     "Das Schwarze Auge 5",

@@ -1,0 +1,158 @@
+﻿[
+  {
+    "name": "Praios",
+    "aspects": ["Gerechtigkeit", "Magiebann", "Wahrheit"],
+    "holy_symbol": "Greif",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Rondra",
+    "aspects": ["Ehre", "Kampf", "Mut"],
+    "holy_symbol": "Löwin",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Efferd",
+    "aspects": ["Stürme", "Wasser", "Wind"],
+    "holy_symbol": "Delphin",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Travia",
+    "aspects": ["Ehe", "Gastfreundschaft", "Treue"],
+    "holy_symbol": "Wildgans",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Boron",
+    "aspects": ["Schlaf", "Tod", "Vergessen"],
+    "holy_symbol": "Rabe",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Hesinde",
+    "aspects": ["Kunsthandwerk", "Magie", "Wissen"],
+    "holy_symbol": "Schlange",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Firun",
+    "aspects": ["Eis", "Jagd", "Natur"],
+    "holy_symbol": "Polarbär",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Tsa",
+    "aspects": ["Jugend", "Leben", "Wiedergeburt"],
+    "holy_symbol": "Eidechse",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Phex",
+    "aspects": ["Diebe", "Glück", "Handel"],
+    "holy_symbol": "Fuchs",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Peraine",
+    "aspects": ["Ackerbau", "Heilung", "Viehzucht"],
+    "holy_symbol": "Storch",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Ingerimm",
+    "aspects": ["Feuer", "Handwerk", "Schmiedekunst"],
+    "holy_symbol": "Hammer und Amboss",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Rahja",
+    "aspects": ["Liebe", "Rausch", "Schönheit"],
+    "holy_symbol": "Pferd",
+    "god_type": "Gottheit"
+  },
+  {
+    "name": "Blakharaz",
+    "aspects": ["Folter", "Dunkelheit", "Rache"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Tyakra’Man"
+  },
+  {
+    "name": "Belhalhar",
+    "aspects": ["Blutrausch", "Heimtücke", "Massaker"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Xarfai"
+  },
+  {
+    "name": "Charyptoroth",
+    "aspects": ["Meeresungeheuer", "Stürme", "verdorbenes Wasser"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Gal’k’Zuul"
+  },
+  {
+    "name": "Lolgramoth",
+    "aspects": ["Rastlosigkeit", "Ruhelosigkeit", "Treuelosigkeit"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Thezzphai"
+  },
+  {
+    "name": "Thargunitoth",
+    "aspects": ["Alpträume", "Nekromantie", "Untote"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Tjiakool"
+  },
+  {
+    "name": "Amazeroth",
+    "aspects": ["Illusionen", "Täuschung", "Wahnsinn"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Iribaar"
+  },
+  {
+    "name": "Nagrach",
+    "aspects": ["Gnadenlosigkeit", "Kälte", "Unbarmherzigkeit"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Belshirash"
+  },
+  {
+    "name": "Asfaloth",
+    "aspects": ["Chaos", "Chimären", "Verwandlungen"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Calijnaar"
+  },
+  {
+    "name": "Tasfarelel",
+    "aspects": ["Geld", "Habgier", "Neid"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Zholvar"
+  },
+  {
+    "name": "Mishkara",
+    "aspects": ["Krankheiten", "Missernten", "Unfruchtbarkeit"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Belzhorash"
+  },
+  {
+    "name": "Agrimoth",
+    "aspects": ["Konstruktionen", "Urelemente"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Widharcal"
+  },
+  {
+    "name": "Belkelel",
+    "aspects": ["Orgien", "Perversion", "Selbstsucht"],
+    "holy_symbol": "",
+    "god_type": "Erzdämon",
+    "secondName": "Dar-Klajid"
+  }
+]
