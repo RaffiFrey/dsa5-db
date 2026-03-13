@@ -4,8 +4,8 @@
   "description": "Datenbank für Das Schwarze Auge 5",
   "private": true,
   "scripts": {
-    "db:generate": "exec drizzle-kit generate",
-    "db:migrate": "exec drizzle-kit migrate",
+    "db:generate": "pnpm exec drizzle-kit generate",
+    "db:migrate": "pnpm exec drizzle-kit migrate",
     "db:seed": "tsx src/db/seed.ts"
   },
   "keywords": [

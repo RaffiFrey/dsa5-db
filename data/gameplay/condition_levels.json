@@ -1,0 +1,142 @@
+[
+  {
+    "condition": "Belastung",
+    "level": 1,
+    "effect": "leicht belastet, Proben auf Talente, die durch Belastung erschwert sind –1, AT –1, Verteidigung –1, INI –1, GS –1"
+  },
+  {
+    "condition": "Belastung",
+    "level": 2,
+    "effect": "belastet, Proben auf Talente, die durch Belastung erschwert sind –2, AT –2, Verteidigung –2, INI –2, GS –2"
+  },
+  {
+    "condition": "Belastung",
+    "level": 3,
+    "effect": "schwer belastet, Proben auf Talente, die durch Belastung erschwert sind –3, AT –3, Verteidigung –3, INI –3, GS –3"
+  },
+  {
+    "condition": "Belastung",
+    "level": 4,
+    "effect": "handlungsunfähig, bis auf Last fallen lassen "
+  },
+  {
+    "condition": "Betäubung",
+    "level": 1,
+    "effect": "leicht angeschlagen, alle Proben –1"
+  },
+  {
+    "condition": "Betäubung",
+    "level": 2,
+    "effect": "angeschlagen, alle Proben –2"
+  },
+  {
+    "condition": "Betäubung",
+    "level": 3,
+    "effect": "schwer angeschlagen, alle Proben –3"
+  },
+  {
+    "condition": "Betäubung",
+    "level": 4,
+    "effect": "handlungsunfähig"
+  },
+  {
+    "condition": "Entrückung",
+    "level": 1,
+    "effect": "leicht entrückt, alle Proben auf Talente und Zauber –1, so sie nicht dem Gott des Geweihten gefällig sind"
+  },
+  {
+    "condition": "Entrückung",
+    "level": 2,
+    "effect": "entrückt, alle dem Gott des Geweihten gefällige Proben auf Talente und Zauber +1, alle anderen –2"
+  },
+  {
+    "condition": "Entrückung",
+    "level": 3,
+    "effect": "göttlich berührt, alle dem Gott des Geweihten gefällige Proben auf Talente und Zauber +2, alle anderen –3"
+  },
+  {
+    "condition": "Entrückung",
+    "level": 4,
+    "effect": "ein Werkzeug des Gottes, alle dem Gott des Geweihten gefällige Proben +3, alle anderen um 4 erschwert"
+  },
+  {
+    "condition": "Furcht",
+    "level": 1,
+    "effect": "beunruhigt, alle Proben –1"
+  },
+  {
+    "condition": "Furcht",
+    "level": 2,
+    "effect": "verängstigt, alle Proben –2"
+  },
+  {
+    "condition": "Furcht",
+    "level": 3,
+    "effect": "in Panik, alle Proben –3"
+  },
+  {
+    "condition": "Furcht",
+    "level": 4,
+    "effect": "katatonisch, handlungsunfähig"
+  },
+  {
+    "condition": "Paralyse",
+    "level": 1,
+    "effect": "leicht versteift, alle Proben, die Bewegung oder Sprache erfordern, –1, GS nur noch 75 %"
+  },
+  {
+    "condition": "Paralyse",
+    "level": 2,
+    "effect": "versteift, alle Proben, die Bewegung oder Sprache erfordern, –2, GS nur noch 50 %"
+  },
+  {
+    "condition": "Paralyse",
+    "level": 3,
+    "effect": "kaum mehr bewegungsfähig, alle Proben, die Bewegung oder Sprache erfordern, –3, GS nur noch 25 %"
+  },
+  {
+    "condition": "Paralyse",
+    "level": 4,
+    "effect": "handlungsunfähig"
+  },
+  {
+    "condition": "Schmerz",
+    "level": 1,
+    "effect": "leichte Schmerzen, alle Proben –1, GS –1"
+  },
+  {
+    "condition": "Schmerz",
+    "level": 2,
+    "effect": "ablenkende Schmerzen, alle Proben –2, GS –2"
+  },
+  {
+    "condition": "Schmerz",
+    "level": 3,
+    "effect": "starke Schmerzen, alle Proben –3, GS –3"
+  },
+  {
+    "condition": "Schmerz",
+    "level": 4,
+    "effect": "handlungsunfähig, ansonsten alle Proben –4"
+  },
+  {
+    "condition": "Verwirrung",
+    "level": 1,
+    "effect": "eicht verwirrt, alle Proben –1"
+  },
+  {
+    "condition": "Verwirrung",
+    "level": 2,
+    "effect": "verwirrt, alle Proben –2"
+  },
+  {
+    "condition": "Verwirrung",
+    "level": 3,
+    "effect": "sehr verwirrt, alle Proben –3, komplexe Aktivitäten wie Zaubern, Liturgien wirken und die Anwendung von Wissenstalenten ist unmöglich"
+  },
+  {
+    "condition": "Verwirrung",
+    "level": 4,
+    "effect": "handlungsunfähig"
+  }
+]

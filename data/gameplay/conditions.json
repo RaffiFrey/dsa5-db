@@ -1,0 +1,30 @@
+﻿[
+  {
+    "name": "Belastung",
+    "description": "Schweres Gepäck und Rüstungen können den Träger sehr belasten und seine Bewegungsfreiheit einschränken. So lange diese Lasten getragen werden, erleidet die Person entsprechende Stufen an Belastung. Werden die Lasten abgelegt, verschwinden auch die Belastungsstufen. Das Gewicht von Rüstungen wird bei der Berechnung von Belastung durch Traglast ignoriert."
+  },
+  {
+    "name": "Betäubung",
+    "description": "Durch zu viel Wein, Erschöpfung oder eine zünftige Schlägerei kann ein Held Stufen von Betäubung erleiden. Jede Stufe Betäubung verschwindet für sich betrachtet, so nichts anderes angegeben ist, nach einer Ruhephase von 3 Stunden."
+  },
+  {
+    "name": "Entrückung",
+    "description": "Dieser Zustand kommt bei Geweihten zustande, wenn sie in kurzer Zeit eine bestimmte Menge an Karmapunkten ausgeben. Die Entrückung baut sich jede Stunde um 1 ab."
+  },
+  {
+    "name": "Furcht",
+    "description": "Besonders grauenerregende Kreaturen, aber auch Zauber oder der Nachteil Angst vor … können Furcht auslösen. Wesen reagieren recht unterschiedlich auf Furcht. Manche versuchen den Auslöser der Furcht ständig im Auge zu behalten, auf Abstand zu bleiben oder zu fliehen, andere versuchen meist recht unkoordiniert, ihn aus dem Weg zu räumen. Im schlimmsten Falle verfallen sie in Katatonie. So lange der Auslöser der Furcht in der Nähe bleibt, bleiben auch die negativen Effekte der Furcht bestehen. Ist der Auslöser nicht mehr vorhanden, baut sich die Furcht alle 5 Minuten um 1 Stufe ab, so nichts anderes angegeben ist"
+  },
+  {
+    "name": "Paralyse",
+    "description": "Wer durch einen Ghul angefallen wird oder mit dem Zauber PARALYSIS verzaubert wird, dem droht sein Körper nicht mehr zu gehorchen. Gliedmaßen und Zunge versteifen sich im schlimmsten Falle bis zur totalen Bewegungslosigkeit. Das Opfer ist zwar noch bei Bewusstsein, kann jedoch nicht mehr handeln. Paralyse baut sich, sofern nichts anderes angegeben ist, jede halbe Stunde um 1 Stufe ab."
+  },
+  {
+    "name": "Schmerz",
+    "description": "Durch Verletzungen, Gifte, Zauber und andere Unannehmlichkeiten kann ein Held Schmerzen erleiden, die ihn im schlimmsten Falle handlungsunfähig machen. Um trotz immenser Schmerzen (Stufe IV) handlungsfähig zu bleiben, ist eine Probe auf Selbstbeherrschung (Handlungsfähigkeit bewahren) nötig. Durch den Verlust von Lebenspunkten kommt es öfters vor, dass ein Held Stufen dieses Zustands erhält. Sind die Lebenspunkte auf Dreiviertel, die Hälfte oder ein Viertel der Gesamt-Lebensenergie gesunken, erhält der Held jeweils eine Stufe Schmerz. Steigen die Lebenspunkte wieder über diese Begrenzungen, verschwindet damit auch die entsprechende Stufe Schmerz. Sinkt sie auf 5 oder weniger, erhält er eine weitere Stufe Schmerz. Ist nichts anderes genannt, verliert der Held nach jeweils 4 Stunden eine Stufe des Zustands"
+  },
+  {
+    "name": "Verwirrung",
+    "description": "Wenn ein Held auf einen Ikanariaschmetterling trifft oder bestimmte Gifte, Zauber oder dämonische Fähigkeiten ihn beeinflussen, kann es sein, dass sein Geist bis zur Verwirrung überfordert wird. Die Verwirrung hält so lange an, wie beim jeweiligen Auslöser angegeben. Ist nichts anderes angegeben, baut sich Verwirrung jede Stunde um 1 Stufe ab."
+  }
+]
