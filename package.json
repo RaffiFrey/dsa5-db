@@ -3,11 +3,24 @@
   "version": "0.0.1",
   "description": "Datenbank für Das Schwarze Auge 5",
   "private": true,
-  "scripts": {
-
-  },
-  "keywords": ["dsa5", "Das Schwarze Auge 5", "Datenbank"],
+  "scripts": {},
+  "keywords": [
+    "dsa5",
+    "Das Schwarze Auge 5",
+    "Datenbank"
+  ],
   "author": "Raphael Frey",
   "license": "ISC",
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "drizzle-orm": "^0.45.1",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/pg": "^8.18.0",
+    "drizzle-kit": "^0.31.9",
+    "tsx": "^4.21.0"
+  }
 }
