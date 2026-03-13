@@ -1,8 +1,9 @@
 ﻿import "dotenv/config";
-import { godsTable, conditionsTable, conditionLevelsTable, status } from "./schemas";
+import { godsTable, conditionsTable, conditionLevelsTable, experienceLevelTable, status } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
 import conditionLevelsData from "../../data/gameplay/condition_levels.json";
+import experienceLevelsData from "../../data/gameplay/experience_levels.json";
 import statusData from "../../data/gameplay/status.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
@@ -41,6 +42,21 @@ async function seed() {
   }))
   entries += conditionLevelValues.length;
   await db.insert(conditionLevelsTable).values(conditionLevelValues);
+
+  console.log("🌱 Seeding experience levels...");
+  const experienceLevelValues = experienceLevelsData.map(entry => ({
+    name: entry.name,
+    startingAP: entry.startingAP,
+    attributeMax: entry.attributeMax,
+    skillMax: entry.skillMax,
+    combatSkillMax: entry.combatSkillMax,
+    attributeSumMax: entry.attributeSumMax,
+    maxSpells: entry.maxSpells,
+    maxForeignSpells: entry.maxForeignSpells,
+  }));
+  entries += experienceLevelValues.length;
+  await db.insert(experienceLevelTable).values(experienceLevelValues);
+
 
   console.log("🌱 Seeding status...");
   const statusValues = statusData.map(entry => ({

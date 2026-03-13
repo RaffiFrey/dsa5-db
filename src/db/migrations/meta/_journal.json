@@ -29,6 +29,13 @@
       "when": 1773439820768,
       "tag": "0003_vengeful_whizzer",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1773440314223,
+      "tag": "0004_panoramic_ultimo",
+      "breakpoints": true
     }
   ]
 }

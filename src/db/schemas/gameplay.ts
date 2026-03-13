@@ -15,6 +15,18 @@ export const conditionLevelsTable = pgTable("condition_levels", {
   effect: text().notNull(),
 });
 
+export const experienceLevelTable = pgTable("experience_levels", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  name: text().notNull(),
+  startingAP: integer().notNull(),
+  attributeMax: integer().notNull(),
+  skillMax: integer().notNull(),
+  combatSkillMax: integer().notNull(),
+  attributeSumMax: integer().notNull(),
+  maxSpells: integer().notNull(),
+  maxForeignSpells: integer().notNull(),
+});
+
 export const status = pgTable("status", {
   id: integer().primaryKey().generatedByDefaultAsIdentity(),
   name: text().notNull(),

@@ -1,0 +1,73 @@
+﻿
+[
+  {
+    "name": "Unerfahren",
+    "startingAP": 900,
+    "attributeMax": 12,
+    "skillMax": 10,
+    "combatSkillMax": 8,
+    "attributeSumMax": 95,
+    "maxSpells": 8,
+    "maxForeignSpells": 0
+  },
+  {
+    "name": "Durchschnittlich",
+    "startingAP": 1000,
+    "attributeMax": 13,
+    "skillMax": 10,
+    "combatSkillMax": 10,
+    "attributeSumMax": 98,
+    "maxSpells": 10,
+    "maxForeignSpells": 1
+  },
+  {
+    "name": "Erfahren",
+    "startingAP": 1100,
+    "attributeMax": 14,
+    "skillMax": 10,
+    "combatSkillMax": 12,
+    "attributeSumMax": 100,
+    "maxSpells": 12,
+    "maxForeignSpells": 2
+  },
+  {
+    "name": "Kompetent",
+    "startingAP": 1200,
+    "attributeMax": 15,
+    "skillMax": 13,
+    "combatSkillMax": 14,
+    "attributeSumMax": 102,
+    "maxSpells": 14,
+    "maxForeignSpells": 3
+  },
+  {
+    "name": "Meisterlich",
+    "startingAP": 1400,
+    "attributeMax": 16,
+    "skillMax": 16,
+    "combatSkillMax": 16,
+    "attributeSumMax": 105,
+    "maxSpells": 16,
+    "maxForeignSpells": 4
+  },
+  {
+    "name": "Brillant",
+    "startingAP": 1700,
+    "attributeMax": 17,
+    "skillMax": 19,
+    "combatSkillMax": 18,
+    "attributeSumMax": 109,
+    "maxSpells": 18,
+    "maxForeignSpells": 5
+  },
+  {
+    "name": "Legendär",
+    "startingAP": 2100,
+    "attributeMax": 18,
+    "skillMax": 20,
+    "combatSkillMax": 20,
+    "attributeSumMax": 114,
+    "maxSpells": 20,
+    "maxForeignSpells": 6
+  }
+]
