@@ -1,0 +1,1 @@
+ALTER TABLE "gods" ADD COLUMN "god_type" "good_type";

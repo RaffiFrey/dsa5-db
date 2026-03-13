@@ -8,6 +8,13 @@
       "when": 1773435450215,
       "tag": "0000_bizarre_captain_flint",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1773435955660,
+      "tag": "0001_equal_imperial_guard",
+      "breakpoints": true
     }
   ]
 }
