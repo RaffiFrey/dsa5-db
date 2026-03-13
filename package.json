@@ -1,0 +1,13 @@
+{
+  "name": "dsa5-db",
+  "version": "0.0.1",
+  "description": "Datenbank für Das Schwarze Auge 5",
+  "private": true,
+  "scripts": {
+
+  },
+  "keywords": ["dsa5", "Das Schwarze Auge 5", "Datenbank"],
+  "author": "Raphael Frey",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1"
+}
