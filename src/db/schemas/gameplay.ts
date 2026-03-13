@@ -14,3 +14,9 @@ export const conditionLevelsTable = pgTable("condition_levels", {
   level: integer().notNull(),
   effect: text().notNull(),
 });
+
+export const status = pgTable("status", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  name: text().notNull(),
+  description: text().notNull(),
+});
