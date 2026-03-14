@@ -18,6 +18,7 @@ import {
   cultureTalentPackageTable,
   cultureAdvantagesTable,
   cultureDisadvantagesTable,
+  combatSpecialAbilitiesTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -32,6 +33,7 @@ import generalSpecialAbilitiesData from "../../data/gameplay/general_special_abi
 import advantagesData from "../../data/characters/advantages.json";
 import disadvantagesData from "../../data/characters/disadvantages.json";
 import culturesData from "../../data/characters/cultures.json";
+import combatSpecialAbilitiesData from "../../data/gameplay/combat_special_abilities.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -352,6 +354,21 @@ async function seed() {
       entries += disadvantageRows.length;
     }
   }
+
+  console.log("🌱 Seeding combat special abilities...");
+  const combatAbilityValues = combatSpecialAbilitiesData.map(entry => ({
+    name: entry.name,
+    type: entry.type,
+    description: entry.description,
+    rules: entry.rules,
+    penalty: entry.penalty ?? null,
+    requirementsText: entry.requirementsText || null,
+    combatTechniques: entry.combatTechniques.length > 0 ? entry.combatTechniques : null,
+    apValue: entry.apValue,
+    apText: entry.apText ?? null,
+  }));
+  entries += combatAbilityValues.length;
+  await db.insert(combatSpecialAbilitiesTable).values(combatAbilityValues);
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);
