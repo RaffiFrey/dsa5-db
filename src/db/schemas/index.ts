@@ -4,3 +4,4 @@ export * from "./gameplay";
 export * from "./advantages";
 export * from "./cultures";
 export * from "./combat";
+export * from "./magic";

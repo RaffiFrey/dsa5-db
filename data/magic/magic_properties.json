@@ -1,0 +1,57 @@
+﻿[
+  {
+    "name": "Antimagie",
+    "description": "Hierunter fallen verschiedene Methoden, Zauber  zu unterdrücken oder zu stören. Schädliche Zauber  können absorbiert, reflektiert oder unterbrochen  werden. Präventiv können auch Zonen erschaffen  werden, in denen Zauber mit bestimmten Merkmalen  erschwert zu wirken sind.",
+    "propertyChecks": ["MU", "KL", "CH"]
+  },
+  {
+    "name": "Dämonisch",
+    "description": "Die Anwendung des Merkmals umfasst das Beschwören  und den Umgang mit Untoten und Geistern, das  Erzeugen von Krankheiten und andere dämonische  Kräfte. Entsprechend sind die Zauber dieses Merkmals  in den meisten zivilisierten Regionen Aventuriens  verboten oder werden zumindest mit großem Argwohn  betrachtet.",
+    "propertyChecks": ["MU", "IN", "CH"]
+  },
+  {
+    "name": "Einfluss",
+    "description": "Die Kunst, den Geist von Mensch und Tier zu beeinflussen, wird mit Zaubern dieses Merkmals ausgeübt. Geistige Kommunikation ist so genauso möglich wie verschiedene Arten der geistigen Kontrolle und Unterwerfung.",
+    "propertyChecks": ["MU", "IN", "CH"]
+  },
+  {
+    "name": "Elementar",
+    "description": "Zu diesem Merkmal gehört das Erschaffen und Manipulieren der sechs Elemente Feuer, Wasser, Luft, Erz, Humus und Eis. Typische Zauber beeinflussen elementare  Zustände wie die Temperatur oder den Aggregatzustand  oder erschaffen Licht oder Dunkelheit.",
+    "propertyChecks": ["MU", "KL", "CH"]
+  },
+  {
+    "name": "Heilung",
+    "description": "Mit den Zaubern dieses Merkmals können Verletzungen, Krankheiten, Vergiftungen, Verstümmelungen und  negative körperliche Zustände geheilt werden. Außerdem kann man zeitweise den Körper stärken und seine  Leistungsfähigkeit erhöhen.",
+    "propertyChecks": ["KL", "IN", "FF"]
+  },
+  {
+    "name": "Hellsicht",
+    "description": "Durch dieses Merkmal können die Sinne zeitweilig  verbessert und neue Sinne erschaffen werden. ",
+    "propertyChecks": ["MU", "KL", "IN"]
+  },
+  {
+    "name": "Illusion",
+    "description": "Dieses Merkmal umfasst das Vorgaukeln von Sinneseindrücken, die Sicht, Gehör, Geruchs- und Geschmackssinn oder den Tastsinn beeinflussen.",
+    "propertyChecks": ["KL", "IN", "CH"]
+  },
+  {
+    "name": "Sphären",
+    "description": "Dieses Merkmal umfasst die Manipulation des Limbus,  des wabernden, grauen Nicht-Raums zwischen den  Sphären, die Reise durch den Limbus, aber auch die Beschwörung von Wesenheiten und Objekten aus anderen  Sphären.",
+    "propertyChecks": ["MU", "CH", "KO"]
+  },
+  {
+    "name": "Objekt",
+    "description": "Hierzu gehören alle Arten von Verzauberung, die  auf Gegenstände wirken. Neben dem Verankern von  Zaubern in Objekten gehört die Manipulation von Größe  und Form zu diesem Merkmal. Nicht dazu gehören die  Bewegung von Gegenständen und die Verwandlung der  Aggregatzustände oder der elementaren Eigenschaften.",
+    "propertyChecks": ["KL", "IN", "FF"]
+  },
+  {
+    "name": "Telekinese",
+    "description": "Zauber mit diesem Merkmal wirken mit kinetischer  Energie auf Personen und Objekte ein, um sie zu bewegen, zu fixieren, zu drehen, zu biegen oder zu zerbrechen.",
+    "propertyChecks": ["KL", "FF", "KK"]
+  },
+  {
+    "name": "Verwandlung",
+    "description": "Verwandlungszauber decken alle Arten der Verwandlung  des eigenen Körpers und derjenigen anderer lebender  Wesen ab, sowohl gerichtet, um eine bestimmte neue  Form zu erreichen, als auch ungerichtet, um den Körper  zu beschädigen. Sie wirken nicht auf Objekte und nicht  auf Wesen, die keinen lebenden, organischen Körper  besitzen, wie Golems, Untote, Dämonen oder Elementare.  Ausrüstung wird bei Zaubern mit dem Merkmal  Verwandlung nicht mitverwandelt.",
+    "propertyChecks": ["KL", "IN", "KO"]
+  }
+]

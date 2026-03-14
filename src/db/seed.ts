@@ -19,6 +19,7 @@ import {
   cultureAdvantagesTable,
   cultureDisadvantagesTable,
   combatSpecialAbilitiesTable,
+  magicPropertiesTable
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -34,6 +35,7 @@ import advantagesData from "../../data/characters/advantages.json";
 import disadvantagesData from "../../data/characters/disadvantages.json";
 import culturesData from "../../data/characters/cultures.json";
 import combatSpecialAbilitiesData from "../../data/gameplay/combat_special_abilities.json";
+import magicPropertiesData from "../../data/magic/magic_properties.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -369,6 +371,16 @@ async function seed() {
   }));
   entries += combatAbilityValues.length;
   await db.insert(combatSpecialAbilitiesTable).values(combatAbilityValues);
+
+  console.log("🌱 Magic properties...");
+  const magicPropertyValues = magicPropertiesData.map(entry => ({
+    name: entry.name,
+    description: entry.description,
+    propertyChecks: entry.propertyChecks,
+  }));
+
+  entries += magicPropertyValues.length;
+  await db.insert(magicPropertiesTable).values(magicPropertyValues);
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);
