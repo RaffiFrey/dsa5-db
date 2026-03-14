@@ -27,6 +27,7 @@ import {
   elvenSongsTable,
   cantripsTable,
   spellsTable,
+  ritualsTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -50,6 +51,7 @@ import witchSpecialAbilitiesData from "../../data/magic/witch_special_abilities.
 import elvenSongsData from "../../data/magic/elven_songs.json";
 import cantripsData from "../../data/magic/cantrips.json";
 import spellsData from "../../data/magic/spells.json";
+import ritualsData from "../../data/magic/rituals.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -60,6 +62,7 @@ async function seed() {
   await db.execute(sql`
     TRUNCATE TABLE
       cantrips,  
+      rituals,
       spells,
       cantrips,
       elven_songs,
@@ -568,6 +571,31 @@ async function seed() {
   });
   entries += spellValues.length;
   await db.insert(spellsTable).values(spellValues);
+
+  console.log("🌱 Seeding rituals...");
+  const ritualValues = ritualsData.map(entry => {
+    const propertyId = magicPropertyMap.get(entry.property);
+    if (!propertyId) {
+      console.warn(`⚠️ Merkmal nicht gefunden: ${entry.property} für ${entry.name}`);
+    }
+    return {
+      name: entry.name,
+      check: entry.check,
+      effect: entry.effect,
+      ritualDuration: entry.ritualDuration,
+      aspCost: entry.aspCost,
+      aspText: entry.aspText ?? null,
+      costsNotModifiable: entry.costsNotModifiable ? 1 : 0,
+      range: entry.range,
+      duration: entry.duration,
+      targetCategory: entry.targetCategory,
+      propertyId: propertyId!,
+      distribution: entry.distribution,
+      improvementCost: entry.improvementCost,
+    };
+  });
+  entries += ritualValues.length;
+  await db.insert(ritualsTable).values(ritualValues);
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);

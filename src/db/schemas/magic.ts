@@ -94,7 +94,26 @@ export const spellsTable = pgTable("spells", {
   modifiedByZK: integer("modified_by_zk").notNull().default(0),
   modifiedBySK: integer("modified_by_sk").notNull().default(0),
   effect: text().notNull(),
-  castingDuration: integer("casting_duration").notNull(), // in Aktionen
+  castingDuration: integer("casting_duration").notNull(),
+  aspCost: integer("asp_cost").notNull(),
+  aspText: text("asp_text"),
+  costsNotModifiable: integer("costs_not_modifiable").notNull().default(0),
+  range: text().notNull(),
+  duration: text().notNull(),
+  targetCategory: text("target_category").notNull(),
+  propertyId: integer("property_id")
+    .notNull()
+    .references(() => magicPropertiesTable.id, { onDelete: "restrict" }),
+  distribution: text().array().notNull(),
+  improvementCost: varchar({ length: 1 }).notNull(),
+});
+
+export const ritualsTable = pgTable("rituals", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  name: varchar({ length: 255 }).notNull(),
+  check: text().array().notNull(),
+  effect: text().notNull(),
+  ritualDuration: text("ritual_duration").notNull(), // Text, da "8 Stunden" / "30 Minuten"
   aspCost: integer("asp_cost").notNull(),
   aspText: text("asp_text"),
   costsNotModifiable: integer("costs_not_modifiable").notNull().default(0),
