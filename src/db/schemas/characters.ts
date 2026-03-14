@@ -1,4 +1,4 @@
-﻿import { integer, pgTable, text } from "drizzle-orm/pg-core";
+﻿import {boolean, integer, pgTable, text} from "drizzle-orm/pg-core";
 
 export const attributesTable = pgTable("attributes", {
   id: integer().primaryKey().generatedByDefaultAsIdentity(),
@@ -26,4 +26,22 @@ export const racesTable = pgTable("races", {
   advantages: text().array(),
   disadvantages: text().array(),
   apCost: integer().notNull(),
-})
+});
+
+export const talentsTable = pgTable("talents", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  name: text().notNull(),
+  use: text().array(),
+  newApplication: text().array(),
+  category: text().notNull(),
+  check: text().array(),
+  description: text().notNull(),
+  applications: text().array(),
+  encumbrance: boolean(),
+  tools: text(),
+  quality: text().notNull(),
+  failedCheck: text().notNull(),
+  criticalSuccess: text().notNull(),
+  botch: text().notNull(),
+  improvementCost: text().notNull(),
+});

@@ -1,5 +1,5 @@
 ﻿import "dotenv/config";
-import { attributesTable, derivedValuesTable, godsTable, conditionsTable, conditionLevelsTable, experienceLevelTable, status, racesTable } from "./schemas";
+import { attributesTable, derivedValuesTable, godsTable, conditionsTable, conditionLevelsTable, experienceLevelTable, status, talentsTable, racesTable } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
 import conditionLevelsData from "../../data/gameplay/condition_levels.json";
@@ -8,6 +8,7 @@ import attributesData from "../../data/characters/attributes.json";
 import derivedValuesData from "../../data/characters/derived_values.json";
 import statusData from "../../data/gameplay/status.json";
 import racesData from "../../data/characters/races.json";
+import talentsData from "../../data/characters/talents.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -35,6 +36,27 @@ async function seed() {
   }));
   entries += attributeValues.length;
   await db.insert(attributesTable).values(attributeValues);
+
+  console.log("🌱 Seeding talents...");
+  const talentValues = talentsData.map(entry => ({
+    name: entry.name,
+    use: entry.use,
+    newApplication: entry.newApplication,
+    category: entry.category,
+    check: entry.check,
+    description: entry.description,
+    applications: entry.applications,
+    encumbrance: entry.encumbrance,
+    tools: entry.tools,
+    quality: entry.quality,
+    failedCheck: entry.failedCheck,
+    criticalSuccess: entry.criticalSuccess,
+    botch: entry.botch,
+    improvementCost: entry.improvementCost,
+  }));
+
+  entries += talentValues.length;
+  await db.insert(talentsTable).values(talentValues);
 
   console.log("🌱 Seeding derived values...");
   const derivedValues = derivedValuesData.map(entry => ({

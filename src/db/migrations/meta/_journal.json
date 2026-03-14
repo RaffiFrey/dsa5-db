@@ -57,6 +57,13 @@
       "when": 1773479108392,
       "tag": "0007_confused_morlun",
       "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1773502062479,
+      "tag": "0008_wooden_sasquatch",
+      "breakpoints": true
     }
   ]
 }
