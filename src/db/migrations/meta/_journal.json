@@ -43,6 +43,13 @@
       "when": 1773476386960,
       "tag": "0005_lush_doctor_strange",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1773478659708,
+      "tag": "0006_woozy_zodiak",
+      "breakpoints": true
     }
   ]
 }
