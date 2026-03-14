@@ -26,6 +26,7 @@ import {
   witchSpecialAbilitiesTable,
   elvenSongsTable,
   cantripsTable,
+  spellsTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -48,6 +49,7 @@ import witchCursesData from "../../data/magic/witch_curses.json";
 import witchSpecialAbilitiesData from "../../data/magic/witch_special_abilities.json";
 import elvenSongsData from "../../data/magic/elven_songs.json";
 import cantripsData from "../../data/magic/cantrips.json";
+import spellsData from "../../data/magic/spells.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -58,6 +60,8 @@ async function seed() {
   await db.execute(sql`
     TRUNCATE TABLE
       cantrips,  
+      spells,
+      cantrips,
       elven_songs,
       witch_special_abilities,
       witch_curses,
@@ -537,6 +541,33 @@ async function seed() {
   });
   entries += cantripValues.length;
   await db.insert(cantripsTable).values(cantripValues);
+
+  console.log("🌱 Seeding spells...");
+  const spellValues = spellsData.map(entry => {
+    const propertyId = magicPropertyMap.get(entry.property);
+    if (!propertyId) {
+      console.warn(`⚠️ Merkmal nicht gefunden: ${entry.property} für ${entry.name}`);
+    }
+    return {
+      name: entry.name,
+      check: entry.check,
+      modifiedByZK: entry.modifiedByZK ? 1 : 0,
+      modifiedBySK: entry.modifiedBySK ? 1 : 0,
+      effect: entry.effect,
+      castingDuration: entry.castingDuration,
+      aspCost: entry.aspCost,
+      aspText: entry.aspText ?? null,
+      costsNotModifiable: entry.costsNotModifiable ? 1 : 0,
+      range: entry.range,
+      duration: entry.duration,
+      targetCategory: entry.targetCategory,
+      propertyId: propertyId!,
+      distribution: entry.distribution,
+      improvementCost: entry.improvementCost,
+    };
+  });
+  entries += spellValues.length;
+  await db.insert(spellsTable).values(spellValues);
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);

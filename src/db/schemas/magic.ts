@@ -77,14 +77,35 @@ export const elvenSongsTable = pgTable("elven_songs", {
   name: varchar({ length: 255 }).notNull(),
   check: text().array().notNull(),
   effect: text().notNull(),
-  talent: text().notNull(),               // Required talent (Musizieren / Singen)
+  talent: text().notNull(),
   aspCost: integer("asp_cost").notNull(),
-  aspText: text("asp_text"),              // e.g. "pro 5 Minuten", special cost rules
+  aspText: text("asp_text"),
   duration: text().notNull(),
   propertyId: integer("property_id")
     .notNull()
     .references(() => magicPropertiesTable.id, { onDelete: "restrict" }),
-  improvementCost: varchar({ length: 1 }).notNull(), // Steigerungsfaktor: "A" | "B"
+  improvementCost: varchar({ length: 1 }).notNull(),
+});
+
+export const spellsTable = pgTable("spells", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  name: varchar({ length: 255 }).notNull(),
+  check: text().array().notNull(),
+  modifiedByZK: integer("modified_by_zk").notNull().default(0),
+  modifiedBySK: integer("modified_by_sk").notNull().default(0),
+  effect: text().notNull(),
+  castingDuration: integer("casting_duration").notNull(), // in Aktionen
+  aspCost: integer("asp_cost").notNull(),
+  aspText: text("asp_text"),
+  costsNotModifiable: integer("costs_not_modifiable").notNull().default(0),
+  range: text().notNull(),
+  duration: text().notNull(),
+  targetCategory: text("target_category").notNull(),
+  propertyId: integer("property_id")
+    .notNull()
+    .references(() => magicPropertiesTable.id, { onDelete: "restrict" }),
+  distribution: text().array().notNull(),
+  improvementCost: varchar({ length: 1 }).notNull(),
 });
 
 
