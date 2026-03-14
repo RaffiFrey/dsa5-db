@@ -1,0 +1,1325 @@
+﻿[
+  {
+    "name": "Andergaster",
+    "description": "Das zänkische Königreich Andergast wird von seinen Nachbarn ob seiner Rückschrittlichkeit gerne belächelt, und das, obwohl die Bewohner des rauen Lands als wehr- und standhaft gelten. Die Andergaster sind ein Volk von Waldmenschen, die sich in den Wäldern und Bergen ihres Königreichs eingerichtet haben. Sie sind stolz auf ihre Unabhängigkeit und ihre Traditionen, die sie über die Jahrhunderte bewahrt haben. Die Andergaster sind bekannt für ihre Fähigkeiten im Umgang mit der Natur und ihren handwerklichen Fähigkeiten, insbesondere in der Holzbearbeitung. Trotz ihrer Abgeschiedenheit haben die Andergaster eine reiche Kultur entwickelt, die von ihren Nachbarn oft als primitiv angesehen wird, aber in Wirklichkeit eine tiefe Verbindung zur Natur und eine starke Gemeinschaftsbindung ausdrückt.",
+    "occurrenceAndLifestyle": "Andergast erstreckt sich zwischen der Messergrassteppe im Osten, dem Tommel im Süden und dem Steineichenwald im Norden, wobei die Stadt Joborn die Grenze zwischen Andergast und dem verfeindeten Nostria markiert. Das Leben der bäuerlichen Bevölkerung ist von der Unwirtlichkeit ihrer Waldheimat, der Vetternwirtschaft der Adelselite und der Bedrohung durch die Orks geprägt. Die andergastischen Freiherren und Ritter sorgen für die Einhaltung der Gesetze des Königs und beschützen das Land vor Orks und Nostriern. Sinnbild für die Beständigkeit (oder Sturheit – je nach Sichtweise) der Andergaster ist die Steineiche, die auch das Wappen des Königreichs ziert.",
+    "worldViewAndReligion": "Andergaster hängen seit jeher dem Zwölfgötterglauben an, wobei Peraine auf dem Land und Rondra beim Adel hervorgehobene Rollen spielen. Zudem sind in Liedern und Geschichten, Festen und Ritualen, Ängsten und Hoffnungen Einflüsse eines althergebrachten Glaubens an Naturgeister und Fabelwesen unübersehbar. Die Götter werden häufig als die Überderischen bezeichnet, und es findet oft eine Verschmelzung verschiedener Gottheiten statt. In vielen dieser Dinge sind die Andergaster den Nostriern kurioserweise recht ähnlich, auch wenn sie das gar nicht gerne hören.",
+    "customs": "Den Zusammenhalt der Familie schaffen Alltag und Selbstbild der Menschen, die den Widrigkeiten ihrer Heimat mit einem ausgesprochenen Improvisationstalent begegnen. Die andergastische Gesellschaft weist starke patriarchalische Züge auf. Frauen hält man von „Männerarbeit“ fern, und weibliche Ritter sucht man in Andergast vergebens. Für diese Geschlechtertrennung werden die Andergaster von anderen Aventuriern oft belächelt und für rückständig erklärt. ",
+    "garbAndArmaments": "Die Kleidungsgewohnheiten ähneln denen der mittelländischen Landbevölkerung, wenngleich es für Frauen unüblich ist, Hosen zu tragen. Durch die Generationen überdauernden Auseinandersetzungen untereinander haben die meisten Andergaster wenigstens eine (Kriegs-)Sense, einen (Kriegs-)Dreschflegel oder eine Holzfälleraxtim Haus und wissen damit auch abseits von Wald und Acker umzugehen. Nach den Andergastern ist ein übergroßer Zweihänder benannt, den auch die Nostrier benutzen, ihn aber entsprechend ihrem Königreich umbenennen. Die Bewohner beider Königreiche neigen dazu, selbst scheinbar unbrauchbare Dinge nicht wegzuwerfen, sondern wiederzuverwenden",
+    "language": "Garethi (Andergastisch)",
+    "script": "Kusliker Zeichen (2 AP)",
+    "areaKnowledge": " (z.B. Andergast-Stadt, Joborn)",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["alle außer Gladiator und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe", "Magier"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perraingeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Richtungssinn" },
+      { "name": "Zäher Hund" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Persönlichkeitsschwäche", "note": "Vorurteile – vor allem gegen Nostrier und Frauen, Weltfremd – vor allem gegenüber Fortschritt, Welt außerhalb des Königreichs" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Krankheitsanfällig I-II" }
+    ],
+    "commonSkills": ["Holzbearbeitung", "Orientierung",
+      "Pflanzenkunde", "Sagen & Legenden", "Tierkunde",
+      "Wildnisleben"],
+    "uncommonSkills": ["Fliegen", "Geographie",
+      "Geschichtswissen", "Götter & Kulte", "Mechanik", "Rechnen",
+      "Rechtskunde"],
+    "commonMaleNames": ["Arnbold", "Borkhelm", "Eichward", "Gartwald",
+      "Ludewich", "Marik", "Strammgert", "Wendolyn",
+      "Wenzelaus", "Zoltan"],
+    "commonFemaleNames": ["Andra", "Berga", "Domela", "Ernka", "Hadwiga",
+      "Irmela", "Larja", "Marmelunde", "Treshka", "Wendeline"],
+    "commonFamilyNames": ["Alrikshuber", "Borkmeister", "Eichinger",
+      "Haubeiler", "Holzgut", "Kuhbauer", "Marktbauer",
+      "Sattelhuber", "Schweinwirt", "Zibbelbert"],
+    "nobleFamilies": ["von Anderstein", "von Borkenfeld", "von Steinbaum", "von Tatzenstein", "von Teshkal"],
+    "culturePackage": {
+      "talents": [
+        {
+          "talent": "Holzbearbeitung",
+          "value": "+2"
+        },
+        {
+          "talent": "Orientierung",
+          "value": "+1"
+        },
+        {
+          "talent": "Pflanzenkunde",
+          "value": "+1"
+        },
+        {
+          "talent": "Sagen & Legenden",
+          "value": "+1"
+        },
+        {
+          "talent": "Tierkunde",
+          "value": "+1"
+        },
+        {
+          "talent": "Wildnisleben",
+          "value": "+2"
+        }
+      ],
+      "apCost": 20
+    }
+  },
+  {
+    "name": "Aranier",
+    "description": "Aufgrund seiner errungenen Unabhängigkeit vom Mittelreich, verknüpfen sich in Aranien mittelländische und tulamidische Einflüsse zu einem einzigartigen Kulturgeflecht.",
+    "occurrenceAndLifestyle": "Das Königreich Aranien, tulamidisch auch Mhaharanyat genannt, erstreckt sich östlich des Raschtulswalls und von Baburin bis zur Gorischen Wüste. Die meisten Aranier sind Bauern, die in tulamidischen Sippendörfern leben und blühende Haine, Felder und Wiesen bewirtschaften.",
+    "worldViewAndReligion": "Grundsätzlich gehören die meisten Aranier der zwölfgöttlichen Glaubensgemeinschaft an und lassen Peraine, Rahja und Phex eine wichtige Rolle zukommen. In Adelskreisen auch Rondra, die meiste Ehre zuteilwerden. Ferner bereichern sie ihren Götterhimmel mit einer schier unüberschaubaren Zahl von Wesenheiten, die sie unzähligen philosophischen Weltanschauungen entnehmen.",
+    "customs": "Während sich regionale Bräuche durchaus bedeutend unterscheiden können, ist das Adoptionssystem, bei dem Frauen nicht zwingend ihre leiblichen Töchter als Erbe wählen, sondern geeignet erscheinende Adoptiv- oder Schwiegertöchter, eine überaus aranische Sitte. Zudem sind in keinem anderen Land Aventuriens Hexen so hoch angesehen: Sie bekleiden gelegentlich sogar politische Ämter, während man Magiern eher misstraut. Neben weiblichen Tänzerinnen stehen die berühmten männlichen Majunas im Ruf, mit ihren Zaubertänzen das Publikum in ihren Bann zu ziehen.",
+    "garbAndArmaments": "Mittelländische Hemden, Hosen und Stiefel sind hier ebenso anzutreffen wie tulamidische Westen, Pluderhosen und Pantoffeln. Als Kopfbedeckungen dienen meist Turban oder Fez. Aranier ziehen je nach Inhalt ihres Geldbeutels mit leichter Tuch- oder Lederrüstung oder Kettenhemd in die Schlacht und tragen ihre Kämpfe vor allem mit Khunchomer und Säbel aus.",
+    "language": "Tulamidya (Aranisch) oder Garethi (Aretya)",
+    "script": "Tulamidya oder Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Baburin, Elburum, Llanka, Palmyrabad, Zorgan)",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["alle außer Ritter, Gladiator und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe (vor allem Katzenhexen)", "Magier (selten)"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perainegeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Begabung", "note": "in Gesellschaftstalenten" },
+      { "name": "Entfernungssinn" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Persönlichkeitsschwäche", "note": "Eitelkeit, Vorurteile – vor allem gegen Novadis und Magier" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube" },
+      { "name": "Zerbrechlich" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Kälteresistenz" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Blutrausch" }
+    ],
+    "commonSkills": ["Betören", "Brett- & Glücksspiel", "Gassenwissen", "Handel", "Menschenkenntnis", "Rechnen", "Rechtskunde", "Reiten", "Sagen & Legenden", "Sternkunde", "Stoffbearbeitung", "Taschendiebstahl", "Überreden"],
+    "uncommonSkills": ["Einschüchtern", "Fährtensuchen", "Wildnisleben"],
+    "commonMaleNames": ["Assaf", "Djafardeon", "Eslam", "Faizal", "Kazan", "Mahdul", "Marwamir", "Nazir", "Seychaban", "Zahir"],
+    "commonFemaleNames": ["Aischanka", "Belima", "Delilah", "Harizeth", "Majula", "Neraida", "Rhayadaque", "Shilaldara", "Yamira", "Zulhaminai"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Betören", "value": "+1" },
+        { "talent": "Brett- & Glücksspiel", "value": "+1" },
+        { "talent": "Gassenwissen", "value": "+2" },
+        { "talent": "Handel", "value": "+2" },
+        { "talent": "Menschenkenntnis", "value": "+1" },
+        { "talent": "Rechnen", "value": "+1" },
+        { "talent": "Sagen & Legenden", "value": "+1" },
+        { "talent": "Stoffbearbeitung", "value": "+1" },
+        { "talent": "Überreden", "value": "+2" }
+      ],
+      "apCost": 26
+    }
+  },
+  {
+    "name": "Bornländer",
+    "description": "Das Bornland ist eine Adelsrepublik, in der selbst ein an Hunger leidender Adliger mehr wert ist als ein ganzes Dorf wackerer Bauern.",
+    "occurrenceAndLifestyle": "Eingefasst in die Drachensteine im Südwesten und dem Ehernen Schwert im Osten, der Grünen Ebene im Westen und dem eisigen Norden trägt das unwirtliche Land einen rauen Menschenschlag und so manches Geheimnis auf seinem Rücken. Das wilde, waldreiche Sewerien im Norden steht im Gegensatz zu den südlichen, eher mittelländisch geprägten Provinzen wie der Mark oder dem Festenland. Die Landbevölkerung bestreitet ihren Lebensunterhalt durch Ackerbau, Viehzucht und Fischfang, während die Bronnjaren mit aller Härte über die festgezogenen Fesseln des Feudalsystems wachen. An ihrer Spitze steht ein Adelsmarschall, der von einer in jedem fünften Jahr zusammenkommenden Versammlung aller Adligen gewählt wird.",
+    "worldViewAndReligion": "Auf dem Land werden vor allem Peraine und Travia verehrt, im Norden verstärkt Firun und seine Tochter Ifirn, die Wintermaid. Der Adel huldigt eher Rondra als Praios und trägt wie das einfache Volk oft kleine Talismane mit Götterbildern oder Schutzheiligen bei sich.",
+    "customs": "Die Bornländer sind gutherzige, zuweilen dickköpfige Menschen, die gerne hochgeistigen Getränken gegen die Kälte des Winters und des Lehnswesens zusprechen. Der Adel berauscht sich zudem mit Vorliebe am Privileg der Jagd, auf dessen Einhaltung genauestens geachtet wird.",
+    "garbAndArmaments": "Es herrschen strenge Kleidervorschriften für die bornischen Bauern, die zu jeder Jahreszeit auf dem Feld meist nur Kittel und Strohschuhe tragen dürfen. Darüber hinaus sind ihnen einfache Felle gestattet, die sie sich aber erst einmal leisten müssen. Der Adel hingegen hüllt sich in kostbare Pelze und trägt nicht zuletzt die typische Bärenfellmütze. Waffen und Rüstungen ähneln denen des Mittelreichs: Während der Adel Schwert, Lanze und Zweihänder führt, verteidigen sich Bauern höchstens mit Sichel oder Dreschflegel.",
+    "language": "Garethi (Bornländisch)",
+    "script": "Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Festum, Norburg, Notmark, Ouvenmas, Rodebrannt)",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["alle außer Gladiatoren und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe (vor allem Kröten- und Rabenhexen)", "Magier"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perainegeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Kälteresistenz" },
+      { "name": "Richtungssinn" },
+      { "name": "Zäher Hund" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Hitzeempfindlich" },
+      { "name": "Persönlichkeitsschwäche", "note": "Vorurteile – vor allem gegen Orks, Goblins, Al'Anfaner und Norbarden" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Hitzeresistenz" }
+    ],
+    "uncommonDisadvantages": [],
+    "commonSkills": ["Fährtensuchen", "Holzbearbeitung", "Lebensmittelbearbeitung", "Orientierung", "Pflanzenkunde", "Wildnisleben", "Zechen"],
+    "uncommonSkills": ["Fliegen", "Gassenwissen"],
+    "commonMaleNames": ["Bosjew", "Danow", "Elkwin", "Firunew", "Irjan", "Jaakon", "Jucho", "Oswin", "Travin", "Vito"],
+    "commonFemaleNames": ["Alwinja", "Dunjascha", "Elkwinja", "Hesinja", "Irinja", "Jadwine", "Karinja", "Nadjescha", "Rowena", "Vanjescha"],
+    "commonFamilyNames": ["Alwinnen", "Baerow", "Bornski", "Firunkis", "Gefrerow", "Gerberow", "Karenkis", "Larinow", "Saraski", "Timpski"],
+    "nobleFamilies": ["von Salderkeim", "von Quelldunkel", "von Ouvenstam", "von Wosna", "von Eschenfurt"],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Fährtensuchen", "value": "+1" },
+        { "talent": "Holzbearbeitung", "value": "+2" },
+        { "talent": "Lebensmittelbearbeitung", "value": "+1" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Pflanzenkunde", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+1" },
+        { "talent": "Zechen", "value": "+2" }
+      ],
+      "apCost": 18
+    }
+  },
+  {
+    "name": "Fjarninger",
+    "description": "Den Fjarningern, deren Eigenbezeichnung Frundengar lautet, ist die Kälte ihrer Heimat ins Blut gekrochen. Sie sind hartherzig, allein dem Überleben verpflichtete Barbaren der nordwestlichen Eisödnis, gewaltig von Gestalt und unbarmherzig in ihren Bräuchen.",
+    "occurrenceAndLifestyle": "Die Nebelzinnen und deren angrenzende Gebirge sind ihre angestammten Siedlungsgebiete. Hier errichten die vierzig bis sechzig Mitglieder zählenden Sippen ihre Fellhütten, die sie mit einer wehrhaften Mauer aus Eisblöcken umgeben. Die Jagd auf Großwild hält sie am Leben. Immer wieder kommt es in den Tälern, Tiefebenen und Gebirgspässen zu Raubüberfällen auf norbardische Händler, nivesische Weidezüge oder unglückselige Wanderer. Die Geschlechter sind bei Barbaren insofern gleichberechtigt, als allein die Fähigkeiten jedes Einzelnen seinen Wert für die Sippe ausmachen.",
+    "worldViewAndReligion": "Die Fjarninger verehren vornehmlich Frunu, den Herrn des Eises, und seine Gemahlin Angara, die Herrin des Herd- und des Schmiedefeuers. Anderen Völkern und deren Lebensweisen und Glaubensvorstellungen gegenüber sind sie weitgehend gleichgültig. Ihre Welt beginnt und endet mit dem Hunger.",
+    "customs": "Die Prüfungen und Rituale, die bereits die Jüngsten ertragen müssen, erscheinen Außenstehenden als überaus grausam und herzlos. Doch nur, wer schon in frühester Kindheit der Einsamkeit, der Kälte und der Unerbittlichkeit des Landes trotzt, hat auch eine Zukunft und hilft der Gemeinschaft zu überleben. Bei den Fjarningern gibt es nur selten Zauberer, und wenn doch, dann werden sie meist zu Skuldur oder Skuldrun, Priester, die das Wirken der Götter ergründen wollen und die ganz besondere Geister, die sogenannten Harigastur, in Waffen bannen können.",
+    "garbAndArmaments": "Zur traditionellen Kleidung der Fjarninger gehört neben Lederhose, weichen Stiefeln, Fellgamaschen und Fellschurz vor allem eine Weste oder ein Umhang aus Pelz. Im Kampf ziehen sie bevorzugt schwere, oft schon beim ersten Schlag tödliche Hiebwaffen der Barbarenstreitaxt oder dem Barbarenschwert. Die Fjarninger stellen selbst nur Bronzewaffen her. Stahlherstellung ist den Fjarningern unbekannt, daher sind Stahlwaffen selten und meist Beutegut.",
+    "language": "Fjarningsch (je nach Stamm)",
+    "script": "keine",
+    "areaKnowledge": "(z.B. Dorf und angrenzendes Gebiet)",
+    "socialStatus": ["Adel"],
+    "commonMundaneProfessions": ["Händler (vor allem Tauschhändler)", "Heiler", "Jäger", "Söldner", "Stammeskrieger"],
+    "commonMagicProfessions": [],
+    "commonBlessedProfessions": [],
+    "commonAdvantages": [
+      { "name": "Entfernungssinn" },
+      { "name": "Kälteresistenz" },
+      { "name": "Richtungssinn" },
+      { "name": "Verbesserte Regeneration (Lebensenergie) I-III" },
+      { "name": "Zäher Hund" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "dem Meer" },
+      { "name": "Blutrausch" },
+      { "name": "Hitzeempfindlich" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube, Jähzorn" },
+      { "name": "Unfähig", "note": "in Gesellschaftstalenten" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Hitzeresistenz" },
+      { "name": "Soziale Anpassungsfähigkeit" },
+      { "name": "Unscheinbar" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "Dunkelheit, engen Räumen oder Höhe" },
+      { "name": "Fettleibig" },
+      { "name": "Kälteempfindlich" },
+      { "name": "Krankheitsanfällig I-II" },
+      { "name": "Nachtblind" },
+      { "name": "Persönlichkeitsschwäche", "note": "Eitelkeit" },
+      { "name": "Zerbrechlich" }
+    ],
+    "commonSkills": ["Einschüchtern", "Fährtensuchen", "Holzbearbeitung", "Klettern", "Körperbeherrschung", "Kraftakt", "Metallbearbeitung", "Orientierung", "Selbstbeherrschung", "Steinbearbeitung", "Tierkunde", "Wildnisleben"],
+    "uncommonSkills": ["Betören", "Boote & Schiffe", "Etikette", "Fahrzeuge", "Fliegen", "Gassenwissen", "Reiten", "Schlösserknacken"],
+    "commonMaleNames": ["Asgold", "Blotgrim", "Engur", "Frunobar", "Gjallur", "Havgrimur", "Pandur", "Raluf", "Surthor", "Valbrandar"],
+    "commonFemaleNames": ["Asgora", "Dandagard", "Funudara", "Gunnlaug", "Halfga", "Jaldrud", "Rangra", "Svannlaug", "Ulfgard", "Ylwa"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Einschüchtern", "value": "+2" },
+        { "talent": "Fährtensuchen", "value": "+1" },
+        { "talent": "Körperbeherrschung", "value": "+1" },
+        { "talent": "Kraftakt", "value": "+2" },
+        { "talent": "Metallbearbeitung", "value": "+1" },
+        { "talent": "Orientierung", "value": "+2" },
+        { "talent": "Selbstbeherrschung", "value": "+2" },
+        { "talent": "Steinbearbeitung", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+2" }
+      ],
+      "apCost": 33
+    }
+  },
+  {
+    "name": "Horasier",
+    "description": "Das Horasreich ist die bedeutendste See- und Handelsmacht an der Westküste und der fortschrittlichste Staat Aventuriens, dessen bosparanisches Erbe weite Teile des Kontinents prägt. Hier gedeihen Kunst, Handel und Wissenschaft, aber auch Intrigen.",
+    "occurrenceAndLifestyle": "Im Norden erstreckt sich das Horasreich bis Grangor, im Süden bis auf die Höhe von Dröl, während die Eternen und die Goldfelsen die Landmarken im Osten bilden. Das Liebliche Feld, die städtische Kulturraum zwischen Grangor und Neetha, weist eine einzigartige Besiedlungsdichte auf, die nicht zuletzt durch die ertragreiche Landwirtschaft ermöglicht wird. In den Metropolen gedeihen Bildung und Wissenschaft, getragen und finanziert vom Patriziat, das den Erbadel vielerorts überflügelt hat. Das Land wird von Adligen und Patriziern beherrscht, die untereinander um Macht und Einfluss ringen.",
+    "worldViewAndReligion": "Der Horasier lässt nichts auf sich und seine überlegene Stellung kommen. Freiheit und Kultiviertheit, Verstand und ein gutes Auskommen sind ihm die höchsten Tugenden, während Sklaverei nicht nur entschieden abgelehnt, sondern aktiv bekämpft wird. Hesinde und Rahja nehmen eine besonderen Platz im Pantheon der Zwölf ein. Einen besonderen Stellenwert hat auch der Hesindesohn Nandus, der als Sinnbild für Wissenschaft und Forschung gilt. Als Land an der Küste spielt auch Efferd eine wichtige Rolle sowie Aves, der Schutzpatron der Entdecker.",
+    "customs": "Musik, Tanz und Poesie, Lebenslust, Liebesreigen und Literatur spielen im kulturellen Leben der Horasier eine große Rolle, zumal selbst das einfache Volk oft des Lesens mächtig ist. Am Hofe und in den Städten gehören Mode und Manieren, Wein und (Intrigen-)Spiel zum guten Ton.",
+    "garbAndArmaments": "Schnürmieder und Spitzenkragen, taillierte Jacken und Brokat, weite Kniehosen, Stulpenstiefel und der breittkrempige Federhut gehören für den extravaganten Modegeschmack der adligen und großbürgerlichen Horasier zur Grundausstattung. Während Frauen zu festlichen Anlässen mit Prunkkleidern, ausladenden Röcken und auffälligen Dekolletés aufwarten, tragen sie im Alltag durchaus auch Hosen und Stiefel. Geneigten Wortgefechte nicht, greift der Liebfelder bevorzugt zu schlanken und leichten Waffen wie Dolch, Rapier oder Degen.",
+    "language": "Garethi (Horathi)",
+    "script": "Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Belhanka, Bethana, Grangor, Kuslik, Methumis, Neetha, Vinsalt)",
+    "socialStatus": ["Adel"],
+    "commonMundaneProfessions": ["alle außer Gladiator, Ritter und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe", "Magier"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perainegeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz, Eitelkeit, Vorurteile – vor allem gegen Nichthorasier" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Begabung", "note": "in Naturtalenten" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen" }
+    ],
+    "commonSkills": ["Betören", "Boote & Schiffe", "Etikette", "Fahrzeuge", "Gassenwissen", "Geographie", "Geschichtswissen", "Handel", "Magiekunde", "Mechanik", "Rechnen", "Rechtskunde", "Tanzen"],
+    "uncommonSkills": ["Fährtensuchen", "Fliegen", "Pflanzenkunde", "Tierkunde", "Wildnisleben"],
+    "commonMaleNames": ["Alricio", "Baduin", "Carolan", "Cusimo", "Duardo", "Horadan", "Jacopo", "Phedro", "Quendan", "Rondrigo"],
+    "commonFemaleNames": ["Ardare", "Carisia", "Elaria", "Gylvana", "Hesindiane", "Pamina", "Quedora", "Rahjamande", "Sanya", "Sharina"],
+    "commonFamilyNames": ["Bosvani", "Caranda", "Delicado", "Marnion", "Melior", "Novacasa", "Spinola", "Torrean", "Ulfaran", "Vansanti"],
+    "nobleFamilies": ["Barazza", "Casibelli", "Cavarno", "Marcia", "Sulvano"],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Betören", "value": "+1" },
+        { "talent": "Boote & Schiffe", "value": "+1" },
+        { "talent": "Etikette", "value": "+2" },
+        { "talent": "Gassenwissen", "value": "+2" },
+        { "talent": "Geographie", "value": "+1" },
+        { "talent": "Geschichtswissen", "value": "+1" },
+        { "talent": "Handel", "value": "+1" },
+        { "talent": "Mechanik", "value": "+1" },
+        { "talent": "Rechnen", "value": "+2" },
+        { "talent": "Rechtskunde", "value": "+2" },
+        { "talent": "Tanzen", "value": "+1" }
+      ],
+      "apCost": 27
+    }
+  },
+  {
+    "name": "Maraskaner",
+    "description": "Mittelländische Siedler und Tulamiden des Beni-Rurech-Stammes verschmolzen vor über 700 Jahren zu einer ebenso farbenfrohen wie eigenwilligen Mischkultur, deren Glaube an die Schönheit der Welt der Gewissheit um ihre Grausamkeit gegenübersteht.",
+    "occurrenceAndLifestyle": "Maraskaner leben auf der namensgebenden, größten Insel Aventuriens. Durch die Kriege und Besatzungen der letzten Jahrzehnte verweilen jedoch viele von ihnen im Exil an der gesamten Ostküste des Kontinents – überwiegend aber in Festum, Khunchom und Al'Anfa. Traditionell führen sie ein Leben im Kreise mehrerer Generationen, wo es untereinander nur wenige Geheimnisse gibt. Berühmt ist auch der Kladj der Maraskaner: Fast nirgends sonst in Aventurien verbreiten sich so schnell Gerüchte und Informationen.",
+    "worldViewAndReligion": "Für einen Maraskaner ist sein Glaube nicht Teil des Lebens, sondern das Leben Teil seines Glaubens. Er betrachtet den Gang der Welt als einen Diskusflug zwischen den Zwillingsgöttern Rur und Gror, die gleichzeitig Mann und Frau sind. Der daraus abgeleitete Dualismus und die Schönheit des als Geschenk erschaffenen Weltendiskus durchdringen alle Bereiche des Daseins. Höchstes Ziel jedes Einzelnen ist es, die vierundsechzig Fragen des Seins zu finden, um sie Gror zu stellen, wenn der Weltendiskus die Gottheit erreicht.",
+    "customs": "Der Gruß 'Preise die Schönheit Bruderschwester' wird gern und häufig verwendet und von Nichtmaraskanern ebenso stirnrunzelnd zur Kenntnis genommen wie der selbst Erwachsene einschließende Adoptionsbrauch und die traditionelle Diskusstafette.",
+    "garbAndArmaments": "Bunte und wild bedruckte Kittel, Jacken und Röcke, kniehohe Gamaschen, Strohsandalen und Stiefel mit Holzsohlen sind unter Maraskanern äußerst beliebt. Die Frisuren der Frauen (und der ritterähnlichen Buskure), mit ihren zahllosen Zöpfen und Türmen aus Spangen, Harz und Haarteilen sind genauso typisch wie der berühmte Hartholzharnisch, das Tuzakmesser und der Diskus.",
+    "language": "Garethi (Maraskani) oder Tulamidya (Maraskani-Tulamidya)",
+    "script": "Kusliker Zeichen oder Tulamidya (2 AP)",
+    "areaKnowledge": "(z.B. Boran, Jergan, Sinoda, Tuzak)",
+    "socialStatus": ["Adel"],
+    "commonMundaneProfessions": ["alle außer Gladiator, Ritter und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe", "Magier"],
+    "commonBlessedProfessions": [],
+    "commonAdvantages": [
+      { "name": "Giftresistenz I-II" },
+      { "name": "Hitzeresistenz" },
+      { "name": "Krankheitsresistenz I-II" },
+      { "name": "Richtungssinn" },
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz, Vorurteile – vor allem gegen Mittelreicher" },
+      { "name": "Schlechte Eigenschaft", "note": "Neugier" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Kälteresistenz" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "Insekten" },
+      { "name": "Farbenblind" },
+      { "name": "Schlechte Eigenschaft", "note": "Jähzorn" }
+    ],
+    "commonSkills": ["Götter & Kulte", "Heilkunde Gift", "Orientierung", "Pflanzenkunde", "Tierkunde", "Verbergen", "Wildnisleben"],
+    "uncommonSkills": ["Fahrzeuge", "Fliegen"],
+    "commonMaleNames": ["Alrech", "Brinziber", "Denderan", "Dschindziber", "Feruziber", "Firold", "Gerbaldijian", "Mulziber", "Perjin", "Vegziber"],
+    "commonFemaleNames": ["Bekasabu", "Dajida", "Fathimajida", "Garasab", "Harikajida", "Madajida", "Shinojida", "Tsaryscham", "Yasindajida", "Zulamidjida"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Götter & Kulte", "value": "+1" },
+        { "talent": "Heilkunde Gift", "value": "+2" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Pflanzenkunde", "value": "+2" },
+        { "talent": "Tierkunde", "value": "+2" },
+        { "talent": "Verbergen", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+1" }
+      ],
+      "apCost": 26
+    }
+  },
+  {
+    "name": "Mhanadistani",
+    "description": "Mhanadistan ist die Wiege der heutigen Tulamiden und damit der ersten menschlichen Hochkultur Aventuriens. Das südöstlich des Raschtulswalls liegende Mhanadistan erstreckt sich in östlicher Richtung zwischen den Flüssen Mhanadi und Gadang bis zum Golf von Tuzak.",
+    "occurrenceAndLifestyle": "Das Land ist geprägt von Ackerbau und Viehzucht, die den Hunger der Städte stillen. Die Abhängigkeit der Großstädte wie Fasar und Thalusa vom Ertrag der Stromländer und das gleichzeitige Überlegenheitsgefühl der Städter gegenüber den Bauern führen in dem bevölkerungsreichen Land durchaus zu Spannungen. Da allein materieller Besitz Rang und Einfluss bestimmt, beschreiten die Menschen nur allzu verschiedene Wege, um an Reichtum zu gelangen.",
+    "worldViewAndReligion": "Der zwölfgöttliche Himmel wird oft nach einem dualistischen Prinzip in einen gebenden und einen nehmenden Teil unterteilt. Phex – als der nächtliche Jäger und auch Gott der Magie Feqz genannt – sowie Rascha (der tulamidische Name Rahjas) genießen jedoch eine allgemein hohe Verehrung.",
+    "customs": "Die Tulamiden leben in einer meist patriarchalischen Kultur, in der ein Mann so viele Frauen sein Eigen nennen darf, wie er ernähren kann. Sklaverei ist ein fester Bestandteil des täglichen Lebens. Berühmt sind die Tulamiden für das Rote-und-Weiße-Kamele-Spiel, das wohl bekannteste Brettspiel Aventuriens und, als Erfinder der Al'Gebra, für ihre ausgeprägte Zahlenmystik.",
+    "garbAndArmaments": "Kaftan und Turban sind ebenso verbreitet wie Tunika und Strohhut. Ob die Wahl auf Khunchomer oder Dolch, Schuppenpanzer oder Kettenhemd fällt, ist jedoch eher eine Frage des Geldbeutels und der ortsüblichen Witterung.",
+    "language": "Tulamidya (Mhanadisch-Balashidisch)",
+    "script": "Tulamidya (2 AP)",
+    "areaKnowledge": "(z.B. Fasar, Khunchom, Rashdul, Thalusa)",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["alle außer Ritter und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe (vor allem Katzenhexen)", "Magier"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perainegeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Glück I-III" },
+      { "name": "Hitzeresistenz" },
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Persönlichkeitsschwäche", "note": "Eitelkeit, Vorurteile – vor allem gegen Novadis, Mittelreicher, Aranier, Frauen und Maraskaner" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube, Goldgier, Neugier" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Kälteresistenz" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen, Menschenmassen" }
+    ],
+    "commonSkills": ["Brett- & Glücksspiel", "Gassenwissen", "Geschichtswissen", "Götter & Kulte", "Handel", "Magiekunde", "Reiten", "Sagen & Legenden", "Sternkunde", "Taschendiebstahl", "Überreden"],
+    "uncommonSkills": ["Fahrzeuge"],
+    "commonMaleNames": ["Abu", "Cherek", "Dschadir", "Farsid", "Hamar", "Ismeth", "Jassafer", "Kasim", "Shafir", "Tarek"],
+    "commonFemaleNames": ["Chanya", "Demeya", "Djamilla", "Kerime", "Manjula", "Nassiban", "Palmeya", "Sajida", "Yeshina", "Zulhamin"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Brett- & Glücksspiel", "value": "+2" },
+        { "talent": "Gassenwissen", "value": "+2" },
+        { "talent": "Geschichtswissen", "value": "+1" },
+        { "talent": "Götter & Kulte", "value": "+2" },
+        { "talent": "Handel", "value": "+2" },
+        { "talent": "Magiekunde", "value": "+1" },
+        { "talent": "Sagen & Legenden", "value": "+2" },
+        { "talent": "Überreden", "value": "+1" }
+      ],
+      "apCost": 28
+    }
+  },
+  {
+    "name": "Mittelreicher",
+    "description": "Die Menschen sind das zahlreichste Volk Aventuriens, und das Mittelreich ist das Gesicht und die bestimmende Kulturregion des Kontinents.",
+    "occurrenceAndLifestyle": "Unter allen Ländern Aventuriens nimmt das Raulsche Reich, auch Mittelreich oder Neues Reich genannt, die größte Fläche ein. Heutzutage erstreckt es sich von der sturmgepeitschten Küste des Meeres der Sieben Winde im Westen bis zur Tobrischen See und dem Golf von Perricum im Osten. Vom Raschtulswall und dem Strom Yaquir im Süden bis nach Rathil, dem Finsterkamm und den Drachensteinen im Norden herrscht Kaiserin Rohaja von Gareth. Das Reich umfasst verschiedene Provinzen, jede einzelne so groß wie anderswo ein ganzes Königreich.",
+    "worldViewAndReligion": "Der Zwölfgötterglauben, der am Herd, am Schrein oder im Tempel praktiziert wird, ist die vorherrschende Religion des Mittelreichs. Die Schwerpunkte der Verehrung sind je nach Provinz unterschiedlich. Stadtbewohner erweisen sich oft toleranter gegenüber anderen Glaubensrichtungen und sehen oder hören auf dem Handelsweg mehr von der Welt.",
+    "customs": "Generell gibt es große regionale Unterschiede, wobei auf dem Lande oft Aberglaube und Volkstümlichkeit stärker ausgeprägt sind als in den aufgeklärten Städten. Männer und Frauen sind jedoch allerorts gleichberechtigt.",
+    "garbAndArmaments": "Einfache Hosen und Beinlinge, Kleider und Röcke, Tuniken und Hemden sowie Westen und Umhänge aus Wolle und Leinen gehören ebenso zur üblichen Kleidung wie Sandalen und Wickelgamaschen oder Stiefel. Kostbarere Stoffe sind dem Adel und dem Großbürgertum vorbehalten, abgetragene Trachten hingegen den Bauern. Zur Verteidigung an den Stadtmauern werden gemeinhin Hellebarden und Armbrüste eingesetzt, indes zählt der Dolch zur Alltagsbewaffnung.",
+    "language": "Garethi (je nach Provinz)",
+    "script": "Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Angbar, Elenvina, Gareth, Greifenfurt, Havena, Punin)",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["alle außer Stammeskrieger, Gladiator sehr selten"],
+    "commonMagicProfessions": ["Hexe", "Magier"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perainegeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Glück I-III" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Persönlichkeitsschwäche", "note": "Vorurteile – vor allem gegen Andersgläubige, Elfen, Orks, Goblins und Nichtmittelreicher" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Hitzeresistenz" },
+      { "name": "Kälteresistenz" }
+    ],
+    "uncommonDisadvantages": [],
+    "commonSkills": ["Holzbearbeitung", "Metallbearbeitung", "Pflanzenkunde", "Stoffbearbeitung", "Tierkunde"],
+    "uncommonSkills": ["Fliegen"],
+    "commonMaleNames": ["Alrik", "Cordovan", "Darian", "Erlan", "Gerion", "Hagen", "Praiodan", "Refardeon", "Viburn", "Yendor"],
+    "commonFemaleNames": ["Alena", "Caya", "Dorlen", "Elwene", "Fiana", "Khorena", "Oleana", "Quisira", "Sannah", "Xaviera"],
+    "commonFamilyNames": ["Alfaran", "Berlind", "Damotil", "Fuxfell", "Grabensalb", "Harnischmacher", "Meeltheuer", "Steinhauer", "Winterkalt", "Zandor"],
+    "nobleFamilies": ["vom Berg", "von Galahan", "von Mersingen", "von Streitzig", "von Sturmfels"],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Holzbearbeitung", "value": "+1" },
+        { "talent": "Metallbearbeitung", "value": "+1" },
+        { "talent": "Pflanzenkunde", "value": "+1" },
+        { "talent": "Stoffbearbeitung", "value": "+1" },
+        { "talent": "Tierkunde", "value": "+1" }
+      ],
+      "apCost": 12
+    }
+  },
+  {
+    "name": "Mohas",
+    "description": "Die Bezeichnung 'Moha' leitet sich von den Mohaha ab, dem größten Waldmenschenstamm. Es ist eine gebräuchliche Sammelbezeichnung, die von jenen geprägt wurde, die zwischen der Vielzahl von Stämmen des südaventurischen Dschungels keine Unterschiede sehen.",
+    "occurrenceAndLifestyle": "Tatsächlich gehören die Bewohner der Gebirge und Urwälder des Festlands südlich von Loch Harodröl vor allem dem Volk der bronzehäutigen Waldmenschen an. Viele der Waldinselarchipele werden hingegen überwiegend von den schwarzen Utulus bewohnt. Die Mohas sind Jäger, Sammler und Fischer, deren täglichen Kampf ums Überleben Männer und Frauen gleichermaßen bestreiten.",
+    "worldViewAndReligion": "Die Waldmenschen kennen unzählige Natur- und Ahnengeister sowie die jaguargestaltige Schöpfergottheit Kamaluq, die sie mehr fürchten als verehren. Zudem wird jedem Waldmenschen ein persönlicher Schutzgeist (Tapam) zugesprochen. Die Utulus wiederum beten den Sonnengott Obaran an und hegen einen ausgeprägten Argwohn gegenüber den Toten und dem Meer.",
+    "customs": "Schrumpfköpfe (Tsantsas) und Verbote (Tabus) gehören zu den bekanntesten Bräuchen der Mohas. Der präparierte Kopf eines Feindes, dessen Geist hinter zugenähten Lidern und Lippen gefangen gehalten wird, gilt als wertvolle Trophäe. Angeführt wird ein Stamm üblicherweise von einem Häuptling, der sowohl männlich als auch weiblich sein kann.",
+    "garbAndArmaments": "In der schwülen Hitze des Dschungels ist außer einem Lendenschurz und weichem Schuhwerk kaum Kleidung vonnöten. Schmuckwerk aus Federn, Früchten und Zähnen sowie Hautmalereien (Luola) finden hingegen reichlich Zuspruch. Holzspeer, Blasrohr, Keule und Haumesser aus gehärtetem Holz oder Stein werden durch die Verwendung etlicher Waffengifte deutlich bedrohlicher.",
+    "language": "Mohisch (je nach Stamm)",
+    "script": "keine",
+    "areaKnowledge": "(z.B. Dorf und angrenzendes Gebiet)",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["Händler (vor allem Tauschhändler)", "Heiler", "Jäger (vor allem Stammesjäger)", "Söldner", "Stammeskrieger"],
+    "commonMagicProfessions": [],
+    "commonBlessedProfessions": [],
+    "commonAdvantages": [
+      { "name": "Giftresistenz I-II" },
+      { "name": "Glück I-III" },
+      { "name": "Gutaussehend I-II" },
+      { "name": "Hitzeresistenz" },
+      { "name": "Richtungssinn" },
+      { "name": "Schlangenmensch" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen, dem Meer und Toten und Untoten" },
+      { "name": "Hitzeempfindlich" },
+      { "name": "Kälteempfindlich" },
+      { "name": "Niedrige Seelenkraft" },
+      { "name": "Persönlichkeitsschwäche", "note": "Vorurteile – vor allem gegen Nichtmohas" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube, Neugier" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Kälteresistenz" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "Höhe, Insekten, Reptilien oder Spinnen" },
+      { "name": "Krankheitsanfällig I-II" },
+      { "name": "Nachtblind" },
+      { "name": "Persönlichkeitsschwäche", "note": "Eitelkeit" },
+      { "name": "Schlechte Eigenschaft", "note": "Goldgier" },
+      { "name": "Unfähig", "note": "in Naturtalenten" }
+    ],
+    "commonSkills": ["Fährtensuchen", "Heilkunde Gift", "Heilkunde Krankheiten", "Klettern", "Körperbeherrschung", "Orientierung", "Pflanzenkunde", "Sagen & Legenden", "Sinnesschärfe", "Tierkunde", "Verbergen", "Wildnisleben"],
+    "uncommonSkills": ["Etikette", "Fahrzeuge", "Fliegen", "Gassenwissen", "Geographie", "Geschichtswissen", "Metallbearbeitung", "Reiten", "Schlösserknacken", "Zechen"],
+    "commonMaleNames": ["Cankuna (Flink)", "Kehala (Schildkröte)", "Takate (Dessen Hand immer blutig ist)", "Wapiya (Seine Hände tun Gutes)", "Yako (Katze, Raubkatze)"],
+    "commonFemaleNames": ["Anakena", "Ataranga", "Kiri", "Miru", "Rano"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Fährtensuchen", "value": "+1" },
+        { "talent": "Heilkunde Gift", "value": "+1" },
+        { "talent": "Körperbeherrschung", "value": "+1" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Pflanzenkunde", "value": "+2" },
+        { "talent": "Sagen & Legenden", "value": "+1" },
+        { "talent": "Sinnesschärfe", "value": "+1" },
+        { "talent": "Tierkunde", "value": "+2" },
+        { "talent": "Verbergen", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+2" }
+      ],
+      "apCost": 38
+    }
+  },
+  {
+    "name": "Nivesen",
+    "description": "Die Kinder der nördlichen Steppen und der Himmelswölfe sind eine der ältesten Kulturen Aventuriens, deren Lebensweise im Rhythmus der Jahreszeiten und im Takt der Karenhufe sich kaum von jener ihrer Vorfahren unterscheidet. Sie bezeichnen sich selbst als Nikaureni.",
+    "occurrenceAndLifestyle": "Die Siedlungs- und Wanderungsräume der Nivesen erstrecken sich über ganz Nordaventurien von den Salamandersteinen bis zur Bernsteinbucht. Ihre Lebensgrundlage ist das Karen, ein rentierartiges Grasfresser, dessen Fleisch sie essen, dessen Haut und Felle sie tragen und dessen Sehnen wie auch Knochen sie zu den tausend kleinen und großen Dingen des Alltags verarbeiten. Zu Beginn des Frühlings ziehen die Hirten mit riesigen Herden zu den Sommerweiden und kehren erst kurz vor Wintereinbruch wieder zurück.",
+    "worldViewAndReligion": "Die Nivesen glauben an die Himmelswölfe und verehren vor allem Gorfang, den Rudelführer, und dessen Tochter Liska, die Götter und Sterbliche zusammenführt. Dem Schöpfungsmythos der Nivesen zufolge wurden Mensch und Wolf als Geschwister erschaffen, fielen jedoch aufgrund eines menschlichen Frevels vom Mond in die entbehrungsreiche Welt.",
+    "customs": "Mord ist den Nivesen ein unvorstellbarer Gräuel. Verwesende Leichen und andere Zeichen des Todes ängstigen sie aufgrund ihrer Glaubenswelt besonders. Die traditionelle Aufgabenteilung zwischen den ansonsten gleichgestellten Männern (Jäger und Hirten) und Frauen (Mütter und Handwerkerinnen) führt sogar dazu, dass jeder Sippe ein männlicher und ein weiblicher Häuptling vorstehen.",
+    "garbAndArmaments": "Ihre Kleidung aus Fell und Leder sowie ihre charakteristische Fellmütze mit Ohrenklappen schmücken Nivesen gerne mit bunten Perlen, Stickwerk und Beinschnitzereien. Rüstungen werden im Allgemeinen eher selten getragen. Als Waffen bevorzugen Nivesen Speer, Kurzbogen und Wurfkeule (Rooke).",
+    "language": "Nujuka (je nach Stamm)",
+    "script": "keine",
+    "areaKnowledge": "(z.B. Wegstrecke)",
+    "socialStatus": ["Adel"],
+    "commonMundaneProfessions": ["Händler (vor allem Tauschhändler)", "Heiler", "Jäger (vor allem Stammesjäger)", "Söldner", "Stammeskrieger"],
+    "commonMagicProfessions": [],
+    "commonBlessedProfessions": [],
+    "commonAdvantages": [
+      { "name": "Kälteresistenz" },
+      { "name": "Richtungssinn" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen, Höhe und Toten und Untoten" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Hitzeresistenz" },
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Fettleibig" },
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz" },
+      { "name": "Schlechte Eigenschaft", "note": "Goldgier" }
+    ],
+    "commonSkills": ["Fährtensuchen", "Fahrzeuge", "Körperbeherrschung", "Orientierung", "Pflanzenkunde", "Sagen & Legenden", "Sinnesschärfe", "Tierkunde", "Verbergen", "Wildnisleben"],
+    "uncommonSkills": ["Boote & Schiffe", "Einschüchtern", "Etikette", "Fliegen", "Gassenwissen", "Geschichtswissen", "Kriegskunst", "Reiten", "Schlösserknacken"],
+    "commonMaleNames": ["Arko", "Eiko", "Garnan", "Hunjok", "Jurtan", "Kinajo", "Latu", "Nerkjo", "Tamperen", "Valen"],
+    "commonFemaleNames": ["Amuri", "Dana", "Geika", "Jalani", "Kantala", "Liskaju", "Myrra", "Nirka", "Saari", "Vaala"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Fährtensuchen", "value": "+2" },
+        { "talent": "Fahrzeuge", "value": "+1" },
+        { "talent": "Orientierung", "value": "+2" },
+        { "talent": "Pflanzenkunde", "value": "+1" },
+        { "talent": "Sagen & Legenden", "value": "+2" },
+        { "talent": "Sinnesschärfe", "value": "+1" },
+        { "talent": "Tierkunde", "value": "+2" },
+        { "talent": "Verbergen", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+2" }
+      ],
+      "apCost": 37
+    }
+  },
+  {
+    "name": "Norbarden",
+    "description": "Unter hohem Himmel und durch weites Land ziehen die Wagentrosse der Norbarden. Sie sind fahrende Händler und Geheimniskrämer, die ihren Kunden jeden Wunsch von den Lippen ablesen und um jeden Heller aus den Geldkatzen ihrer Kunden feilschen.",
+    "occurrenceAndLifestyle": "Die Wagennomaden des Nordens ziehen durch ein riesiges Gebiet in Nordaventurien bis zum Ehernen Schwert, ihre Schlitten oder Kaleschkas genannten Kütschen vollgestopft mit unzähligen Dingen, für die es aber irgendwo immer einen Abnehmer gibt. Norbarden leben für gewöhnlich im Schoß ihrer Sippe, der eine Frau, die Muhme, vorsteht.",
+    "worldViewAndReligion": "Die Norbarden verehren Hesinde, Phex und Firun sowie die Schwarmgöttin Mokoscha, die Tochter Hesindes (in manchen Auslegungen: Peraines) und Ingerimms.",
+    "customs": "Norbarden sind außerordentlich anpassungsfähig, was Brauchtum und Traditionen anbelangt. Was ihnen schön oder nützlich erscheint, hält Einzug in ihre Wagenburg. Unter den Norbarden werden die Traumdeuterinnen und Bewahrerinnen alter Mysterien Zibiljas (Einzahl: Zibilja) genannt. Sie beherrschen Ritualmagie, die dem Überleben ihrer Sippe nützt.",
+    "garbAndArmaments": "Der nordaventurischen Kälte begegnen sie mit dem pelzbesetzten Rauleder ihres Wendemantels. Neben Messer, Speer und Kampfstab führen Norbarden mit Vorliebe eine urtümliche Axt, die Molokdeschnaja.",
+    "language": "Alaani (Gajka, Takellen)",
+    "script": "Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Wegstrecke)",
+    "socialStatus": [],
+    "commonMundaneProfessions": ["Händler", "Heiler", "Jäger", "Söldner", "Streuner"],
+    "commonMagicProfessions": ["Hexe", "Magier (selten)"],
+    "commonBlessedProfessions": ["Hesindegeweihte", "Phexgeweihte"],
+    "commonAdvantages": [
+      { "name": "Kälteresistenz" },
+      { "name": "Richtungssinn" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen oder Höhe" },
+      { "name": "Schlechte Eigenschaft", "note": "Goldgier, Neugier" },
+      { "name": "Verpflichtungen I-III", "note": "gegenüber der Sippe" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Hitzeresistenz" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz" },
+      { "name": "Prinzipientreue I-III", "note": "jeglicher Art" }
+    ],
+    "commonSkills": ["Fahrzeuge", "Geographie", "Handel", "Orientierung", "Überreden", "Wildnisleben"],
+    "uncommonSkills": ["Boote & Schiffe", "Fliegen"],
+    "commonMaleNames": ["Aikul", "Beril", "Darjew", "Fadril", "Jagotin", "Kergil", "Laromir", "Mikail", "Radul", "Tuljew"],
+    "commonFemaleNames": ["Barina", "Dagris", "Eika", "Hetinka", "Janka", "Kolja", "Lexaja", "Olja", "Slanka", "Tuminka"],
+    "commonFamilyNames": ["Aljeff", "Bolscheff", "Choprutin", "Dagoneff", "Garkinen", "Janig", "Koranzig", "Kowalejeff", "Lugoltin", "Sewerin"],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Fahrzeuge", "value": "+2" },
+        { "talent": "Geographie", "value": "+2" },
+        { "talent": "Handel", "value": "+2" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Überreden", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+1" }
+      ],
+      "apCost": 18
+    }
+  },
+  {
+    "name": "Nordaventurier",
+    "description": "Das Völkergemisch der Nordlande wird durch die rauen Bedingungen seiner Heimat und den täglichen Kampf ums Überleben geeint.",
+    "occurrenceAndLifestyle": "Diese Kultur umfasst alle Siedlungen nördlich der Salamandersteine, die keinem anderen Reich zugeordnet werden können. Nahezu jedes größere Dorf, das nicht nur Ackerbau, sondern auch Handel und Handwerk betreibt, ist in einem gewissen Maße ein Schmelztiegel, in dem Menschen mittelländischer oder thorwalscher Herkunft, Norbarden, Elfen, Halbelfen oder Goblins leben und einander meistens sogar leben lassen.",
+    "worldViewAndReligion": "In den Nordlanden mischen sich zusammen mit den unterschiedlichen Völkern auch deren Glaubensvorstellungen. So nimmt zwar Firun stellvertretend für den Zwölfgötterglauben oft den höchsten Rang ein, die elfische Weltsicht, Druiden- und Hexenkulte sowie der nivesische Glaube an die Himmelswölfe sind aber ebenfalls vielerorts verbreitet.",
+    "customs": "Durch all die kulturellen Einflüsse und die Weitläufigkeit der Nordlande können sich die Gepflogenheiten bereits zwischen zwei benachbarten Dörfern grundsätzlich unterscheiden, zumal Nachbarschaft hier buchstäblich deutlich weiter gefasst wird.",
+    "garbAndArmaments": "Neben den klassischen Reiterstiefeln tragen die Bewohner des Nordens überwiegend Tuniken, Hosen und Umhänge aus festen, warmen Materialien wie Leder, Fell, Wolle oder Elfenbausch. Schwere Dolche, Kurzschwerter, Speere, Streitäxte und Bögen dienen gleichsam der Abschreckung, der Jagd und der Verteidigung.",
+    "language": "Alaani, Garethi, Nujuka oder Thorwalsch",
+    "script": "Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Enqui, Oblarasim, Paavi, Riva, Uhdenberg)",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["alle außer Gladiator und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe", "Magier"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perainegeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Entfernungssinn" },
+      { "name": "Richtungssinn" },
+      { "name": "Zäher Hund" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Hitzeresistenz" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Krankheitsanfällig I-II" }
+    ],
+    "commonSkills": ["Fährtensuchen", "Fischen & Angeln", "Handel", "Holzbearbeitung", "Lederbearbeitung", "Orientierung", "Pflanzenkunde", "Selbstbeherrschung", "Steinbearbeitung", "Sternkunde", "Tierkunde", "Verbergen", "Wildnisleben", "Zechen"],
+    "uncommonSkills": ["Betören", "Fliegen", "Geschichtswissen", "Magiekunde", "Mechanik", "Rechtskunde"],
+    "commonMaleNames": [],
+    "commonFemaleNames": [],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Fährtensuchen", "value": "+1" },
+        { "talent": "Handel", "value": "+1" },
+        { "talent": "Holzbearbeitung", "value": "+1" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Pflanzenkunde", "value": "+1" },
+        { "talent": "Selbstbeherrschung", "value": "+1" },
+        { "talent": "Tierkunde", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+1" },
+        { "talent": "Zechen", "value": "+1" }
+      ],
+      "apCost": 25
+    }
+  },
+  {
+    "name": "Nostrier",
+    "description": "Im ewigen Streit mit ihren östlichen Nachbarn aus Andergast liegend, führen die Nostrier ein entbehrungsreiches Leben an der Westküste Aventuriens – immer bedroht von Thorwaler Piraten und unheimlichen Wesen aus der Waldwildnis.",
+    "occurrenceAndLifestyle": "Nostria erstreckt sich südlich der thorwalschen Siedlungsgebiete und nördlich des Mittelreichs. Im Osten geht das Königreich in die Waldwildnis über, die es mit den Andergastern teilt und in der sich viele Geheimnisse aus alter Zeit finden.",
+    "worldViewAndReligion": "Nostrier beten die Zwölf an, wobei Peraine auf dem Land und Efferd an den Küsten hervorgehobene Rollen spielen. Zudem sind in Liedern und Geschichten, Festen und Ritualen, Ängsten und Hoffnungen Einflüsse eines althergebrachten Glaubens an Naturgeister und Fabelwesen unübersehbar.",
+    "customs": "Abgesehen von Küstenstädten wie Salzerhaven und Nostria, steht im bäuerlichen Raum der Wald im Mittelpunkt vieler Feste und Bräuche. Zwischen Männern und Frauen herrscht Gleichberechtigung. Die Kleidungsgewohnheiten ähneln denen der mittelländischen Landbevölkerung.",
+    "garbAndArmaments": "Durch die Generationen überdauernden Auseinandersetzungen mit Andergast haben die meisten Nostrier wenigstens einen (Kriegs-)Sense, einen (Kriegs-)Dreschflegel oder eine Holzfälleraxt im Haus. Nach den Nostriern ist ein übergroßer Zweihänder benannt, den auch die Andergaster benutzen.",
+    "language": "Garethi (Nostrisch)",
+    "script": "Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Nostria-Stadt, Salza, Salzerhaven)",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["alle außer Gladiator und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe", "Magier"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perainegeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Richtungssinn" },
+      { "name": "Zäher Hund" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Persönlichkeitsschwäche", "note": "Vorurteile – vor allem gegen Andergaster, Weltfremd – vor allem gegenüber Fortschritt, Welt außerhalb des Königreiches" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Krankheitsanfällig I-II" }
+    ],
+    "commonSkills": ["Fischen & Angeln", "Orientierung", "Pflanzenkunde", "Sagen & Legenden", "Tierkunde", "Wildnisleben"],
+    "uncommonSkills": ["Fliegen", "Geographie", "Geschichtswissen", "Götter & Kulte", "Mechanik", "Rechnen", "Rechtskunde"],
+    "commonMaleNames": ["Ablasion", "Basilio", "Dorleno", "Ingvalion", "Jasper", "Kasimir", "Modeno", "Sapertyn", "Valputrio", "Zarquisio"],
+    "commonFemaleNames": ["Asmodette", "Caristhea", "Doranthe", "Elida", "Gloranthe", "Kasmira", "Mafizia", "Nostriane", "Sieghelmina", "Yasmina"],
+    "commonFamilyNames": ["Adasio", "Elgeryn", "Fischling", "Kirschner", "Linneweber", "Mandelfein", "Nosterweiß", "Salzerin", "Taschenneid", "Wilmhold"],
+    "nobleFamilies": ["von Fischteich", "von Salza", "von Salzerhaven", "von Sappenstiel", "von Vesselbek"],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Fischen & Angeln", "value": "+2" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Pflanzenkunde", "value": "+1" },
+        { "talent": "Sagen & Legenden", "value": "+1" },
+        { "talent": "Tierkunde", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+1" }
+      ],
+      "apCost": 15
+    }
+  },
+  {
+    "name": "Novadis",
+    "description": "Die 99 heiligen Gesetze Rastullahs, der Glaube daran, von ihm auserwählt zu sein, die Entbehrungen, aber auch die Schönheit der Wüste, die Verantwortung für ihren Stamm und die Treue ihrer Pferde bestimmen das Leben und Sterben der Novadis.",
+    "occurrenceAndLifestyle": "Die Oasen und die fruchtbaren Randgebiete der Khôm bilden den traditionellen Lebensraum der Novadis. Auch wenn viele von ihnen in der Hauptstadt Unau oder in Mherwed beheimatet sind oder kleinere Enklaven in anderen Städten unterhalten, schlägt das Herz des Reitervolkes in der Wüste Khôm. Hier legen die nomadischen Stämme Jahr für Jahr gewaltige Strecken zurück und treiben regen Handel mit den in Oasensiedlungen und Städten sesshaften Novadis.",
+    "worldViewAndReligion": "Vor nicht einmal 300 Jahren erwachte der Überlieferung zufolge der Eingott Rastullah und offenbarte sich den Novadis. Seither verehren sie ihn als einzig wahren Gott und ordnen ihr Leben nach seinen 99 Gesetzen. Nicht alle Novadis bestreiten die Existenz anderer Götter, doch ordnen sie selbst die Zwölf Rastullah entweder unter oder betrachten sie gar als Wesenheiten, die Rastullah seinen angestammten Platz wegnehmen wollen.",
+    "customs": "Scheinangriffe, um den Mut eines Fremden zu prüfen, und rituelle Schattenkämpfe sind nur zwei der ungewöhnlichen Bräuche der Wüstenstämme. Die untertänige Rolle der Frauen, vor allem der verheirateten, ist hingegen fast dem ganzen Volk gemein. Jeder Novadi besitzt zudem einen Waqqif, einen typisch gebogenen Dolch und Zeichen seiner Mannbarkeit.",
+    "garbAndArmaments": "Novadis tragen Tücher oder Turbane als Kopfbedeckung sowie mehrlagige, weite Gewänder aus Kamelhaarwolle gegen die Hitze der Wüste. Der Khunchomer ist ihre traditionelle Waffe für den Kampf Mann gegen Mann, vom Pferderücken aus führen sie bevorzugt die Dschadra und den Kurzbogen.",
+    "language": "Tulamidya (Khôm-Novadisch)",
+    "script": "Heilige Glyphen von Unau (2 AP)",
+    "areaKnowledge": "(z.B. Keft, Mherwed, Unau)",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["alle außer Gladiator und Ritter"],
+    "commonMagicProfessions": ["Magier (selten)"],
+    "commonBlessedProfessions": [],
+    "commonAdvantages": [
+      { "name": "Entfernungssinn" },
+      { "name": "Hitzeresistenz" },
+      { "name": "Richtungssinn" },
+      { "name": "Schwer zu verzaubern" },
+      { "name": "Zäher Hund" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen und dem Meer" },
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz, Vorurteile – vor allem gegen Frauen und Ungläubige" },
+      { "name": "Prinzipientreue I-III", "note": "99 Gesetze" },
+      { "name": "Schlechte Eigenschaft", "note": "Jähzorn, Rachsucht" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Hitzeempfindlich" },
+      { "name": "Kälteresistenz" }
+    ],
+    "uncommonDisadvantages": [],
+    "commonSkills": ["Einschüchtern", "Fährtensuchen", "Kriegskunst", "Orientierung", "Pflanzenkunde", "Rechtskunde", "Reiten", "Sinnesschärfe", "Tierkunde", "Wildnisleben"],
+    "uncommonSkills": ["Fahrzeuge", "Fischen & Angeln", "Magiekunde"],
+    "commonMaleNames": ["Abdul", "Chadim", "Habled", "Khorim", "Omar", "Mustafa", "Nareb", "Rashid", "Said", "Zahir"],
+    "commonFemaleNames": ["Aischa", "Eshila", "Fadime", "Laila", "Meriban", "Nedime", "Oyan", "Perishan", "Ranchel", "Shila"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Einschüchtern", "value": "+2" },
+        { "talent": "Fährtensuchen", "value": "+1" },
+        { "talent": "Orientierung", "value": "+2" },
+        { "talent": "Rechtskunde", "value": "+1" },
+        { "talent": "Reiten", "value": "+2" },
+        { "talent": "Tierkunde", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+2" }
+      ],
+      "apCost": 25
+    }
+  },
+  {
+    "name": "Südaventurier",
+    "description": "Die Wurzeln Südaventuriens reichen bis zu den ersten tulamidischen und mittelländischen Siedlungen zurück, die durch Einflüsse der Waldmenschen zu einer vielgesichtigen Mischkultur zusammengewachsen sind.",
+    "occurrenceAndLifestyle": "Mit Ausnahme Mirhams hat das gegenwärtige Südaventurien unterhalb der Linie Mengbilla-Port Corrad keine bedeutenden Binnenstädte hervorgebracht. Stattdessen ballt sich das Leben auf den dünn besiedelten Küstenstreifen westlich und östlich des Regengebirges.",
+    "worldViewAndReligion": "Dem Zwölfgötterglauben wird in unterschiedlichsten Ausprägungen nachgegangen, z.B. in Form des al'anfanischen Boronritus und dem Verbot der Praios- und der Phexkirche in Mengbilla. Daneben hinterlassen auch Rastullah, Naturgeister, Dämonenverehrung sowie die maraskanischen Zwillingsgötter Rur und Gror ihre Spuren.",
+    "customs": "Sklaverei ist, mit Ausnahme von Brabak und Hôt-Alem sowie den horasischen und bornländischen Kolonien, allgegenwärtig. Dasselbe gilt teilweise für tödliche Traditionen wie Kabale und Giftmorde, Gladiatorenkampf und Rauschmittelkonsum.",
+    "garbAndArmaments": "Offene Hemden, flatternde Hosen und hohe Lederstiefel sind ebenso gängig wie breite Hüte, Fächer und Sonnenschirme. Hau- und Entermesser sind in der Waffenvielfalt des Südens wohl am weitesten verbreitet. Bei Kämpfern ist der borongefällige Rabenschnabel beliebt.",
+    "language": "Garethi (Brabaci bei der Oberschicht, Charypto bei Bukaniern, Gatamo bei der Unterschicht)",
+    "script": "Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "je nach Heimatort",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["alle außer Ritter und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe", "Magier"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perainegeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Hitzeresistenz" },
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Kälteempfindlich" },
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz, Eitelkeit" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube, Goldgier, Jähzorn, Neugier" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Kälteresistenz" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen, Menschenmassen und Toten und Untoten" }
+    ],
+    "commonSkills": ["Betören", "Boote & Schiffe", "Fischen & Angeln", "Gassenwissen", "Handel", "Heilkunde Gift", "Menschenkenntnis", "Orientierung", "Pflanzenkunde", "Überreden", "Willenskraft", "Zechen"],
+    "uncommonSkills": ["Fahrzeuge", "Fliegen"],
+    "commonMaleNames": ["Alondro", "Boromeo", "Diago", "Firunando", "Ghorio", "Lucan", "Mandolo", "Nestario", "Ramon", "Yuan"],
+    "commonFemaleNames": ["Consuela", "Dolorita", "Esmeralda", "Jesabela", "Katalinya", "Marchesca", "Phelicitas", "Rahjadés", "Valeria", "Ximena"],
+    "commonFamilyNames": ["Beratas", "Cornio", "Delazar", "Erabenas", "Kalando", "Lupinez", "Malagro", "Nirrano", "Ramirez", "Santana"],
+    "nobleFamilies": ["Bonareth", "Florios", "Karinor", "Paligan", "Zornbrecht"],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Betören", "value": "+1" },
+        { "talent": "Boote & Schiffe", "value": "+1" },
+        { "talent": "Fischen & Angeln", "value": "+1" },
+        { "talent": "Gassenwissen", "value": "+2" },
+        { "talent": "Heilkunde Gift", "value": "+1" },
+        { "talent": "Menschenkenntnis", "value": "+2" },
+        { "talent": "Überreden", "value": "+1" },
+        { "talent": "Willenskraft", "value": "+1" }
+      ],
+      "apCost": 26
+    }
+  },
+  {
+    "name": "Svellttaler",
+    "description": "Das Svellttal zeichnet sich nicht nur durch seine unwiderstehliche Anziehungskraft für Goldgräber und Abenteurer, sondern auch vor allem durch die einzigartige Koexistenz von Menschen und Orks aus.",
+    "occurrenceAndLifestyle": "Zu diesem Kulturkreis gehören alle Städte entlang des Svellts zwischen Gashok und Tjolmar. Obwohl die westlich gelegenen Blutzinnen das Svellttal von Orkland trennen, sind die Schwarzpelze als Tributbrenner allgegenwärtig. In den (Klein-)Städten leben die Menschen für gewöhnlich von Handel und Handwerk, hinzu kommen Fallensteller, Goldgräber sowie Flussfischer, ferner Straßenräuber, Widerstandskämpfer und mechanische Schergen der Orks.",
+    "worldViewAndReligion": "Im Svelltland hat sich mit dem Lowanger Dualismus eine besondere Variation des Zwölfgötterglaubens entwickelt. Dessen arbeitsame, aber etwas freudlose Anhänger verehren Praios als Herrn allen Glücks und fürchten Boron als Gott der Finsternis.",
+    "customs": "Anders als nach dem Ende des Städtebunds vielleicht zu erwarten gewesen wäre, blieb ein Sittenverfall weitgehend aus. Stattdessen festigten sich ungeschriebene Gesetze, die auf Ehre und Anstand gründen, aber auch rondrianische Tugenden und travianische Gastfreundschaft mit einbeziehen.",
+    "garbAndArmaments": "Die Menschen des Svellttals bevorzugen Tuniken und Hosen aus festen, warmen Stoffen sowie Stiefel und Jacken aus Leder. Waffen wie schwere Dolche, Kurzschwerter, Speere und Streitkolben, Bögen, Armbrüste und Peitschen sind vor allem zweckdienlich.",
+    "language": "Garethi",
+    "script": "Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Gashok, Lowangen, Tiefhusen, Tjolmar)",
+    "socialStatus": ["Adel", "Unfrei"],
+    "commonMundaneProfessions": ["alle außer Gladiatoren und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe", "Magier"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perainegeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Entfernungssinn" },
+      { "name": "Richtungssinn" },
+      { "name": "Zäher Hund" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen" },
+      { "name": "Persönlichkeitsschwäche", "note": "Vorurteile – vor allem gegen Orks" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Hitzeresistenz" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Krankheitsanfällig I-II" }
+    ],
+    "commonSkills": ["Fährtensuchen", "Fahrzeuge", "Orientierung", "Pflanzenkunde", "Sagen & Legenden", "Tierkunde", "Wildnisleben"],
+    "uncommonSkills": ["Etikette", "Fliegen", "Geschichtswissen"],
+    "commonMaleNames": [],
+    "commonFemaleNames": [],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Fährtensuchen", "value": "+2" },
+        { "talent": "Fahrzeuge", "value": "+2" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Pflanzenkunde", "value": "+1" },
+        { "talent": "Sagen & Legenden", "value": "+1" },
+        { "talent": "Tierkunde", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+1" }
+      ],
+      "apCost": 21
+    }
+  },
+  {
+    "name": "Thorwaler",
+    "description": "Je nach Perspektive sind Thorwaler kühne Seefahrer, die keinen Sturm fürchten, oder aber skrupellose Piraten, die vor allem Küstendörfer und Handelsschiffe heimsuchen.",
+    "occurrenceAndLifestyle": "Zwischen Olport im Norden und Kendrar im Süden erstreckt sich Thorwal vom Meer der Sieben Winde gen Osten bis zum Orkland. Das Meer ist die wahre Lebensraum der Thorwaler, das sie mit ihren Langschiffen bereisen. Die Ottajasko genannten Schiffsgemeinschaften werden während des Winters am Feuer der Langhäuser ernährt.",
+    "worldViewAndReligion": "Der Lauf der Welt ist ein unentwegter Kampf zwischen dem göttlichen Pottwal Swafnir und Hranngar, der Mutter aller Seeschlangen. Jeder Thorwaler strebt danach, durch ein würdiges Leben in Swafnirs Halle einzuziehen. Auch wenn Firun, Ifirn und Travia hohes Ansehen genießen, wenden sich viele Thorwaler zunehmend vom Zwölfgötterglauben ab.",
+    "customs": "Neben Auseinandersetzungen mit Sklavenhaltern und Walfängern haben Thorwaler am meisten Freude an geselligen Trinkgelagen, Badehäusern, an Kräftemessen und vor allem an Heldenliedern, den sogenannten Sagas. Völlige Gleichberechtigung der Geschlechter ist unter den Thorwalern eine Selbstverständlichkeit.",
+    "garbAndArmaments": "Gestreifte Hosen, flatternde Leinenhemden und feste Stiefel kombinieren sie gerne mit exotischen Kleidungsstücken. Streitäxte, Schwerter und Speere, vor allem aber Orknase und Schneidzahn sind ihnen buchstäblich in die Wiege gelegt.",
+    "language": "Thorwalsch (Dialekt der Olportsteine, Olporter-Dialekt, Premer-Dialekt, Thorwal-Dialekt, Waskirer-Dialekt)",
+    "script": "Thorwalsche Runen oder Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Olport, Prem, Thorwal-Stadt, Waskir)",
+    "socialStatus": ["Adel"],
+    "commonMundaneProfessions": ["alle außer Gladiator, Ritter und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe", "Magier"],
+    "commonBlessedProfessions": [],
+    "commonAdvantages": [
+      { "name": "Entfernungssinn" },
+      { "name": "Glück I-III" },
+      { "name": "Richtungssinn" },
+      { "name": "Verbesserte Regeneration (Lebensenergie) I-III" },
+      { "name": "Zäher Hund" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Blutrausch" },
+      { "name": "Persönlichkeitsschwäche", "note": "Vorurteile – vor allem gegen Al'Anfaner, Echsenwesen, Horasier und Walfänger" },
+      { "name": "Schlechte Eigenschaft", "note": "Aberglaube, Neugier, Rachsucht" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "dem Meer" }
+    ],
+    "commonSkills": ["Boote & Schiffe", "Einschüchtern", "Fischen & Angeln", "Geographie", "Holzbearbeitung", "Kraftakt", "Orientierung", "Sagen & Legenden", "Selbstbeherrschung", "Steinbearbeitung", "Sternkunde", "Zechen"],
+    "uncommonSkills": ["Etikette", "Fliegen", "Lebensmittelbearbeitung"],
+    "commonMaleNames": ["Asleif", "Eirik", "Frenjar", "Garald", "Halmar", "Laske", "Norri", "Raskir", "Thorwulf", "Wulfgrimm"],
+    "commonFemaleNames": ["Askra", "Branda", "Eilif", "Frenja", "Janda", "Korja", "Norhild", "Ragna", "Sigrun", "Thora"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Boote & Schiffe", "value": "+2" },
+        { "talent": "Einschüchtern", "value": "+2" },
+        { "talent": "Fischen & Angeln", "value": "+2" },
+        { "talent": "Geographie", "value": "+1" },
+        { "talent": "Holzbearbeitung", "value": "+2" },
+        { "talent": "Kraftakt", "value": "+2" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Sagen & Legenden", "value": "+1" },
+        { "talent": "Zechen", "value": "+2" }
+      ],
+      "apCost": 24
+    }
+  },
+  {
+    "name": "Zyklopäer",
+    "description": "Die vier Hauptinseln Pailos, Hylailos, Phrygaios und Putrassowie etliche Archipele werden als Zyklopeninseln bezeichnet, wenngleich die namensgebenden Hünen schon lange nicht mehr die Herren dieses Seesreiches sind.",
+    "occurrenceAndLifestyle": "Die Zyklopeninseln liegen westlich des Horasreiches, unter dessen Herrschaft sie stehen. Das Meer spielt als Nahrungsquelle und Reiseweg eine zentrale Rolle im Leben der Zyklopäer, die vor allem Fischerei, Schaf- und Ziegenzucht betreiben, in erzreichen Gegenden zudem auch Bergbau.",
+    "worldViewAndReligion": "So wie das Meer das Leben der Menschen bestimmt, beherrscht es auch ihren Glauben. Daher überrascht es nicht, dass Efferd das zwölfgöttliche Pantheon anführt. Doch auch Rahja und Aves haben einen besonderen Platz im Herzen der Menschen, die sich durch ihre Nachbarschaft zu den Feenwäldern auf Hylailos und Phenos traditionell recht aufgeschlossenen im Umgang mit anderen Religionen zeigen.",
+    "customs": "Die Zyklopäer sind ein fröhliches Volk mit einem ausgeprägten Sinn für Musik, Tanz und Gesang. Da die einfachen Leute am Reichtum der städtischen Oberschicht jedoch kaum Anteil haben, fallen ihre Feste recht bescheiden, aber umso herzlicher aus.",
+    "garbAndArmaments": "Aufgrund des milden Klimas dominieren leichte Tuniken in hellen Tönen. Dolche und Kurzschwerter werden sowohl als Waffen wie als Werkzeuge gebraucht. Berühmt ist auch die zyklopäische Schleuder, eine Waffe des einfachen Volks.",
+    "language": "Garethi (Horathi) oder Zyklopäisch",
+    "script": "Kusliker Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Rethis, Teremon)",
+    "socialStatus": ["Adel"],
+    "commonMundaneProfessions": ["alle außer Ritter und Stammeskrieger"],
+    "commonMagicProfessions": ["Hexe", "Magier"],
+    "commonBlessedProfessions": ["Borongeweihte", "Hesindegeweihte", "Perainegeweihte", "Phexgeweihte", "Praiosgeweihte", "Rondrageweihte"],
+    "commonAdvantages": [
+      { "name": "Begabung", "note": "in Schwimmen" },
+      { "name": "Entfernungssinn" },
+      { "name": "Gutaussehend I-II" },
+      { "name": "Richtungssinn" },
+      { "name": "Wohlklang" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz, Eitelkeit, Vorurteile – vor allem gegen Thorwaler" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Kälteresistenz" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "dem Meer" }
+    ],
+    "commonSkills": ["Boote & Schiffe", "Fährtensuchen", "Fischen & Angeln", "Geschichtswissen", "Götter & Kulte", "Klettern", "Mechanik", "Musizieren", "Orientierung", "Pflanzenkunde", "Rechnen", "Rechtskunde", "Sagen & Legenden", "Sternkunde", "Stoffbearbeitung", "Tanzen", "Tierkunde", "Wildnisleben"],
+    "uncommonSkills": ["Fahrzeuge", "Menschenkenntnis", "Reiten"],
+    "commonMaleNames": ["Amenelaos", "Dariyon", "Hephestaios", "Kalchas", "Meneander", "Mermydion", "Peleïston", "Praiokles", "Rahjenýsios", "Ximater"],
+    "commonFemaleNames": ["Efferdiana", "Insina", "Korïna", "Lanike", "Myrtale", "Nermaka", "Phylinna", "Phÿllis", "Sapeïdra", "Telamache"],
+    "commonFamilyNames": ["Armedos", "Calakis", "Egorythios", "Garothis", "Kalidas", "Meregios", "Phÿrikos", "Sphareïos", "Tymemdios", "Uÿis"],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Boote & Schiffe", "value": "+1" },
+        { "talent": "Fischen & Angeln", "value": "+2" },
+        { "talent": "Geschichtswissen", "value": "+1" },
+        { "talent": "Götter & Kulte", "value": "+2" },
+        { "talent": "Musizieren", "value": "+1" },
+        { "talent": "Rechnen", "value": "+1" },
+        { "talent": "Rechtskunde", "value": "+1" },
+        { "talent": "Sagen & Legenden", "value": "+1" },
+        { "talent": "Tanzen", "value": "+1" }
+      ],
+      "apCost": 16
+    }
+  },
+  {
+    "name": "Auelfen",
+    "description": "Durch die vergleichsweise große Nähe der Siedlungsräume prägen die Auelfen mehr als alle anderen Elfen seit jeher das Bild ihres Volkes in den Augen und Geschichten der Menschen.",
+    "occurrenceAndLifestyle": "Die meisten Sippenverbände leben an den Flussläufen nördlich der Salamandersteine. Ihre Pfahldörfer und Baumsiedlungen fügen sich harmonisch in die natürliche Umgebung des oberen Kvills, der Letta und des mittleren Oblomos ein. Ihren Lebensunterhalt bestreiten sie neben Jagd und Fischfang sowie dem Anbau von Obst und Kräutern zuweilen durch den Handel.",
+    "worldViewAndReligion": "Nurdra und zerza, der Kreislauf von Geburt und Tod, Werden und Vergehen, Ankunft und Abschied durchdringt alle Bereiche des auelfischen Daseins. Sie wissen zwar um die Existenz der menschlichen Götter, betrachten diese jedoch als nicht verehrungswürdig.",
+    "customs": "Die Liebe ist für sie frei von gesellschaftlichen Zwängen, weshalb Hochzeiten selten sind. Dennoch finden Auelfen genug andere Anlässe für Feste, auf denen reichlich gesungen, getanzt und musiziert, nicht aber gegessen und getrunken wird. Auelfen kennen keine Gesetze, wohl aber Gerechtigkeit.",
+    "garbAndArmaments": "Ihre Kleidung ist für gewöhnlich aus Wildleder oder Bausch gefertigt, in roter, blauer, weißer oder schilfgrüner Färbung. Kurze Elfenbögen aus Esche (yara) sind ebenso typisch wie leichte Rapiere, Dolche oder Speere.",
+    "language": "Isdira (auelfischer Dialekt)",
+    "script": "Isdira-Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Dorf und angrenzendes Gebiet)",
+    "socialStatus": [],
+    "commonMundaneProfessions": ["Wildnisläufer", "Zauberweber"],
+    "commonMagicProfessions": [],
+    "commonBlessedProfessions": [],
+    "commonAdvantages": [
+      { "name": "Begabung", "note": "in Handwerkstalenten, vor allem Boote & Schiffe" },
+      { "name": "Magische Einstimmung", "note": "Wesen der Auen" },
+      { "name": "Waffenbegabung", "note": "vor allem Bögen" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Artefaktgebunden", "note": "Instrument" },
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz, Vorurteile – vor allem gegen Nichtelfen, Weltfremd – vor allem gegenüber Besitz, Göttern" },
+      { "name": "Prinzipientreue I-III", "note": "Elfische Weltsicht" },
+      { "name": "Schlechte Eigenschaft", "note": "Neugier" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Begabung", "note": "in Wissenstalenten" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Schlechte Eigenschaft", "note": "Goldgier, Rachsucht" },
+      { "name": "Unfähig", "note": "in Körper- und Naturtalenten" }
+    ],
+    "commonSkills": ["Betören", "Boote & Schiffe", "Fährtensuchen", "Fischen & Angeln", "Körperbeherrschung", "Musizieren", "Orientierung", "Pflanzenkunde", "Schwimmen", "Singen", "Sinnesschärfe", "Tanzen", "Tierkunde", "Verbergen", "Wildnisleben"],
+    "uncommonSkills": ["Alchimie", "Brett- & Glücksspiel", "Fahrzeuge", "Rechtskunde", "Schlösserknacken", "Zechen"],
+    "commonMaleNames": ["Adalarion", "Alarion", "Caerleon", "Delayar", "Dendayar", "Edorion", "Elanor", "Feysiriel", "Lindariel", "Navarion"],
+    "commonFemaleNames": ["Alaniel", "Caerleon", "Daleone", "Eldariel", "Gailano", "Lauriel", "Mandara", "Rhianna", "Sanyadriel", "Valandriel"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Betören", "value": "+1" },
+        { "talent": "Boote & Schiffe", "value": "+1" },
+        { "talent": "Fährtensuchen", "value": "+1" },
+        { "talent": "Fischen & Angeln", "value": "+2" },
+        { "talent": "Körperbeherrschung", "value": "+2" },
+        { "talent": "Musizieren", "value": "+2" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Pflanzenkunde", "value": "+1" },
+        { "talent": "Schwimmen", "value": "+2" },
+        { "talent": "Singen", "value": "+2" },
+        { "talent": "Sinnesschärfe", "value": "+1" },
+        { "talent": "Tierkunde", "value": "+1" },
+        { "talent": "Verbergen", "value": "+1" },
+        { "talent": "Wildnisleben", "value": "+1" }
+      ],
+      "apCost": 43
+    }
+  },
+  {
+    "name": "Firnelfen",
+    "description": "Die unbeugsamen Firnelfen kämpfen in den lebensfeindlichen Regionen des Nordens seit Ewigkeiten einen grimmigen Kampf gegen die Mächte des Eises und der Finsternis.",
+    "occurrenceAndLifestyle": "Beheimatet in den Tälern der Grimmfrostöde, an den Ufern des nördlichen Meeres und der Brecheisbucht sowie auf küstennahen Inseln und in den Eiszinnen ernähren sich die Firnelfen nahezu ausschließlich durch die Jagd auf Vögel, Land- und Meerestiere.",
+    "worldViewAndReligion": "Auch die Firnelfen begreifen das Dasein als ewigen Kreislauf von nurti und zerzal, wenngleich sich ihr Weltbild zunehmend der Vergänglichkeit zuwendet. Darüber hinaus kennen, fürchten und verachten sie die Begehrauslöserin bhardona als Herkunft und Personifikation allen Übels.",
+    "customs": "Firnelfen sind erbarmungslose Jäger, grimmige Krieger und großherzige Familienmitglieder. Heimat und Sippe sind ihre höchsten Güter, ihre größten Stärken, aber in diesen umkämpften Tagen auch ihre empfindlichsten Schwächen.",
+    "garbAndArmaments": "Gegen die Unbilden des Nordlands hüllen sie sich in kunstfertig verzierte und meisterhaft verarbeitete Pelze. Der Wurfspeer, das säbelartige Robbentöfer (mamra), das Jagdmesser und der Elfenbogen (yara), der zuweilen aus Kristall des Eisigels geformt wird, gehören zur üblichen Bewaffnung der Firnelfen.",
+    "language": "Isdira (firnelfischer Dialekt)",
+    "script": "Isdira-Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Dorf und angrenzendes Gebiet)",
+    "socialStatus": [],
+    "commonMundaneProfessions": ["Wildnisläufer", "Zauberweber"],
+    "commonMagicProfessions": [],
+    "commonBlessedProfessions": [],
+    "commonAdvantages": [
+      { "name": "Begabung", "note": "in Körper- und Naturtalenten" },
+      { "name": "Kälteresistenz" },
+      { "name": "Magische Einstimmung", "note": "Wesen des Eises" },
+      { "name": "Richtungssinn" },
+      { "name": "Waffenbegabung", "note": "vor allem Bögen und Wurfwaffen" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Artefaktgebunden", "note": "Instrument" },
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz, Vorurteile – vor allem gegen Nichtelfen, Weltfremd – vor allem gegenüber Adel, Besitz, Geld, Göttern, Hierarchien, Religion" },
+      { "name": "Prinzipientreue I-III", "note": "Elfische Weltsicht" },
+      { "name": "Unfähig", "note": "in Wissenstalenten" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Begabung", "note": "in Wissenstalenten" },
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "Dunkelheit, engen Räumen" },
+      { "name": "Kälteempfindlich" },
+      { "name": "Schlechte Eigenschaft", "note": "Goldgier, Rachsucht" },
+      { "name": "Unfähig", "note": "in Körper- und Naturtalenten" }
+    ],
+    "commonSkills": ["Fährtensuchen", "Fesseln", "Fischen & Angeln", "Klettern", "Körperbeherrschung", "Musizieren", "Orientierung", "Pflanzenkunde", "Selbstbeherrschung", "Singen", "Sinnesschärfe", "Tanzen", "Tierkunde", "Verbergen", "Wildnisleben"],
+    "uncommonSkills": ["Alchimie", "Brett- & Glücksspiel", "Fahrzeuge", "Fliegen", "Rechtskunde", "Schlösserknacken", "Zechen"],
+    "commonMaleNames": ["Alriel", "Delavar", "Eldariel", "Ilcoron", "Mandaniel", "Mandrion", "Osagiel", "Sanyarin"],
+    "commonFemaleNames": ["Alari", "Calenleya", "Elayoé", "Fiannon", "Mandaniel", "Onioniel", "Peaolé", "Saliniome", "Teleria", "Zairi"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Fährtensuchen", "value": "+2" },
+        { "talent": "Fischen & Angeln", "value": "+1" },
+        { "talent": "Klettern", "value": "+1" },
+        { "talent": "Körperbeherrschung", "value": "+2" },
+        { "talent": "Musizieren", "value": "+2" },
+        { "talent": "Orientierung", "value": "+2" },
+        { "talent": "Selbstbeherrschung", "value": "+1" },
+        { "talent": "Singen", "value": "+2" },
+        { "talent": "Sinnesschärfe", "value": "+2" },
+        { "talent": "Tierkunde", "value": "+2" },
+        { "talent": "Verbergen", "value": "+2" },
+        { "talent": "Wildnisleben", "value": "+2" }
+      ],
+      "apCost": 55
+    }
+  },
+  {
+    "name": "Waldelfen",
+    "description": "Die Waldelfen sind am tiefsten in der Ursprungszeit ihres Volkes verwurzelt, als es vor langer Zeit aus dem Licht in die Wälder Aventuriens trat. Sie lebten nie in den sagenhaften Städten der Hochelfen und bedauerten nie ihren Untergang.",
+    "occurrenceAndLifestyle": "Die selten mehr als drei Dutzend Individuen umfassenden Sippenverbände siedeln vorwiegend in den Wäldern der Salamandersteine, wo sie im vollkommenen Einklang mit der Natur leben. Sie nehmen sich nicht mehr und nicht weniger, als sie zum Überleben brauchen, und achten empfindlich darauf, das Gleichgewicht der Dinge nicht zu stören.",
+    "worldViewAndReligion": "Die Glaubenswelt und das Weltverständnis der Waldelfen entspricht weitestgehend dem der Auelfen, wenngleich sie sich mehr noch als ihre Brüder und Schwestern an den Flussläufen als Teil der Natur betrachten – ebenso bedeutsam oder wichtig wie die Blätter eines Baumes.",
+    "customs": "Der Wald und die Sippe stehen im Mittelpunkt ihres Denkens, Handelns und Fühlens. Jenseits ihrer Heimat, selbst wenn sie nur einer von vielen Wanderern die Wälder durchstreifen, werden sie fortwährend von Heimweh geplagt und sehen sich zurück in ihre aus Baumkronen geformten Wohnstätten.",
+    "garbAndArmaments": "Sie tragen überwiegend Kleidung aus kunstvoll verziertem Wildleder. Die traditionelle Rüstung aus gehärtetem Leder oder Rinde wird nur in kriegerischen Zeiten angelegt. Schlanke Fechtwaffen wie das Wolfsmesser (larza) und der Elfenbogen (yara) begleiten sie hingegen die meiste Zeit.",
+    "language": "Isdira (waldelfischer Dialekt)",
+    "script": "Isdira-Zeichen (2 AP)",
+    "areaKnowledge": "(z.B. Dorf und angrenzendes Gebiet)",
+    "socialStatus": [],
+    "commonMundaneProfessions": ["Wildnisläufer", "Zauberweber"],
+    "commonMagicProfessions": [],
+    "commonBlessedProfessions": [],
+    "commonAdvantages": [
+      { "name": "Begabung", "note": "in Körper- und Naturtalenten" },
+      { "name": "Magische Einstimmung", "note": "Wesen des Waldes" },
+      { "name": "Waffenbegabung", "note": "vor allem Bögen" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen" },
+      { "name": "Artefaktgebunden", "note": "Instrument" },
+      { "name": "Körpergebundene Kraft" },
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz, Vorurteile – vor allem gegen Nichtelfen, Weltfremd – vor allem gegenüber Adel, Besitz, Geld, Göttern, Hierarchien, Religion" },
+      { "name": "Prinzipientreue I-III", "note": "Elfische Weltsicht" },
+      { "name": "Unfähig", "note": "in Wissenstalenten" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Begabung", "note": "in Wissenstalenten" },
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Schlechte Eigenschaft", "note": "Goldgier, Jähzorn, Rachsucht" },
+      { "name": "Unfähig", "note": "in Körper- und Naturtalenten" }
+    ],
+    "commonSkills": ["Fährtensuchen", "Klettern", "Körperbeherrschung", "Magiekunde", "Musizieren", "Orientierung", "Pflanzenkunde", "Singen", "Sinnesschärfe", "Tanzen", "Tierkunde", "Verbergen", "Wildnisleben"],
+    "uncommonSkills": ["Alchimie", "Boote & Schiffe", "Brett- & Glücksspiel", "Fahrzeuge", "Rechtskunde", "Schlösserknacken", "Zechen"],
+    "commonMaleNames": ["Albion", "Cinnamon", "Elbrenell", "Fermion", "Floriel", "Imion", "Lorion", "Mandriel", "Nurdhavalon", "Saladir"],
+    "commonFemaleNames": ["Allacaya", "Cairlinn", "Déhaoine", "Feyaria", "Liloé", "Miamiel", "Oionel", "Rilaona", "Shayariel", "Valaria"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Fährtensuchen", "value": "+2" },
+        { "talent": "Klettern", "value": "+1" },
+        { "talent": "Körperbeherrschung", "value": "+2" },
+        { "talent": "Musizieren", "value": "+2" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Pflanzenkunde", "value": "+2" },
+        { "talent": "Singen", "value": "+2" },
+        { "talent": "Sinnesschärfe", "value": "+1" },
+        { "talent": "Tierkunde", "value": "+2" },
+        { "talent": "Verbergen", "value": "+2" },
+        { "talent": "Wildnisleben", "value": "+1" }
+      ],
+      "apCost": 47
+    }
+  },
+  {
+    "name": "Ambosszwerge",
+    "description": "Die streit- und abenteuerlustigen Ambosszwerge sind Bier auf die Mühlen jener Menschen und Elfen, die im bärtigen Volk nicht mehr als trinkwütige Grobiane sehen. Allen Vorurteilen zum Trotz steckt hinter den Ambosszwergen aber mehr als nur ein Haufen von Zwergenkriegern.",
+    "occurrenceAndLifestyle": "Die Zwerge vom Amboss siedeln vorwiegend im Bergkönigreich Waldwacht, vereinzelte Sippen sind jedoch auch im Finsterkamm, in den Thaschbergen, den Drachensteinen, den Khunchomer Bergen und im östlichen Raschtulswall zu finden.",
+    "worldViewAndReligion": "Das Schmiedehandwerk ist bei den Ambosszwergen Gottesdienst und Lebensinhalt zugleich. Dem Schöpfergott Angrosch, dem in manchen Sippen Rondra zur Seite steht, steht 'der Drache' als alter Feind gegenüber, der auch in Gestalt schwarzer Magie und namenlosen Unsegens gefürchtet und bekämpft werden muss.",
+    "customs": "Sie reiben ihre Haut tagtäglich mit einer Paste aus Fett und Kohlenstaub ein und gehen uneirrbar und unaufhaltsam wie ein Hammerschlag ihrer eigenen Wege. Die allabendlichen Trinkgelage im Kreise ihrer Sippe lieben sie, bei Tage gehen sie beinahe asketisch ihrer Arbeit als unvergleichliche Waffenschmiede nach.",
+    "garbAndArmaments": "Viele Ambosszwerge besitzen ein Kettenhemd, das als Familienerbstück von einer Generation zur nächsten übergeben wird. Der Zwergenschlägel-Kriegshammer, die doppelblättrige Zweihandaxt, der traditionelle Drachenzahn-Dolch und das Kurzschwert gelten ihnen als treueste Gefährten im Kampf. Darüber hinaus haben sie eine besondere Leidenschaft für Armbrüste.",
+    "language": "Rogolan (ambosszwergischer Dialekt)",
+    "script": "Rogolan-Runen (2 AP)",
+    "areaKnowledge": "(z.B. Zwergenstadt und angrenzende Stollen)",
+    "socialStatus": [],
+    "commonMundaneProfessions": ["alle außer Gladiatoren, Ritter und Stammeskrieger"],
+    "commonMagicProfessions": ["Magier (sehr selten)"],
+    "commonBlessedProfessions": ["Rondrageweihter (selten)"],
+    "commonAdvantages": [
+      { "name": "Begabung", "note": "in Handwerkstalenten, vor allem Metallbearbeitung und Steinbearbeitung" },
+      { "name": "Verbesserte Regeneration (Lebensenergie) I-III" },
+      { "name": "Waffenbegabung", "note": "vor allem Armbrüste, Hiebwaffen und Zweihandhiebwaffen" },
+      { "name": "Zäher Hund" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "dem Meer" },
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz, Vorurteile – vor allem gegen Elfen und Echsen" },
+      { "name": "Prinzipientreue I-III", "note": "zwergischer Ehrenkodex" },
+      { "name": "Schlechte Eigenschaft", "note": "Geiz, Goldgier" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "Dunkelheit oder engen Räumen" },
+      { "name": "Nachtblind" },
+      { "name": "Persönlichkeitsschwäche", "note": "Eitelkeit" }
+    ],
+    "commonSkills": ["Einschüchtern", "Geschichtswissen", "Kraftakt", "Kriegskunst", "Mechanik", "Metallbearbeitung", "Orientierung", "Rechnen", "Sagen & Legenden", "Selbstbeherrschung", "Steinbearbeitung", "Verbergen", "Zechen"],
+    "uncommonSkills": ["Betören", "Boote & Schiffe", "Fischen & Angeln", "Fliegen", "Reiten", "Schwimmen", "Sternkunde"],
+    "commonMaleNames": ["Andrasch", "Ballasch", "Cobaltosch", "Fobosch", "Groin", "Ibralosch", "Kirgam", "Marnax", "Pogolosch", "Sordolax"],
+    "commonFemaleNames": ["Agescha", "Borascha", "Durga", "Hogescha", "Lavascha", "Norturrima"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Einschüchtern", "value": "+1" },
+        { "talent": "Geschichtswissen", "value": "+1" },
+        { "talent": "Kraftakt", "value": "+2" },
+        { "talent": "Kriegskunst", "value": "+2" },
+        { "talent": "Mechanik", "value": "+1" },
+        { "talent": "Metallbearbeitung", "value": "+2" },
+        { "talent": "Orientierung", "value": "+1" },
+        { "talent": "Sagen & Legenden", "value": "+1" },
+        { "talent": "Steinbearbeitung", "value": "+2" },
+        { "talent": "Verbergen", "value": "+1" },
+        { "talent": "Zechen", "value": "+2" }
+      ],
+      "apCost": 31
+    }
+  },
+  {
+    "name": "Brillantzwerge",
+    "description": "Die Brillantzwerge sind die unangefochtenen Schöngeister unter den Zwergen, die als Händler und Künstler mit einem Sinn für die wirklich wichtigen Dinge durch ein ebenso feinsinniges wie abenteuerliches Leben gehen.",
+    "occurrenceAndLifestyle": "Ihre Heimat in den Beilunker Bergen verloren sie während der Invasion Barbarads, woraufhin sich viele von ihnen nach Jahren der Wanderung im Raschtulswall niedergelassen haben. Hier errichten sie mit Vorliebe behagliche Wohnhöhlen nahe der Oberfläche oder an kristallverglasten Berghängen.",
+    "worldViewAndReligion": "Angrosch gilt ihnen auch als Gott der schönen Künste und wird doch kaum mehr verehrt als Phex, der Schutzheer des Handels und der Abenteuer. Die Brillantzwerge betrachten sich als Blüte der zwergischen Kultur.",
+    "customs": "Neben den beliebten Züchten von Katzen, Hunden und den tatsächlich auch zum Reiten genutzten Zwergenponys sowie ihrem Sinn für mechanische Feinarbeiten widmen sich Brillantzwerge mit ausgesprochenen Eifer der Brautwerbung. Bis zu fünf Zwerge buhlen um eine Zwergenfrau, indem sie diese in einem jahrelangen Schlagtausch mit Geschenken und Wohltaten überhäufen.",
+    "garbAndArmaments": "Leichte Reisekleidung aus weichem Leder ist für die abenteuerlustigen Brillantzwerge meist die erste Wahl. Im Kampf stehen sie mit Schwertern, Streitäxten, Schilden und nicht zuletzt meisterhaften Armbrüsten ihren Mann.",
+    "language": "Rogolan (brillantzwergischer Dialekt)",
+    "script": "Rogolan-Runen (2 AP)",
+    "areaKnowledge": "(z.B. Zwergenstadt und angrenzende Stollen)",
+    "socialStatus": [],
+    "commonMundaneProfessions": ["alle außer Gladiatoren, Ritter und Stammeskrieger"],
+    "commonMagicProfessions": ["Magier (sehr selten)"],
+    "commonBlessedProfessions": ["Hesindegeweihter (selten)", "Phexgeweihter (selten)", "Rondrageweihter (selten)"],
+    "commonAdvantages": [
+      { "name": "Begabung", "note": "in Handwerkstalenten, vor allem Metallbearbeitung und Steinbearbeitung" },
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "dem Meer" },
+      { "name": "Persönlichkeitsschwäche", "note": "Eitelkeit" },
+      { "name": "Schlechte Eigenschaft", "note": "Geiz, Goldgier, Neugier" }
+    ],
+    "uncommonAdvantages": [],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "engen Räumen" },
+      { "name": "Blutrausch" },
+      { "name": "Nachtblind" }
+    ],
+    "commonSkills": ["Betören", "Geographie", "Geschichtswissen", "Malen & Zeichnen", "Mechanik", "Metallbearbeitung", "Musizieren", "Orientierung", "Rechnen", "Sagen & Legenden", "Schlösserknacken", "Steinbearbeitung", "Tanzen", "Tierkunde", "Verbergen", "Zechen"],
+    "uncommonSkills": ["Boote & Schiffe", "Fliegen", "Schwimmen"],
+    "commonMaleNames": ["Angrox", "Balum", "Cratosch", "Gandresch", "Grotho", "Jandrim", "Migosch", "Norrin", "Rabagasch", "Topasch"],
+    "commonFemaleNames": ["Angalla", "Cadrima", "Etosche", "Igrima", "Magmascha", "Segrima"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Betören", "value": "+1" },
+        { "talent": "Geographie", "value": "+2" },
+        { "talent": "Geschichtswissen", "value": "+1" },
+        { "talent": "Metallbearbeitung", "value": "+1" },
+        { "talent": "Musizieren", "value": "+1" },
+        { "talent": "Sagen & Legenden", "value": "+1" },
+        { "talent": "Schlösserknacken", "value": "+2" },
+        { "talent": "Steinbearbeitung", "value": "+1" },
+        { "talent": "Tanzen", "value": "+1" },
+        { "talent": "Verbergen", "value": "+2" },
+        { "talent": "Zechen", "value": "+1" }
+      ],
+      "apCost": 29
+    }
+  },
+  {
+    "name": "Erzzwerge",
+    "description": "Das zahlenmäßig größte Volk der Zwerge ist überaus traditionsbeusst, in jeder Hinsicht unnachgiebig und führt seine Lebensweise und Ansichten auf das Anbeginn der zwergischen Kultur in Aventurien zurück.",
+    "occurrenceAndLifestyle": "Die Mehrzahl der Erzzwerge lebt in den Koschbergen, dem Eisenwald und den Ingrakuppen. Zwar sind einige wenige auch in anderen Regionen wie beispielsweise Fasar anzutreffen, doch gemeinhin leben sie in imposanten Höhlenstädten tief unter dem Berg.",
+    "worldViewAndReligion": "Angrosch ist der einzig wahre Gott. Alle anderen übernatürlichen Wesenheiten sind ihm weit untergeordnet und allenfalls dienstbar, wenn sie nicht gleich zum Gefolge des goldenen Drachen Pyrdacor gezählt werden, dem ewigen Feind und Quell alles Bösen in der Welt.",
+    "customs": "Ordensähnliche Bruderschaften, in denen sich die Kunst der Rechenkunst und der Zahlenmystik, der Architektur und der Angroschverehrung gewidmet wird, spielen in der Gesellschaft der Erzzwerge eine bedeutende Rolle; Reiselust und Abenteuerfahrt eher als persönliches Unglück, das bestenfalls als Übel betrachtet wird.",
+    "garbAndArmaments": "Üblichweise tragen Erzzwerge lange, dunkle Lodengewänder, die nur zu besonderen Anlässen durch gold- und silbergewirkte Brokatroben ausgetauscht werden. Das traditionelle Kettenhemd ist im Kampf ihre erste Wahl. Viele ihrer Waffen und Rüstungen sind schon seit Zwergengenerationen in den Händen ihrer Familie.",
+    "language": "Rogolan (erzzwergischer Dialekt)",
+    "script": "Rogolan-Runen (2 AP)",
+    "areaKnowledge": "(z.B. Zwergenstadt und angrenzende Stollen)",
+    "socialStatus": [],
+    "commonMundaneProfessions": ["alle außer Gladiatoren, Ritter und Stammeskrieger"],
+    "commonMagicProfessions": ["Magier (sehr selten)"],
+    "commonBlessedProfessions": [],
+    "commonAdvantages": [
+      { "name": "Begabung", "note": "in Wissens- oder Handwerkstalenten, vor allem Geschichtswissen, Rechtskunde, Metallbearbeitung und Steinbearbeitung" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "Höhe oder dem Meer" },
+      { "name": "Persönlichkeitsschwäche", "note": "Arroganz, Vorurteile – vor allem gegen Nichtzwerge" },
+      { "name": "Schlechte Eigenschaft", "note": "Geiz, Goldgier" }
+    ],
+    "uncommonAdvantages": [
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "Dunkelheit, engen Räumen" },
+      { "name": "Nachtblind" },
+      { "name": "Schlechte Eigenschaft", "note": "Neugier" }
+    ],
+    "commonSkills": ["Geschichtswissen", "Götter & Kulte", "Mechanik", "Metallbearbeitung", "Orientierung", "Rechnen", "Rechtskunde", "Sagen & Legenden", "Selbstbeherrschung", "Steinbearbeitung", "Verbergen", "Zechen"],
+    "uncommonSkills": ["Betören", "Boote & Schiffe", "Fahrzeuge", "Fischen & Angeln", "Fliegen", "Gaukeleien", "Reiten", "Schwimmen"],
+    "commonMaleNames": ["Arthag", "Brodrosch", "Famburasch", "Grimmbart", "Huramasch", "Kagrim", "Partram", "Schrobosch", "Tarmosch", "Xolgrimm"],
+    "commonFemaleNames": ["Aurulne", "Dorella", "Halrima", "Korunde", "Narescha", "Topasa"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Geschichtswissen", "value": "+2" },
+        { "talent": "Götter & Kulte", "value": "+2" },
+        { "talent": "Mechanik", "value": "+2" },
+        { "talent": "Metallbearbeitung", "value": "+1" },
+        { "talent": "Rechnen", "value": "+2" },
+        { "talent": "Rechtskunde", "value": "+1" },
+        { "talent": "Sagen & Legenden", "value": "+2" },
+        { "talent": "Selbstbeherrschung", "value": "+1" },
+        { "talent": "Steinbearbeitung", "value": "+1" },
+        { "talent": "Verbergen", "value": "+2" },
+        { "talent": "Zechen", "value": "+1" }
+      ],
+      "apCost": 34
+    }
+  },
+  {
+    "name": "Hügelzwerge",
+    "description": "Die Hügelzwerge sind ausnehmend gemütliche Vertreter des kleinen Volkes. Sie haben dem harten Fels und dem noch härteren Leben darunter den Rücken zugekehrt und füllen ihre Speisekammer lieber mit sonnengetrockneten Würsten als mit schimmelfeuchtem Steinbrot.",
+    "occurrenceAndLifestyle": "Sie graben ihre runden Erdhäuser vorzugsweise ins östliche Vorland der Koschberge und siedeln darüber hinaus am Angbarer See. Sie streben nach Genuss und Geselligkeit, wissen Speis und Trank zu schätzen und messen exquisiten Gewürzen und formschönen Einrichtungsgegenständen weit mehr Bedeutung zu als Kampf und Abenteuer.",
+    "worldViewAndReligion": "Der Angroschkult der Hügelzwerge trägt ähnliche Züge wie die menschliche Ingerimmsverehrung und ist weit weniger rigide als der ihrer Verwandten unter den Bergen. Darüber hinaus hegen sie ernsthafte Zweifel an der immer wieder vorgebrachten drachischen Bedrohung in Vergangenheit und Gegenwart.",
+    "customs": "Auch wenn sie wie alle Zwerge begabte Schmiede sind, üben sie sich lieber in Weinanbau und Käseschöpfen. Ohnehin widmen sich die Hügelzwerge allem, was mit Gemütlichkeit und Geduld einhergeht, während sie in ihres langen Lebens haben sie viel Zeit, ihre Bäuche und ihre Steckenpferde zu pflegen.",
+    "garbAndArmaments": "Eine große Auswahl an weiten, bequemen Gewändern aus weichen Stoffen gehört für einen Hügelzwerg selbst auf kulinarischen Bildungsreisen zum lebensnotwendigen Gepäck. Falls gar ein Kampf unumgänglich ist, greifen sie bevorzugt zu handlichen Streitäxten und Kurzschwertern.",
+    "language": "Rogolan (hügelzwergischer Dialekt)",
+    "script": "Rogolan-Runen (2 AP)",
+    "areaKnowledge": "(z.B. Angbar)",
+    "socialStatus": [],
+    "commonMundaneProfessions": ["alle außer Gladiator, Ritter und Stammeskrieger"],
+    "commonMagicProfessions": ["Magier (selten)"],
+    "commonBlessedProfessions": ["Perainegeweihter (selten)"],
+    "commonAdvantages": [
+      { "name": "Begabung", "note": "in Gesellschafts- und Handwerkstalenten, vor allem Lebensmittelbearbeitung" },
+      { "name": "Soziale Anpassungsfähigkeit" }
+    ],
+    "commonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "dem Meer" },
+      { "name": "Schlechte Eigenschaft", "note": "Goldgier, Neugier" }
+    ],
+    "uncommonAdvantages": [],
+    "uncommonDisadvantages": [
+      { "name": "Angst vor ... I-III", "note": "Dunkelheit oder engen Räumen" },
+      { "name": "Blutrausch" },
+      { "name": "Nachtblind" }
+    ],
+    "commonSkills": ["Etikette", "Fahrzeuge", "Fischen & Angeln", "Lebensmittelbearbeitung", "Singen", "Tanzen", "Verbergen", "Zechen"],
+    "uncommonSkills": ["Einschüchtern", "Fliegen", "Reiten", "Wildnisleben"],
+    "commonMaleNames": ["Artox", "Bengram", "Dabrasch", "Gerambalosch", "Hargasch", "Obolosch", "Roglom", "Tlutasch", "Xandaresch", "Zinkhal"],
+    "commonFemaleNames": ["Aurea", "Caldera", "Garescha", "Ingrascha", "Thurescha", "Xolgima"],
+    "commonFamilyNames": [],
+    "nobleFamilies": [],
+    "culturePackage": {
+      "talents": [
+        { "talent": "Fahrzeuge", "value": "+1" },
+        { "talent": "Fischen & Angeln", "value": "+1" },
+        { "talent": "Lebensmittelbearbeitung", "value": "+2" },
+        { "talent": "Singen", "value": "+1" },
+        { "talent": "Tanzen", "value": "+1" },
+        { "talent": "Verbergen", "value": "+2" },
+        { "talent": "Zechen", "value": "+1" }
+      ],
+      "apCost": 13
+    }
+  }
+]

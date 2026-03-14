@@ -14,6 +14,10 @@ import {
   specialAbilityCombinedTalentRequirementsTable,
   advantagesTable,
   disadvantagesTable,
+  culturesTable,
+  cultureTalentPackageTable,
+  cultureAdvantagesTable,
+  cultureDisadvantagesTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -27,6 +31,7 @@ import talentsData from "../../data/characters/talents.json";
 import generalSpecialAbilitiesData from "../../data/gameplay/general_special_abilities.json";
 import advantagesData from "../../data/characters/advantages.json";
 import disadvantagesData from "../../data/characters/disadvantages.json";
+import culturesData from "../../data/characters/cultures.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -242,6 +247,111 @@ async function seed() {
     }));
   entries += disadvantageValues.length;
   await db.insert(disadvantagesTable).values(disadvantageValues);
+
+  const advantages = await db.select().from(advantagesTable);
+  const advantageMap = new Map(advantages.map(a => [a.name, a.id]));
+  const disadvantages = await db.select().from(disadvantagesTable);
+  const disadvantageMap = new Map(disadvantages.map(d => [d.name, d.id]));
+
+  console.log("🌱 Seeding cultures...");
+  for (const entry of culturesData) {
+    const [culture] = await db.insert(culturesTable).values({
+      name: entry.name,
+      description: entry.description,
+      occurrenceAndLifestyle: entry.occurrenceAndLifestyle || null,
+      worldViewAndReligion: entry.worldViewAndReligion || null,
+      customs: entry.customs || null,
+      garbAndArmaments: entry.garbAndArmaments || null,
+      language: entry.language,
+      script: entry.script || null,
+      areaKnowledge: entry.areaKnowledge || null,
+      socialStatus: entry.socialStatus,
+      commonMundaneProfessions: entry.commonMundaneProfessions,
+      commonMagicProfessions: entry.commonMagicProfessions,
+      commonBlessedProfessions: entry.commonBlessedProfessions,
+      commonSkills: entry.commonSkills,
+      uncommonSkills: entry.uncommonSkills,
+      commonMaleNames: entry.commonMaleNames,
+      commonFemaleNames: entry.commonFemaleNames,
+      commonFamilyNames: entry.commonFamilyNames,
+      nobleFamilies: entry.nobleFamilies,
+      culturePackageApCost: entry.culturePackage.apCost,
+    }).returning();
+    entries++;
+
+    // Culture package talents
+    const talentPackageRows = entry.culturePackage.talents
+      .map(t => {
+        const talentId = talentMap.get(t.talent);
+        if (!talentId) {
+          console.warn(`⚠️ Talent nicht gefunden: ${t.talent} für Kulturpaket ${entry.name}`);
+          return null;
+        }
+        return {
+          cultureId: culture.id,
+          talentId,
+          value: parseInt(t.value.replace("+", "")),
+        };
+      })
+      .filter(Boolean);
+
+    if (talentPackageRows.length > 0) {
+      await db.insert(cultureTalentPackageTable).values(talentPackageRows as any);
+      entries += talentPackageRows.length;
+    }
+
+    // Common & uncommon advantages
+    const allCultureAdvantages = [
+      ...entry.commonAdvantages.map(a => ({ ...a, isCommon: true })),
+      ...entry.uncommonAdvantages.map(a => ({ ...a, isCommon: false })),
+    ];
+    const advantageRows = allCultureAdvantages
+      .map(a => {
+        const advantageId = advantageMap.get(a.name);
+        if (!advantageId) {
+          console.warn(`⚠️ Vorteil nicht gefunden: ${a.name} für Kultur ${entry.name}`);
+          return null;
+        }
+        return {
+          cultureId: culture.id,
+          advantageId,
+          isCommon: a.isCommon,
+          note: (a as any).note || null,
+        };
+      })
+      .filter(Boolean);
+
+    if (advantageRows.length > 0) {
+      await db.insert(cultureAdvantagesTable).values(advantageRows as any);
+      entries += advantageRows.length;
+    }
+
+    // Common & uncommon disadvantages
+    const allCultureDisadvantages = [
+      ...entry.commonDisadvantages.map(d => ({ ...d, isCommon: true })),
+      ...entry.uncommonDisadvantages.map(d => ({ ...d, isCommon: false })),
+    ];
+    const disadvantageRows = allCultureDisadvantages
+      .map(d => {
+        const disadvantageId = disadvantageMap.get(d.name);
+        if (!disadvantageId) {
+          console.warn(`⚠️ Nachteil nicht gefunden: ${d.name} für Kultur ${entry.name}`);
+          return null;
+        }
+        return {
+          cultureId: culture.id,
+          disadvantageId,
+          isCommon: d.isCommon,
+          note: (d as any).note || null,
+        };
+      })
+      .filter(Boolean);
+
+    if (disadvantageRows.length > 0) {
+      await db.insert(cultureDisadvantagesTable).values(disadvantageRows as any);
+      entries += disadvantageRows.length;
+    }
+  }
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);
