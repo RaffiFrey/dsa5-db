@@ -64,6 +64,13 @@
       "when": 1773502062479,
       "tag": "0008_wooden_sasquatch",
       "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1773510716679,
+      "tag": "0009_military_thunderball",
+      "breakpoints": true
     }
   ]
 }

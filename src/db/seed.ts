@@ -1,5 +1,18 @@
 ﻿import "dotenv/config";
-import { attributesTable, derivedValuesTable, godsTable, conditionsTable, conditionLevelsTable, experienceLevelTable, status, talentsTable, racesTable } from "./schemas";
+import {
+  attributesTable,
+  derivedValuesTable,
+  godsTable,
+  conditionsTable,
+  conditionLevelsTable,
+  experienceLevelTable,
+  status,
+  talentsTable,
+  racesTable,
+  generalSpecialAbilitiesTable,
+  specialAbilityTalentRequirementsTable,
+  specialAbilityCombinedTalentRequirementsTable
+} from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
 import conditionLevelsData from "../../data/gameplay/condition_levels.json";
@@ -9,6 +22,7 @@ import derivedValuesData from "../../data/characters/derived_values.json";
 import statusData from "../../data/gameplay/status.json";
 import racesData from "../../data/characters/races.json";
 import talentsData from "../../data/characters/talents.json";
+import generalSpecialAbilitiesData from "../../data/gameplay/general_special_abilities.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -57,6 +71,9 @@ async function seed() {
 
   entries += talentValues.length;
   await db.insert(talentsTable).values(talentValues);
+
+  const talents = await db.select().from(talentsTable);
+  const talentMap = new Map(talents.map(t => [t.name, t.id]));
 
   console.log("🌱 Seeding derived values...");
   const derivedValues = derivedValuesData.map(entry => ({
@@ -124,6 +141,71 @@ async function seed() {
   }));
   entries += statusValues.length;
   await db.insert(status).values(statusValues);
+
+  console.log("🌱 Seeding general special abilities...");
+  const generalSpecialAbilitiesFiltered = generalSpecialAbilitiesData.filter(entry => entry.name);
+
+  for (const entry of generalSpecialAbilitiesFiltered) {
+    // Special Ability einfügen
+    const [specialAbility] = await db.insert(generalSpecialAbilitiesTable).values({
+      name: entry.name,
+      description: entry.description,
+      rules: entry.rules,
+      apValue: entry.apValue,
+      dynamicApText: entry.dynamicApText || null,
+      category: entry.category || null,
+      requirementsText: entry.requirements.text || null,
+      noDisadvantage: entry.requirements.noDisadvantage.length > 0 ? entry.requirements.noDisadvantage : null,
+      combinedTalentsLevel: entry.requirements.combinedTalents.level > 0 ? entry.requirements.combinedTalents.level : null,
+    }).returning();
+
+    entries++;
+
+    // Talent Requirements einfügen
+    if (entry.requirements.talents.length > 0) {
+      const talentReqs = entry.requirements.talents
+        .map(req => {
+          const talentId = talentMap.get(req.talent);
+          if (!talentId) {
+            console.warn(`⚠️ Talent nicht gefunden: ${req.talent} für ${entry.name}`);
+            return null;
+          }
+          return {
+            specialAbilityId: specialAbility.id,
+            talentId,
+            level: req.level,
+          };
+        })
+        .filter(Boolean);
+
+      if (talentReqs.length > 0) {
+        await db.insert(specialAbilityTalentRequirementsTable).values(talentReqs as any);
+        entries += talentReqs.length;
+      }
+    }
+
+    // Combined Talent Requirements einfügen
+    if (entry.requirements.combinedTalents.talents.length > 0) {
+      const combinedReqs = entry.requirements.combinedTalents.talents
+        .map(talentName => {
+          const talentId = talentMap.get(talentName as string);
+          if (!talentId) {
+            console.warn(`⚠️ Combined Talent nicht gefunden: ${talentName} für ${entry.name}`);
+            return null;
+          }
+          return {
+            specialAbilityId: specialAbility.id,
+            talentId,
+          };
+        })
+        .filter(Boolean);
+
+      if (combinedReqs.length > 0) {
+        await db.insert(specialAbilityCombinedTalentRequirementsTable).values(combinedReqs as any);
+        entries += combinedReqs.length;
+      }
+    }
+  }
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);

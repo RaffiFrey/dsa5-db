@@ -1,4 +1,4 @@
-﻿import {boolean, integer, pgTable, text} from "drizzle-orm/pg-core";
+﻿import {varchar, boolean, integer, pgTable, text} from "drizzle-orm/pg-core";
 
 export const attributesTable = pgTable("attributes", {
   id: integer().primaryKey().generatedByDefaultAsIdentity(),
@@ -44,4 +44,38 @@ export const talentsTable = pgTable("talents", {
   criticalSuccess: text().notNull(),
   botch: text().notNull(),
   improvementCost: text().notNull(),
+});
+
+export const generalSpecialAbilitiesTable = pgTable("general_special_abilities", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  name: varchar({ length: 255 }).notNull(),
+  description: text().notNull(),
+  rules: text().notNull(),
+  apValue: integer().notNull(),
+  dynamicApText: text(),
+  category: varchar({ length: 100 }),
+  requirementsText: text(),
+  noDisadvantage: text().array(),
+  combinedTalentsLevel: integer(),
+});
+
+export const specialAbilityTalentRequirementsTable = pgTable("special_ability_talent_requirements", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  specialAbilityId: integer("special_ability_id")
+    .notNull()
+    .references(() => generalSpecialAbilitiesTable.id, { onDelete: "cascade" }),
+  talentId: integer("talent_id")
+    .notNull()
+    .references(() => talentsTable.id, { onDelete: "cascade" }),
+  level: integer().notNull(),
+});
+
+export const specialAbilityCombinedTalentRequirementsTable = pgTable("special_ability_combined_talent_requirements", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  specialAbilityId: integer("special_ability_id")
+    .notNull()
+    .references(() => generalSpecialAbilitiesTable.id, { onDelete: "cascade" }),
+  talentId: integer("talent_id")
+    .notNull()
+    .references(() => talentsTable.id, { onDelete: "cascade" }),
 });

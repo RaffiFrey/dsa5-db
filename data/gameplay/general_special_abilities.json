@@ -1,0 +1,765 @@
+﻿[
+  {
+    "name": "Analytiker",
+    "description": "Wer sich mit der Enträtselung von magischen Artefakten beschäftigt oder wissen will, welche Kräfte\ndas Elementarwesen vor ihm besitzt, der muss jeden\nnoch so kleinen Hinweis deuten und interpretieren\nkönnen.",
+    "rules": "Wer die Sonderfertigkeit Analytiker besitzt, ist\nin der Lage Artefakte, magische Wesen und Zauber zu\nanalysieren. Ein Held mit der SF kann dazu eine Probe\nauf Magiekunde (unterschiedliche Anwendungsgebiete)\nablegen und dabei mehr QS erzielen als üblich. Je nach\nQS kann er sich aus seinen Informationen ein mehr\noder weniger genaues Bild der Wirkung des Objekts,\nder Art des Wesens oder der Zauberwirkung machen.\nAnalytiker ist eine Einsatzmöglichkeit für das Talent\nMagiekunde. ",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Magiekunde",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 5
+  },
+  {
+    "name": "Anführer",
+    "description": "Ein guter Anführer ist dazu in der Lage, seine Kampfgefährten zu unterstützen und ihnen taktische Vorteile zu\nverschaffen",
+    "rules": "Durch die Sonderfertigkeit erwirbt der Held eine\nEinsatzmöglichkeit für das Talent Überreden.\nDer Held kann mittels Überreden seine Gefährten\nwährend eines Kampfes unterstützen.\nDer Held muss 1 Aktion aufwenden. Danach legt er\neine Probe auf Überreden (Aufschwatzen, Manipulieren,\nSchmeicheln) ab. Bis zu QS +1 andere Personen seiner\nWahl in seiner Sicht- und Hörreichweite bekommen\nin der nächsten Kampfrunde einen Bonus von +1 AT,\n+1 Verteidigung, FK +1 (der Bonus ist nicht kumulativ\nmit weiteren Anwendungen der SF Anführer).",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Kriegskunst",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 10
+  },
+  {
+    "name": "Berufsgeheimnis",
+    "description": "Viele Berufe haben spezielles Geheimwissen, dass\nLehrmeister nicht jedem Gesellen mit auf den Weg\ngeben. Alchimisten hüten ihre Rezepturen arg\n-\nwöhnisch, Handwerker kennen geheime Verfahren\nzur Herstellung von Handwerksgütern und Gelehr\n-\nte geben ihr angesammeltes Wissen nur wenigen\nauserwählten Schülern weiter",
+    "rules": "Um ein Berufsgeheimnis zu erlernen, benötigt\nder Held einen Lehrmeister und muss die Voraussetzungen erfüllen, um das Berufsgeheimnis überhaupt richtig verstehen zu können. Zudem kostet das\nErlernen die in der Tabelle angegebenen Abenteuerpunkte.\nIst all dies gegeben, kann der Held das Berufsgeheimnis\nerlernen und anwenden.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 0
+  },
+  {
+    "name": "Dokumentfälscher",
+    "description": "Manchmal ist es für einen Hochstapler wichtig, ein\nSchreiben zu fälschen oder ein Dokument älter aussehen\nzu lassen als es ist. Das Fälschen von Dokumenten kann\neinem Schurken zwar Tür und Tor öffnen, aber bei einer\nEntlarvung des Betrügers erwarten ihn harte Strafen.",
+    "rules": "Der Held ist in der Lage, Schriftstücke und Urkunden zu fälschen. Mit dieser Sonderfertigkeit erwirbt der Held im Talent Malen & Zeichnen das neue\nAnwendungsgebiet Dokumente fälschen.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Malen & Zeichnen",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": ["Blind"]
+    },
+    
+    "apValue": 0
+  },
+  {
+    "name": "Eiserner Wille I-II",
+    "description": "Mittels dieser Sonderfertigkeit kann ein Held versuchen,\nseinen Geist vor Beeinflussungen abzuschirmen",
+    "rules": "So lange der Held sich entsprechend darauf\nfokussiert, wird seine Seelenkraft willentlich um 1 pro\nStufe verbessert. Durch die nötige Fokussierung sind\nwährenddessen alle weiteren Proben für den Helden\num die Stufe der SF erschwert. Der Eiserne Wille hält\nsolange an, wie der Held sich konzentrieren kann. Im\nZweifelsfall muss er eine Probe auf Selbstbeherrschung\nablegen.\n Wenn er schläft, den Zustand Bewusstlos erhält oder\nfreiwillig aufhört sich zu konzentrieren, hört der\nEiserne Wille auf. Am Ende der Wirkungszeit erhält\nder Held eine Stufe Betäubung.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 15
+  },
+  {
+    "name": "Fächersprache",
+    "description": "In höheren Kreisen des Horasreiches ist die Fächersprache\nverbreitet, die es ihrem Benutzer gestattet, nur mit Gesten\nund einem Fächer eine nonverbale Kommunikation zu\nführen. Die Fächersprache wird oft für Verführungen\noder Beleidigungen eingesetzt. Ein Anwender der\nFächersprache kann sich nur mit jemanden darin\nunterhalten, der ebenfalls die Fächersprache beherrscht.\nDie Sprache hat ein begrenztes Vokabular.",
+    "rules": "Mit Fächersprache kann man sich, ohne\nein Wort zu sagen, mit jemanden der ebenfalls\nüber diese Sonderfertigkeit verfügt, unterhalten.\nDie Fächersprache kann nur mit einem Fächer\neingesetzt werden",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Etikette",
+          "level": 8
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": ["Blind"]
+    },
+    
+    "apValue": 3
+  },
+  {
+    "name": "Fallen entschärfen",
+    "description": "Um mechanische Fallen zu entschärfen sind grundlegende Kenntnisse der Mechanik, aber auch von Riegeln\nund Schlössern notwendig. Für Streuner, Diebe und anderes zwielichtiges Gesindel unter den Helden ist diese\nSonderfertigkeit wichtig, um Sicherungsmaßnahmen\nauszuschalten.",
+    "rules": "Durch die Sonderfertigkeit wird das neue\nAnwendungsgebiet Fallen entschärfen des Talents\nSchlösserknacken erworben",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Mechanik",
+          "level": 4
+        },
+        {
+          "talent": "Schlösserknacken",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 5
+  },
+  {
+    "name": "Falschspielen",
+    "description": "Indem er mit gezinkten Würfeln spielt, heimlich Karten\nim Ärmel versteckt oder von Komplizen die Karten\ndes Gegners ausspähen lässt, kann ein erfahrener\nFalschspieler einiges an Geld verdienen, zumindest\nsolange er nicht erwischt wird.",
+    "rules": "Sollte eine Probe auf Brett- & Glücksspiel des Helden scheitern, darf der Spieler die Probe wiederholen\n(außer bei einem Patzer). Um den Betrug zu durchschauen, muss dem Opfer eine Vergleichsprobe auf\nSinnesschärfe (Wahrnehmen) gegen Brett- & Glücksspiel\n(jeweiliges Anwendungsgebiet) gelingen. Falschspielen\nist eine Einsatzmöglichkeit von Brett- & Glücksspiel.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Brett- & Glücksspiel",
+          "level": 8
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 5
+  },
+  {
+    "name": "Fertigkeitsspezialisierung (Talente)",
+    "description": "Ein Held kann sich bei Talenten auf Anwendungsgebiete\nspezialisieren. Einige Anwendungsgebiete sind bei der\nBeschreibung der Talente genannt (die Listen sind\njedoch nicht abgeschlossen). ",
+    "rules": "Ein Held erhält einen Bonus von 2 auf seinen Fertigkeitswert, wenn das entsprechende Anwendungsgebiet eine Rolle bei der Probe spielt. Ein Held kann\nsich im Laufe seines Lebens bei einem Talent in maximal drei unterschiedlichen Anwendungsgebieten\nspezialisieren. Der Bonus der Spezialisierung kann\ndas Maximum des FW nach Erfahrungsgrad des Helden bei der Heldenerschaffung übersteigen.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": [],
+      "text": "Fertigkeitswert 6 (erste Spezialisierung), Fertigkeitswert 12 (zweite Spezialisierung), Fertigkeitswert 18 (dritte Spezialisierung)\nAP-Wert: A-/B-/C-/D-Fertigkeit: 1/2/3/4 "
+    },
+    
+    "apValue": 0,
+    "dynamicApText": "A-/B-/C-/D-Fertigkeit: 1/2/3/4\nAbenteuerpunkt/e für die erste Spezialisierung;\n2/4/6/8 Abenteuerpunkte für die zweite\nSpezialisierung, 3/6/9/12 Abenteuerpunkte für die\ndritte Spezialisierung"
+  },
+  {
+    "name": "",
+    "description": "",
+    "rules": "",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 0
+  },
+  {
+    "name": "Fischer",
+    "description": "Ein erfahrener Fischer ist erfolgreicher beim Angeln.",
+    "rules": "Mit dieser Sonderfertigkeit kann der Held\nerfolgreicher fischen. Bei einer erfolgreichen Probe auf\nFischen & Angeln um Nahrung zu erbeuten kann er 1 QS\nmehr Nahrung erjagen. Ob es in dem Gewässer genügend\nessbare Fische und Meeresfrüchte gibt, muss der\nSpielleiter vorher entscheiden",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Fischen & Angeln",
+          "level": 4
+        },
+        {
+          "talent": "Verbergen",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 3
+  },
+  {
+    "name": "Füchsisch",
+    "description": "Viele Unterweltbanden haben ihre eigene Geheimsprache entwickelt. Diese allgemein als Füchsisch bekannten Sprachen zeichnen sich durch eine Umdeutung von\nWörtern einer anderen Sprache aus und kennen meist\neine kleine Zahl geheimer Zeichen, die sogenannten\nZinken.\nFüchsisch ist in ganz Aventurien verbreitet und folgt in jeder Stadt einem ähnlichen Muster, sodass ein Mittelländer\nauch das tulamidische Füchsisch beherrscht und ein Horasier in Brabak ebenfalls alle Zeichen richtig versteht",
+    "rules": "Der Held kann die Zinken des Füchsischen lesen\nund schreiben",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Gassenwissen",
+          "level": 8
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": ["Blind"]
+    },
+    
+    "apValue": 3
+  },
+  {
+    "name": "Geländekunde",
+    "description": "Waldläufer, Jäger und andere wildniserfahrene Helden sind\nSpezialisten im Überleben in der freien Natur. Sie kennen\nsich hervorragend in ihrer vertrauten Umgebung aus",
+    "rules": "Eine Geländekunde gewährt eine Erleichterung\nvon 1 auf Proben für folgende Talente, falls diese in\nder entsprechenden Umgebung angewandt werden\nkönnen: Fährtensuchen, Orientierung, Pflanzenkunde,\nTierkunde, Wildnisleben.\nJede der folgenden Geländekunden muss einzeln erlernt\nwerden: Dschungelkundig, Eis- und Schneekundig,\nGebirgskundig, Höhlenkundig, Kulturlandkundig,\nMeereskundig, Steppenkundig, Sumpfkundig, Waldkundig, Wüstenkundig.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": [],
+      "text": "Held hat mindestens 6 Monate in\nentsprechender Umgebung gelebt"
+    },
+    
+    "apValue": 15
+  },
+  {
+    "name": "Gildenrecht",
+    "description": "Der Held kennt sich mit den Gesetzen der Magiergilden\nund den ihnen verbundenen Institutionen bestens aus.",
+    "rules": "Der Held erlangt das neue Anwendungsgebiet\nGildenrecht in Rechtskunde.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": ["Rechtskunde"],
+        "level": 4
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 2
+  },
+  {
+    "name": "Glasbläserei",
+    "description": "Diese Sonderfertigkeit umfasst das Wissen um die\nBearbeitung von Glas und die Produktion von fragilen\nFormen wie Flaschen, Fensterscheiben, Spiegeln oder\nden vielfältigen Gerätschaften, die Alchimisten für ihre\nExperimente verwenden.",
+    "rules": "Der Held ist in der Lage, Glaswaren in Form\nvon Vasen und Flaschen durch den Einsatz von\nGlasbläserei herzustellen. Durch die Sonderfertigkeit\nkennt der Held aber nicht die Rezeptur, um Glas\nherzustellen. Dazu benötigt er das entsprechende\nBerufsgeheimnis. Durch die Sonderfertigkeit wird\ndas neue Anwendungsgebiet Glasbläserei des Talents\nSteinbearbeitung erworben.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Steinbearbeitung",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 2
+  },
+  {
+    "name": "Hehlerei",
+    "description": "Manche zwielichtigen Helden versuchen gestohlene,\nsogenannte heiße Ware zu verkaufen, auch wenn sie\ndamit gegen praiosgefällige Gesetze verstoßen. Für sie\nzählt nur ein guter Preis.",
+    "rules": "Der Held erhält mit dieser Sonderfertigkeit das\nAnwendungsgebiet Hehlerei im Talent Handel. Dadurch ist es ihm möglich, gestohlene Ware über Kontaktleute zu verkaufen",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Gassenwissen",
+          "level": 8
+        },
+        {
+          "talent": "Handel",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": [],
+      "text": "Ortskenntnis für den Ort, an dem die\nWare verkauft werden soll"
+    },
+    
+    "apValue": 5
+  },
+  {
+    "name": "Heraldik",
+    "description": "Die Heraldik beschäftigt sich mit der Wappenkunde, aber\nauch mit dem Wappenrecht. Wie sieht das Wappen des\nBarons von Zweimühlen aus? Welche heraldischen Farben\nsind erlaubt? Darf der landlose Ritter von Bimselbrücklein\nüberhaupt ein Wappen führen? Um alle diese Fragen\nbeantworten zu können, muss man sich mit Heraldik\nauskennen. Damit verbunden ist auch die Kenntnis der\nStammbäume diverser aventurischer Adelshäuser.",
+    "rules": "Durch Heraldik kann ein Held Wappen\nunterscheiden und kennt sich bestens mit dem\nWappenrecht und Stammbäumen aus. Mit dieser Sonderfertigkeit erwirbt der Held im\nTalent Etikette das neue Anwendungsgebiet Heraldik\n& Stammbäume.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Etikette",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    
+    "apValue": 2
+  },
+  {
+    "name": "Instrumente bauen",
+    "description": "Wer nur eine einfache Knochenpfeife herstellen will,\ndie irgendwelche Töne von sich gibt, benötigt diese\nSonderfertigkeit nicht. Das Anfertigen von Instrumenten,\ndie klare, saubere Klänge in der richtigen Tonhöhe\nproduzieren, ist jedoch deutlich anspruchsvoller und\nsetzt entsprechendes Wissen voraus.",
+    "rules": "Der Held ist in der Lage, Instrumente wie\nFanfaren, Flöten, Sackpfeifen, Lauten, Trommeln,\nSchellen und Hörner herzustellen. Durch die Sonderfertigkeit wird das neue Anwendungsgebiet Instrumente bauen für die Talente Holz- und Metallbearbeitung erworben.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": ["Holzbearbeitung", "Metallbearbeitung"],
+        "level": 12
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 2
+  },
+  {
+    "name": "Jäger",
+    "description": "Ein erfahrener Jäger kann sich mit ausreichend Wildbret\nversorgen, auch wenn die Jagd nicht in allen Regionen\nAventuriens erlaubt ist.",
+    "rules": "Mit dieser Sonderfertigkeit kann der Held\nerfolgreicher jagen. Begibt er sich auf die Jagd, kann\ner bei einer erfolgreichen Probe auf Tierkunde um\nNahrung zu erbeuten 1 QS mehr Nahrung erjagen.\nOb es in der Region genügend essbare Tiere gibt, muss\nder Spielleiter vorher entscheiden.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Fährtensuchen",
+          "level": 4
+        },
+        {
+          "talent": "Tierkunde",
+          "level": 4
+        },
+        {
+          "talent": "Verbergen",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": [],
+      "text": "Fernkampftechnikwert 10"
+    },
+    "apValue": 5
+  },
+  {
+    "name": "Kartographie",
+    "description": "Das Aufzeichnen von Küstenlinien und das detail- und maßstabsgetreue Vermessen von Landstrichen, aber auch die Anfertigung eigener Karten und die Überprüfung anderer Karten auf Richtigkeit fallen in das Gebiet dieser Sonderfertigkeit.",
+    "rules": "Durch diese Sonderfertigkeit ist ein Held in der Lage, Landkarten anzufertigen. Sie schaltet das neue Anwendungsgebiet Kartographie des Talents Geographie frei.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Geographie",
+          "level": 8
+        },
+        {
+          "talent": "Rechnen",
+          "level": 4
+        },
+        {
+          "talent": "Malen & Zeichnen",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 5
+  },
+  {
+    "name": "Lippenlesen",
+    "description": "Wer diese Sonderfertigkeit beherrscht, ist in der Lage, Worte von den Lippen anderer abzulesen. Natürlich muss man die entsprechende Sprache beherrschen, um das Gesagte zu verstehen.",
+    "rules": "Durch die Sonderfertigkeit wird das neue Anwendungsgebiet Lippenlesen des Talents Sinnesschärfe erworben.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Sinnesschärfe",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": ["Blind"]
+    },
+    "apValue": 10
+  },
+  {
+    "name": "Meister der Improvisation",
+    "description": "Manche Helden sind in der Lage, selbst ohne das notwendige Werkzeug Gegenstände herzustellen oder Objekte zu bearbeiten. Diese Abenteurer sind erfindungsreich und können in jeglicher Lage improvisieren.",
+    "rules": "Meister der Improvisation können bei Fertigkeitsproben auf Handwerkstalente Erschwernisse von bis zu 2 aufgrund schlechter Werkzeuge und Materialien ignorieren. Der Rest der Erschwernisse gilt weiterhin. Wenn der Held also eine Erschwernis von 3 auf Metallbearbeitung erhält, weil ihm Werkzeuge fehlen, so muss er nur gegen eine Erschwernis von 1 würfeln.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 10
+  },
+  {
+    "name": "Ortskenntnis",
+    "description": "Nirgendwo kennt ein Held sich so gut aus wie an dem Ort, an dem er geboren wurde (oder lange gelebt hat).",
+    "rules": "Eine Ortskenntnis gewährt eine Erleichterung von 1 bei Proben auf Gassenwissen und Orientierung, wenn sie sich auf den entsprechenden Ort beziehen. Ortskenntnis muss jeweils für einen bestimmten Ort erworben werden. Dieser Ort kann ein Dorf mit Umgebung, eine kleine Stadt, ein Stadtteil einer Großstadt oder ein Weg, ein Pfad oder eine Straße sein.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": [],
+      "text": "6 Monate lang an diesem Ort gelebt oder Weg dutzendtfach bereist haben"
+    },
+    "apValue": 2
+  },
+  {
+    "name": "Rosstäuscher",
+    "description": "Um einen möglichst hohen Gewinn für kranke oder alte Tiere zu erzielen, gibt es verschiedene Möglichkeiten, ein Pferd oder anderes Tier äußerlich aufzuwerten und Erkrankungen zu verbergen.",
+    "rules": "Helden können Pferde, Ponys und andere Nutztiere gesünder und jünger wirken lassen, als sie sind. Der Held erhält durch diese Sonderfertigkeit eine Einsatzmöglichkeit im Talent Handel. Bei einer Probe auf Handel (Feilschen) beim Verkauf eines Nutztieres darf der Spieler zweimal würfeln und das bessere Ergebnis wählen. Um die Täuschung zu durchschauen, muss dem Opfer eine Vergleichsprobe auf Tierkunde (domestizierte Tiere) gegen Tierkunde (domestizierte Tiere) gelingen.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Handel",
+          "level": 4
+        },
+        {
+          "talent": "Tierkunde",
+          "level": 8
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 4
+  },
+  {
+    "name": "Sammler",
+    "description": "Beeren, Pilze und Wurzeln mögen nicht immer schmackhaft sein, können aber durchaus satt machen.",
+    "rules": "Mit dieser Sonderfertigkeit kann der Held erfolgreicher Nahrung sammeln. Begibt er sich auf die Suche, kann er bei einer erfolgreichen Probe auf Pflanzenkunde um Nahrung zu erbeuten 1 QS mehr Nahrung sammeln. Ob es in der Region genügend essbare Pflanzen gibt, muss der Spielleiter vorher entscheiden.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Pflanzenkunde",
+          "level": 4
+        },
+        {
+          "talent": "Wildnisleben",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 2
+  },
+  {
+    "name": "Schmerzen unterdrücken",
+    "description": "Mittels dieser Sonderfertigkeit kann ein Held versuchen, Schmerzen zu unterdrücken.",
+    "rules": "Durch die Sonderfertigkeit wird eine Einsatzmöglichkeit für das Talent Selbstbeherrschung (Handlungsfähigkeit bewahren) erworben. Der Held legt, sobald er Schmerz erleidet, eine Probe auf Selbstbeherrschung (Handlungsfähigkeit bewahren) ab. Gelingt die Probe, so kann er pro QS eine Stufe Schmerz unterdrücken. Das Unterdrücken funktioniert für einen Kampf (maximal 1 Stunde). Der Held muss bereits über mindestens 1 Stufe des Zustands Schmerz verfügen, damit er diese SF einsetzen kann. Der Einsatz kostet eine freie Aktion. Am Ende der Wirkung der Sonderfertigkeit erhält der Held zusätzlich zu den vorhandenen Stufen Schmerz noch eine Stufe Betäubung.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Selbstbeherrschung",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 20
+  },
+  {
+    "name": "Schnapsbrennerei",
+    "description": "Ein geübter Schnapsbrenner kann fast alles, was Zucker oder Stärke beinhaltet fermentieren und mit einer Destille zu hochprozentigem Alkohol brennen.",
+    "rules": "Der Held ist in der Lage, Schnaps zu destillieren. Mit dieser Sonderfertigkeit erwirbt der Held im Talent Lebensmittelbearbeitung das neue Anwendungsgebiet Schnapsbrennen.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Alchimie",
+          "level": 4
+        },
+        {
+          "talent": "Lebensmittelbearbeitung",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 2
+  },
+  {
+    "name": "Schrift",
+    "description": "Viele Sprachen besitzen eine eigene Schrift. Zur Kenntnis des Alphabets oder der Schriftzeichen ist die entsprechende Sonderfertigkeit notwendig.",
+    "rules": "Der Held beherrscht das entsprechende Alphabet. Für jede Schrift muss die Sonderfertigkeit einzeln erworben werden. Eine Auswahl an Schriften findest du auf Seite 224.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": ["Blind"],
+      "text": "passende Sprache"
+    },
+    "apValue": 0,
+    "dynamicApText": "A-/B-/C-/D-Schrift: 2/4/6/8 Abenteuerpunkte"
+  },
+  {
+    "name": "Schriftstellerei",
+    "description": "Manch ein Schriftsteller genießt ein hohes Ansehen für sein Werk. Doch neben Talent benötigt er auch das handwerkliche Wissen, um Verse zu schmieden oder das einfache Volk mit Hetzschriften aufzustacheln.",
+    "rules": "Die Sonderfertigkeit Schriftstellerei kann für verschiedene Fachbereiche gewählt werden: Liebesroman, Poesie, Hetzschriften, Kriminalgeschichten, Märchen und Romane oder Fachpublikationen. Durch die jeweilige SF wird ein neues Anwendungsgebiet erworben: Betören (Liebesroman), Etikette (Poesie), Bekehren & Überzeugen (Hetzschriften), Gassenwissen (Kriminalgeschichten), Überreden (Romane), Sagen & Legenden (Märchen), für passendes Wissenstalent (Fachpublikationen).",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": [],
+      "text": "passende Schrift, passende Sprache III, Talent je nach Fachbereich (Betören 4 für Liebesroman, Etikette 4 für Poesie, Bekehren & Überzeugen 4 für Hetzschriften, Gassenwissen 4 für Kriminalgeschichten, Überreden 4 für Märchen & Romane, das passende Wissenstalent 4 für Fachpublikationen)"
+    },
+    "apValue": 2
+  },
+  {
+    "name": "Sprache I-III",
+    "description": "Um eine bestimmte Sprache zu sprechen, benötigt ein Held die entsprechende Sonderfertigkeit. Jede Sprache besitzt drei Stufen, die Auskunft über die sprachlichen Qualitäten geben.",
+    "rules": "Der Held spricht die entsprechende Sprache.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": [],
+      "text": "Je die Vorgängerstufe der Sonderfertigkeit (Ausnahme: Stufe I)"
+    },
+    "apValue": 2,
+    "dynamicApText": "2 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Sprachspezialisierung",
+    "description": "Der Held beherrscht einen Dialekt oder eine besondere Form der Sprache (etwa Fachsprachen wie Magier- oder Waidmannsbosparano).",
+    "rules": "Die Kenntnis und Anwendung einer Sprachspezialisierung kann einem Helden unter Umständen eine Erleichterung von 1 bei Proben auf Überreden (Aufschwatzen) einbringen, sofern sein Gegenüber den gleichen Dialekt spricht. Der Meister entscheidet von Fall zu Fall, ob diese Erleichterung gewährt wird. Andererseits kann jemand mit einem Dialekt auch eine Erschwernis von 1 erhalten, wenn er schlecht verstanden wird. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": [],
+      "text": "entsprechende Sprache auf Stufe III"
+    },
+    "apValue": 1
+  },
+  {
+    "name": "Tierstimmen imitieren",
+    "description": "Wildniskundige, insbesondere Jäger und die naturverbundenen Elfen, sind darin geübt, Tierstimmen nachzumachen. Entweder um Tiere bei der Jagd anzulocken, oder um einander unauffällige Signale zu geben.",
+    "rules": "Durch die Sonderfertigkeit erwirbt der Held eine Einsatzmöglichkeit für Tierkunde. Der Held kann mittels des Talents Tierkunde nun Tierstimmen imitieren.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Tierkunde",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 5
+  },
+  {
+    "name": "Töpferei",
+    "description": "Die Auswahl des richtigen Tons, aber auch die Verarbeitung mit Töpferscheibe und das Brennen mit einem geeigneten Ofen fallen in das Gebiet dieser Sonderfertigkeit.",
+    "rules": "Der Held ist in der Lage, Töpferwaren herzustellen. Mit dieser Sonderfertigkeit erwirbt der Held im Talent Steinbearbeitung das neue Anwendungsgebiet Töpferarbeiten.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Steinbearbeitung",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 2
+  },
+  {
+    "name": "Wettervorhersage",
+    "description": "Nicht jeder Held kann präzise vorhersagen, wie das morgige Wetter wird und sich entsprechend darauf einstellen. Mit dieser Sonderfertigkeit erwirbt er Kenntnisse von Anzeichen des Wetterumschwungs.",
+    "rules": "Durch die Sonderfertigkeit wird das neue Anwendungsgebiet Wettervorhersage des Talents Wildnisleben erworben. Der Held kann das Talent von nun an nutzen, um das Wetter vorherzusagen.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Wildnisleben",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 2
+  },
+  {
+    "name": "Zahlenmystik",
+    "description": "In den Tulamidenlanden und Almada, aber auch bei den Erzzwergen ist die Kunst beliebt, aus scheinbar zufälligen Zahlenfolgen mystische Zusammenhänge zu interpretieren.",
+    "rules": "Durch die Sonderfertigkeit wird das neue Anwendungsgebiet Zahlenmystik des Talents Rechnen erworben. Der Held kennt die Mysterien der Zahlen und vermag in ihnen geheime Botschaften zu lesen – oder kann andere durch sein Wissen beeindrucken.",
+    "requirements": {
+      "talents": [
+        {
+          "talent": "Rechnen",
+          "level": 8
+        },
+        {
+          "talent": "Sagen & Legenden",
+          "level": 4
+        }
+      ],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 2
+  },
+  {
+    "name": "Attacke verbessern",
+    "description": "Einige Helden verfügen über ein besonderes Quäntchen Glück im Nahkampf.",
+    "rules": "Mittels dieser Sonderfertigkeit kann der Held Schicksalspunkte für Ergebnis verbessern (Attacke) einsetzen.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 5,
+    "category": "Schicksalspunkte-Sonderfertigkeit"
+  },
+  {
+    "name": "Ausweichen verbessern",
+    "description": "Der Held kann durch diese Sonderfertigkeit im Notfall einem gefährlichen Angriff ausweichen.",
+    "rules": "Mittels dieser Sonderfertigkeit kann der Held Schicksalspunkte für Ergebnis verbessern (Ausweichen) einsetzen.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 5,
+    "category": "Schicksalspunkte-Sonderfertigkeit"
+  },
+  {
+    "name": "Eigenschaft verbessern",
+    "description": "Eine Eigenschaftsprobe kann durch Glück doch noch gelingen. Der Einsatz ist auch innerhalb einer Teilprobe bei einer Fertigkeitsprobe gestattet, jedoch verbessert sich nur das Ergebnis einer Teilprobe, egal wie oft die Eigenschaft bei der Fertigkeitsprobe vorkommt.",
+    "rules": "Mittels dieser Sonderfertigkeit kann der Held Schicksalspunkte für Ergebnis verbessern (Eigenschaft) einsetzen.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 5,
+    "category": "Schicksalspunkte-Sonderfertigkeit"
+  },
+  {
+    "name": "Fernkampf verbessern",
+    "description": "Einige Helden verfügen über ein besonderes Quäntchen Glück im Fernkampf.",
+    "rules": "Mittels dieser Sonderfertigkeit kann der Held Schicksalspunkte für Ergebnis verbessern (Fernkampf) einsetzen.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 5,
+    "category": "Schicksalspunkte-Sonderfertigkeit"
+  },
+  {
+    "name": "Parade verbessern",
+    "description": "Durch diese Sonderfertigkeit kann der Held eine misslungene Parade eventuell doch noch bestehen.",
+    "rules": "Mittels dieser Sonderfertigkeit kann der Held Schicksalspunkte für Ergebnis verbessern (Parade) einsetzen.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 5,
+    "category": "Schicksalspunkte-Sonderfertigkeit"
+  },
+  {
+    "name": "Wachsamkeit",
+    "description": "Ein Charakter mit Wachsamkeit spürt eine für ihn gefährliche Situation, kurz bevor sie eintritt. Dies kann zum Beispiel ein Tierangriff oder der Hinterhalt einer Räuberbande sein.",
+    "rules": "Erleidet ein Held den Status Überrascht, kann er einen Schip ausgeben, um den Status sofort aufzuheben.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": {
+        "talents": [],
+        "level": 0
+      },
+      "noDisadvantage": []
+    },
+    "apValue": 10,
+    "category": "Schicksalspunkte-Sonderfertigkeit"
+  }
+]
