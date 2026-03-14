@@ -14,3 +14,16 @@ export const derivedValuesTable = pgTable("derived_values", {
   description: text(),
   formula: text(),
 });
+
+export const racesTable = pgTable("races", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  name: text().notNull(),
+  LE: integer().notNull(),
+  SK: integer().notNull(),
+  ZK: integer().notNull(),
+  GS: integer().notNull(),
+  attribute: text().notNull(),
+  advantages: text().array(),
+  disadvantages: text().array(),
+  apCost: integer().notNull(),
+})

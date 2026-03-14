@@ -50,6 +50,13 @@
       "when": 1773478659708,
       "tag": "0006_woozy_zodiak",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1773479108392,
+      "tag": "0007_confused_morlun",
+      "breakpoints": true
     }
   ]
 }

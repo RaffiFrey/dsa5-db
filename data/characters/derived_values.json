@@ -2,52 +2,52 @@
   {
     "name": "Lebensenergie",
     "index": "LE",
-    "description": " Die Lebensenergie (LE) ist die Gesundheit eines\nHelden. Immer, wenn er Schaden nimmt, vergiftet\nwird oder an einer Krankheit leidet, verliert er\nLebenspunkte (LeP). Ab 0 Lebenspunkten liegt\nein Held im Sterben. Durch Heiltränke, Zauber,\nWundheilung oder Ausruhen kann er sich erholen\nund Lebensenergie regenerieren.",
+    "description": " Die Lebensenergie (LE) ist die Gesundheit eines Helden. Immer, wenn er Schaden nimmt, vergiftet wird oder an einer Krankheit leidet, verliert er Lebenspunkte (LeP). Ab 0 Lebenspunkten liegt ein Held im Sterben. Durch Heiltränke, Zauber, Wundheilung oder Ausruhen kann er sich erholen und Lebensenergie regenerieren.",
     "formula": "GW der Spezies + KO + KO"
   },
   {
     "name": "Astralenergie",
     "index": "AE",
-    "description": "Kein Zauber kann ohne sie gewirkt werden –\nAstralenergie (AE). Sie ist eine mystische Macht,\ndie nur wenige mit der Gabe der Magie Gesegnete\nnutzen können. Wann immer ein zauberkundiger\nHeld einen Zauberspruch einsetzt, muss er dafür\nAstralpunkte (AsP) ausgeben. Sie regenerieren sich\nz.B. durch Ausruhen oder Zaubertränke.",
+    "description": "Kein Zauber kann ohne sie gewirkt werden – Astralenergie (AE). Sie ist eine mystische Macht, die nur wenige mit der Gabe der Magie Gesegnete nutzen können. Wann immer ein zauberkundiger Held einen Zauberspruch einsetzt, muss er dafür Astralpunkte (AsP) ausgeben. Sie regenerieren sich z.B. durch Ausruhen oder Zaubertränke.",
     "formula": "20 durch Zauberer + Leiteigenschaft"
   },
   {
     "name": "Karmaenergie",
     "index": "KE",
-    "description": "Während Zauberer die Astralenergie nutzen,\nbenötigen Geweihte der Götter Karmaenergie (KE).\nSie wird den Priestern von ihrer Gottheit verliehen\nund wird in Karmapunkten (KaP) berechnet. Diese\nkönnen genutzt werden, um wundersame Liturgien\nzu wirken. Sie regenerieren sich unter anderem\nbeim Schlafen.",
+    "description": "Während Zauberer die Astralenergie nutzen, benötigen Geweihte der Götter Karmaenergie (KE). Sie wird den Priestern von ihrer Gottheit verliehen und wird in Karmapunkten (KaP) berechnet. Diese können genutzt werden, um wundersame Liturgien zu wirken. Sie regenerieren sich unter anderem beim Schlafen.",
     "formula": "20 ruch Geweihter + Leiteigenschaft"
   },
   {
     "name": "Seelenkraft",
     "index": "SK",
-    "description": "Die Seelenkraft (SK) ist ein Maßstab für die\nWiderstandskräfte gegen Beherrschungsmagie\nsowie gegen Liturgien, die den Geist des\nZielobjekts beeinflussen sollen, und in seltenen\nFällen auch gegen Gifte und Krankheiten. Sie ist\nein passiver Wert, der als eine Erschwernis oder\nErleichterung für Fertigkeitsproben zum Einsatz\nkommt (sozusagen ein Modifikator). Ein negativer\nWert ist schlecht, da er eine Erleichterung für\nden Zauberer oder Priester beim Wirken seiner\nübernatürlichen Fähigkeiten darstellt; ein hoher\nWert hingegen ist gut und dient als Erschwernis\nfür die gegnerische Probe.",
+    "description": "Die Seelenkraft (SK) ist ein Maßstab für die Widerstandskräfte gegen Beherrschungsmagie sowie gegen Liturgien, die den Geist des Zielobjekts beeinflussen sollen, und in seltenen Fällen auch gegen Gifte und Krankheiten. Sie ist ein passiver Wert, der als eine Erschwernis oder Erleichterung für Fertigkeitsproben zum Einsatz kommt (sozusagen ein Modifikator). Ein negativer Wert ist schlecht, da er eine Erleichterung für den Zauberer oder Priester beim Wirken seiner übernatürlichen Fähigkeiten darstellt; ein hoher Wert hingegen ist gut und dient als Erschwernis für die gegnerische Probe.",
     "formula": "GW der Spezies + (MU + KL + IN)/6"
   },
   {
     "name": "Zähigkeit",
     "index": "ZK",
-    "description": "Im Unterschied zur Seelenkraft bestimmt\ndie Zähigkeit (ZK) die Widerstandskraft gegen\nkörperliche Beeinflussungen. Sie kommt gegen Gifte\nund Krankheiten, aber auch bei bestimmten Zaubern\noder Liturgien zum Einsatz. Sie ist ein passiver\nWert, der als Erleichterung oder Erschwernis auf\ndie jeweilige Probe für die Beeinflussung gilt. Ein\nnegativer Wert ist schlecht, da er eine Erleichterung\nfür den Zauberer oder Priester beim Wirken seiner\nübernatürlichen Fähigkeiten darstellt; ein hoher\nWert hingegen ist gut und dient als Erschwernis für\ndie gegnerische Probe.",
+    "description": "Im Unterschied zur Seelenkraft bestimmt die Zähigkeit (ZK) die Widerstandskraft gegen körperliche Beeinflussungen. Sie kommt gegen Gifte und Krankheiten, aber auch bei bestimmten Zaubern oder Liturgien zum Einsatz. Sie ist ein passiver Wert, der als Erleichterung oder Erschwernis auf die jeweilige Probe für die Beeinflussung gilt. Ein negativer Wert ist schlecht, da er eine Erleichterung für den Zauberer oder Priester beim Wirken seiner übernatürlichen Fähigkeiten darstellt; ein hoher Wert hingegen ist gut und dient als Erschwernis für die gegnerische Probe.",
     "formula": "GW der Spezies + (KO + KO + KK)/6"
   },
   {
     "name": "Ausweichenwert",
     "index": "AW",
-    "description": "Der Ausweichenwert (AW) kommt immer dann ins\nSpiel, wenn Helden versuchen, in Deckung zu\nspringen, einem rollenden Felsbrocken entgehen\nwollen oder ohne eine Waffe in der Hand dem\nSchwert des Gegners ausweichen müssen.",
+    "description": "Der Ausweichenwert (AW) kommt immer dann ins Spiel, wenn Helden versuchen, in Deckung zu springen, einem rollenden Felsbrocken entgehen wollen oder ohne eine Waffe in der Hand dem Schwert des Gegners ausweichen müssen.",
     "formula": "GE/2"
   },
   {
     "name": "Initiative",
     "index": "INI",
-    "description": "Reaktion und schnelles Handeln werden durch den\nWert Initiative (INI) angegeben. Je schneller man ist,\ndesto eher kann man im Kampf agieren."
+    "description": "Reaktion und schnelles Handeln werden durch den Wert Initiative (INI) angegeben. Je schneller man ist, desto eher kann man im Kampf agieren."
   },
   {
     "name": "Geschwindigkeit",
     "index": "GS",
-    "description": "Je mehr Punkte auf Geschwindigkeit (GS) man hat, desto\nmehr Schritt kann man sich pro Kampfrunde bewegen."
+    "description": "Je mehr Punkte auf Geschwindigkeit (GS) man hat, desto mehr Schritt kann man sich pro Kampfrunde bewegen."
   },
   {
     "name": "Schicksalspunkte",
     "index": "Schips",
-    "description": "Schicksalspunkte (Schips) sind das Quäntchen Glück,\ndass den Helden das Leben retten kann. Mit ihrer\nHilfe sind Abenteurer zu Höchstleistungen fähig\nund können Unglück von sich abwenden."
+    "description": "Schicksalspunkte (Schips) sind das Quäntchen Glück, dass den Helden das Leben retten kann. Mit ihrer Hilfe sind Abenteurer zu Höchstleistungen fähig und können Unglück von sich abwenden."
   }
 ]
