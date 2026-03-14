@@ -1,0 +1,8 @@
+﻿[
+  {
+    "name": "Flugsalbe",
+    "rules": "Durch diese Sonderfertigkeit kann die Hexe Flugsalbe brauen (allerdings nur gemeinsam mit anderen Hexen bei einer Hexennacht) und damit ein bestrichenes Fluggerat nutzen. Die Flugsalbe verwandelt hölzerne Objekte bis zur Größe eines Tisches für ein Jahr lang zum steuerbaren Fluggerat. Form, Stabilität und Gewicht des Objekts ändern sich hierdurch nicht. Nur die Hexe, die das Fluggerat ausgewählt und gesalbt hat, kann es auch fliegen. Die Flugsalbe reicht nur für ein Fluggerat, dass direkt auf dem Hexenfest bestrichen werden muss. Bei Verlust des Fluggeräts muss die Hexe bis zum nächsten Hexenfest auf ihr Fluggerat verzichten.",
+    "requirements": "Tradition Hexe",
+    "apValue": 15
+  }
+]

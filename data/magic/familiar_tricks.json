@@ -1,0 +1,135 @@
+﻿[
+  {
+    "name": "Dinge erspüren",
+    "effect": "Der Vertraute kann ein Objekt ausfindig machen, das längere Zeit im Besitz der Hexe war und zu dem sie eine emotionale Bindung hat. Üblicherweise übermittelt die Hexe ihrem Vertrauten durch Zwiegespräch, welches Objekt er suchen soll. Befindet sich das Objekt im Umkreis von sieben Meilen, kann der Vertraute die Richtung ausmachen, in der sich das Objekt befindet, jedoch nicht zwingend den exakten Weg, über den man zu dem Objekt gelangt.",
+    "animalTypes": ["alle"],
+    "aspCost": 1,
+    "aspText": "pro 5 Minuten",
+    "duration": "eine halbe Stunde",
+    "property": "Hellsicht",
+    "apValue": 10,
+    "apNote": null
+  },
+  {
+    "name": "Erster unter Gleichen",
+    "effect": "Der Vertraute kann Tiere seiner Art einschüchtern und vertreiben, solange sie nicht größer sind als er selbst.",
+    "animalTypes": ["alle"],
+    "aspCost": 3,
+    "aspText": null,
+    "duration": "eine halbe Stunde",
+    "property": "Einfluss",
+    "apValue": 5,
+    "apNote": null
+  },
+  {
+    "name": "Fluchbote",
+    "effect": "Der Vertraute überbringt einen Fluch an ein von der Hexe ausgewähltes Opfer. Er muss hierzu bis zu 7 Schritt an sein Ziel herankommen und es anstarren. Sobald er den Fluch auf das Opfer gewirkt hat, übermittelt er telepathisch die mit dem Fluch verbundenen Worte der Hexe, die die Bedingungen erklären, ob und wie der Fluch gelöst werden kann.",
+    "animalTypes": ["alle"],
+    "aspCost": 1,
+    "aspText": null,
+    "duration": "sofort",
+    "property": null,
+    "propertyNote": "je nach Fluch",
+    "apValue": 15,
+    "apNote": null
+  },
+  {
+    "name": "Hexensinn",
+    "effect": "Der Vertraute kann über eine beliebige Distanz hinweg die Richtung ausmachen, in der sich die Hexe befindet. Nur göttliches Wirken und Antimagie gegen Hellsicht können diese Verbindung stören.",
+    "animalTypes": ["alle"],
+    "aspCost": 1,
+    "aspText": "pro 5 Minuten",
+    "duration": "eine halbe Stunde",
+    "property": "Hellsicht",
+    "apValue": 0,
+    "apNote": "beherrschen Vertrautentiere von Anfang an"
+  },
+  {
+    "name": "Kraftraub",
+    "effect": "Der Vertraute kann einer Person während einer Ruhephase deren Regeneration entziehen, wenn er sie beim Schlafen beobachtet. Das Tier muss das Opfer die ganze Schlafphase beobachten und entzieht ihm dafür die gesamte Regeneration der Regenerationsphase. Die entzogene Lebensenergie kann er seiner eigenen Lebenspunkte hinzufügen, wenn ihm noch Lebenspunkte fehlen. Ansonsten verfällt sie. Die Person hat während der Beobachtungsphase Alpträume von dem Vertrautentier. Es wird keine AE oder KE gestohlen.",
+    "animalTypes": ["alle"],
+    "aspCost": 3,
+    "aspText": null,
+    "duration": "aufrechterhaltend",
+    "property": "Heilung",
+    "apValue": 15,
+    "apNote": null
+  },
+  {
+    "name": "Krötengift",
+    "effect": "Die Kröte sondert statt des sonst bei Kröten üblichen Gifts ein magisches Hautgift ab, das jeden, die sie berührt, mit dem Fluch Warzen Sprießen schlägt. Der Warzen-Fluch wirkt in diesem Fall drei Tage.",
+    "animalTypes": ["Kröten"],
+    "aspCost": 3,
+    "aspText": null,
+    "duration": "5 Kampfrunden",
+    "property": "Verwandlung",
+    "apValue": 10,
+    "apNote": null
+  },
+  {
+    "name": "Krötenschlag",
+    "effect": "Die Kröte wandelt auf einen Schlag ihre gesamten AsP in einen magischen Angriff um, der an seinem Ziel viele kleinste Verletzungen bewirkt. Die Kröte fügt dem nächststehenden Ziel 2W6+2 Trefferpunkte zu. Rüstungen schützen nicht vor diesem Vertrautentrick.",
+    "animalTypes": ["Kröten"],
+    "aspCost": 8,
+    "aspText": "alle AsP, mindestens 8 AsP",
+    "duration": "sofort",
+    "property": "Verwandlung",
+    "apValue": 25,
+    "apNote": null
+  },
+  {
+    "name": "Stimmungssinn",
+    "effect": "Der Vertraute erkennt die Gefühle und Stimmungen einer Person und übermittelt sie der Hexe. Zwei Hexen können so in begrenztem Rahmen stille Zwiesprache halten, indem ihre Vertrautentiere ihnen gegenseitig die Gefühle schildern. Gegebenenfalls kann der Spielleiter eine Erleichterung von 1 bei Proben auf Menschenkenntnis zugestehen, um die betroffene Person zu durchschauen.",
+    "animalTypes": ["alle"],
+    "aspCost": 1,
+    "aspText": "pro 5 Minuten",
+    "duration": "aufrechterhaltend",
+    "property": "Hellsicht",
+    "apValue": 20,
+    "apNote": null
+  },
+  {
+    "name": "Tarnung",
+    "effect": "Der Vertraute nimmt die Farbe der Umgebung an und verschmilzt so mit dem Hintergrund. Proben auf Verbergen (sich Verstecken) sind für ihn um 2 erleichtert. Die Tarnung wirkt nur, solange sich das Tier nicht bewegt.",
+    "animalTypes": ["Kröte"],
+    "aspCost": 1,
+    "aspText": "pro 5 Minuten",
+    "duration": "aufrechterhaltend",
+    "property": "Verwandlung",
+    "apValue": 10,
+    "apNote": null
+  },
+  {
+    "name": "Tiersinne",
+    "effect": "Der Vertraute leiht seiner Hexe eine spezielle Art der Wahrnehmung, abhängig von der Tierart des Vertrauten. Katzen können so eine Stufe Dunkelsicht und Herausragender Sinn (Gehör) verleihen, Raben Herausragender Sinn (Sicht), Kröten Herausragender Sinn (Geruch). Die Tiersinne funktionieren wie die entsprechenden Vorteile. Der Vertraute muss während der gesamten Wirkungsdauer Körperkontakt zur Hexe halten.",
+    "animalTypes": ["alle"],
+    "aspCost": 1,
+    "aspText": "pro 5 Minuten",
+    "duration": "aufrechterhaltend",
+    "property": "Hellsicht",
+    "apValue": 10,
+    "apNote": null
+  },
+  {
+    "name": "Ungesehener Beobachter",
+    "effect": "Der Vertraute wird Auge und Ohr der Hexe. Sie kann wahrnehmen, was er wahrnimmt. Um den Kontakt aufrechtzuerhalten, muss die Hexe mit geschlossenen Augen verweilen und sich auf ihren Vertrauten konzentrieren. Die Verbindung wirkt nur in eine Richtung, die Hexe kann ihrem Vertrauten daher keine Aufträge erteilen. Die Reichweite der Verbindung beträgt sieben Meilen. Sollte der Vertraute verletzt werden, erleidet die Hexe den gleichen Schaden wie der Vertraute. Der so miterlebte Tod eines Vertrauten kann eine Hexe stark traumatisieren.",
+    "animalTypes": ["alle"],
+    "aspCost": 1,
+    "aspText": "pro 10 Minuten",
+    "duration": "aufrechterhaltend",
+    "property": "Einfluss",
+    "apValue": 35,
+    "apNote": null
+  },
+  {
+    "name": "Zwiegespräch",
+    "effect": "Der Vertraute übermittelt Bilder, Gefühle und Erfahrungen telepathisch an die Hexe, so lange beide Körperkontakt aufrechterhalten. Da Vertrautentiere die menschliche Sprache begrenzt verstehen, kann sich so ein Zwiegespräch entwickeln, bei dem die Hexe spricht und der Vertraute telepathisch antwortet.",
+    "animalTypes": ["alle"],
+    "aspCost": 1,
+    "aspText": "pro 10 Minuten",
+    "duration": "aufrechterhaltend",
+    "property": "Einfluss",
+    "apValue": 0,
+    "apNote": "beherrschen Vertrautentiere von Anfang an"
+  }
+]

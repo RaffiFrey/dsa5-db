@@ -1,0 +1,112 @@
+﻿[
+  {
+    "name": "Beiß auf Granit!",
+    "check": ["KL", "IN", "FF"],
+    "modifiedByZK": true,
+    "modifiedBySK": false,
+    "effect": "Feste Nahrungsmittel, die das Opfer berührt, werden zu Stein oder einer anderen Substanz, die die Hexe im Fluch benannt hat. Üblich sind neben Stein auch Holz, Mist oder Schleim. Edelmetalle oder Ähnliches sind nicht möglich. Die Lebensmittel verwandeln sich nach fünf Minuten wieder zurück, insofern das Opfer sie nicht berührt. Der Versuch, Lebensmittel mit Zangen oder Trichtern in den Mund zu führen, kann dazu führen, dass das Opfer an einem Stein im Hals erstickt. Für Suppen, Milch und andere Flüssigkeiten gilt der Fluch nicht.",
+    "aspCost": 14,
+    "aspText": null,
+    "duration": "QS x 3 in Tagen",
+    "property": "Objekt"
+  },
+  {
+    "name": "Beute!",
+    "check": ["KL", "IN", "CH"],
+    "modifiedByZK": false,
+    "modifiedBySK": true,
+    "effect": "Der Geruch des Opfers lockt alle Arten von fleischfressenden Wirbeltieren an. Diese sehen das Opfer als leichte Beute an. Während domestizierte Tiere mit einer um die Fertigkeitspunkte des Fluches erschwerten Tierkundeprobe beruhigt werden können, lassen sich wilde Tiere hiervon nicht abbringen. Der nur für die Tiere wahrnehmbare Geruch ist so stark, dass Wildtiere das Opfer bereits aus mehreren Meilen Entfernung wahrnehmen können.",
+    "aspCost": 14,
+    "aspText": null,
+    "duration": "QS x 3 in Tagen",
+    "property": "Einfluss"
+  },
+  {
+    "name": "Hagelschlag",
+    "check": ["MU", "IN", "CH"],
+    "modifiedByZK": false,
+    "modifiedBySK": false,
+    "effect": "Auf einer Fläche von bis zu (QS x 20.000) Rechtschritt geht ein schwerer Hagelsturm nieder. Je nach Region kann auch ein Schnee- oder Sandsturm die Fläche verheeren. Solche Stürme können Ernten zerstören, Dächer abdecken und bei ungeschützten Tieren und Personen 2W6 TP Schaden pro 5 Minuten verursachen.",
+    "aspCost": 21,
+    "aspText": null,
+    "duration": "QS x 15 Minuten",
+    "property": "Elementar"
+  },
+  {
+    "name": "Hexenschuss",
+    "check": ["IN", "FF", "KO"],
+    "modifiedByZK": true,
+    "modifiedBySK": false,
+    "effect": "Das Opfer erleidet plötzlich einen starken Schmerz im Rücken oder im Kopf, je nach Wahl der Hexe. Durch den Hexenschuss erleidet das Opfer eine Stufe des Zustands Schmerz.",
+    "aspCost": 14,
+    "aspText": null,
+    "duration": "QS x 3 in Stunden",
+    "property": "Verwandlung"
+  },
+  {
+    "name": "Pech an den Hals wünschen",
+    "check": ["KL", "IN", "CH"],
+    "modifiedByZK": false,
+    "modifiedBySK": true,
+    "effect": "Neben der 20 gilt nun auch die 19 als Patzer. Für Patzer bei Fertigkeitsgegenständen reicht es so, wenn zwei Würfel eine 19 oder mehr zeigen. Außerdem zerbricht das Opfer aus Versehen Gegenstände, stolpert über Hindernisse, vergisst Verabredungen oder tritt bei Gesprächen in Fettnäpfchen. Details entscheidet der Meister.",
+    "aspCost": 7,
+    "aspText": null,
+    "duration": "QS x 3 in Tagen",
+    "property": "Einfluss"
+  },
+  {
+    "name": "Pestilenz",
+    "check": ["MU", "CH", "GE"],
+    "modifiedByZK": true,
+    "modifiedBySK": false,
+    "effect": "Das Opfer wird von der Hexe mit einer ihr bekannten Krankheit infiziert, maximal jedoch mit einer Krankheitsstufe gleich dem Fertigkeitswert des Fluches. Ab der Infektion verläuft die Krankheit wie normal, ist allerdings nicht ansteckend. Nicht wählbar sind magische Erkrankungen wie Duglumspest.",
+    "aspCost": 0,
+    "aspText": "Stufe der Krankheit in AsP",
+    "duration": "bis zum Ende der Krankheit, maximal aber QS x 3 in Tagen",
+    "property": "Dämonisch"
+  },
+  {
+    "name": "Schlaf rauben",
+    "check": ["KL", "IN", "CH"],
+    "modifiedByZK": false,
+    "modifiedBySK": true,
+    "effect": "Das Opfer kann nicht schlafen. Wenn es doch für einige Sekunden einschläft, wird es von Alpträumen wieder aufgeschreckt. Regeneration ist in diesem Zustand nicht möglich. Es reagiert genauso wie andere Menschen, die lange Zeit wach gehalten werden, wird also fahrig, reizbar und erleidet nach einigen Tagen Sinnestäuschungen. Pro zwei Tagen ohne Schlaf erhält das Opfer eine Stufe Verwirrung, die erst abklingt, wenn es wieder schlafen kann.",
+    "aspCost": 14,
+    "aspText": null,
+    "duration": "QS x 3 in Tagen",
+    "property": "Einfluss"
+  },
+  {
+    "name": "Unfruchtbarkeit",
+    "check": ["IN", "FF", "KO"],
+    "modifiedByZK": true,
+    "modifiedBySK": false,
+    "effect": "Das Opfer, Person oder Tier, ist nicht mehr in der Lage, Nachkommen zu zeugen oder zu gebären. Schwangere Wesen erleiden oft eine Miss- oder Totgeburt.",
+    "aspCost": 14,
+    "aspText": null,
+    "duration": "QS x 3 in Wochen",
+    "property": "Verwandlung"
+  },
+  {
+    "name": "Warzen sprießen",
+    "check": ["IN", "FF", "KO"],
+    "modifiedByZK": true,
+    "modifiedBySK": false,
+    "effect": "Dem Opfer wachsen innerhalb einiger Minuten dicke Warzen im Gesicht und an den Händen und verleihen ihm so eine Stufe des Nachteils Hässlich. Der Vorteil Gutaussehend wird hierdurch zeitweise aufgehoben und der Verfluchte erleidet den Nachteil Hässlich.",
+    "aspCost": 7,
+    "aspText": null,
+    "duration": "QS x 3 in Tagen",
+    "property": "Verwandlung"
+  },
+  {
+    "name": "Zunge lähmen",
+    "check": ["KL", "IN", "CH"],
+    "modifiedByZK": true,
+    "modifiedBySK": false,
+    "effect": "Zunge und Lippen des Opfers sind gelähmt. Es kann daher nicht mehr artikuliert sprechen. Dies beeinflusst auch so Zaubersprüche. Außerdem neigen so Verfluchte zu Speichelfluss. Der Verfluchte erhält den Status Stumm.",
+    "aspCost": 14,
+    "aspText": null,
+    "duration": "QS x 3 in Stunden",
+    "property": "Einfluss"
+  }
+]

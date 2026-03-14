@@ -21,6 +21,10 @@ import {
   combatSpecialAbilitiesTable,
   magicPropertiesTable,
   staffSpellsTable,
+  familiarTricksTable,
+  witchCursesTable,
+  witchSpecialAbilitiesTable,
+  elvenSongsTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -38,6 +42,10 @@ import culturesData from "../../data/characters/cultures.json";
 import combatSpecialAbilitiesData from "../../data/gameplay/combat_special_abilities.json";
 import magicPropertiesData from "../../data/magic/magic_properties.json";
 import staffSpellsData from "../../data/magic/staff_spells.json";
+import familiarTricksData from "../../data/magic/familiar_tricks.json";
+import witchCursesData from "../../data/magic/witch_curses.json";
+import witchSpecialAbilitiesData from "../../data/magic/witch_special_abilities.json";
+import elvenSongsData from "../../data/magic/elven_songs.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -47,6 +55,10 @@ async function seed() {
   console.log("🗑️  Truncating all tables...");
   await db.execute(sql`
     TRUNCATE TABLE
+      elven_songs,
+      witch_special_abilities,
+      witch_curses,
+      familiar_tricks,
       staff_spells,
       magic_properties,
       combat_special_abilities,
@@ -432,6 +444,80 @@ async function seed() {
   });
   entries += staffSpellValues.length;
   await db.insert(staffSpellsTable).values(staffSpellValues);
+
+  console.log("🌱 Seeding familiar tricks...");
+  const familiarTrickValues = familiarTricksData.map(entry => {
+    const propertyId = entry.property ? magicPropertyMap.get(entry.property) ?? null : null;
+    if (entry.property && !propertyId) {
+      console.warn(`⚠️ Merkmal nicht gefunden: ${entry.property} für ${entry.name}`);
+    }
+    return {
+      name: entry.name,
+      effect: entry.effect,
+      animalTypes: entry.animalTypes,
+      aspCost: entry.aspCost,
+      aspText: (entry as any).aspText ?? null,
+      duration: entry.duration,
+      propertyId,
+      propertyNote: (entry as any).propertyNote ?? null,
+      apValue: entry.apValue,
+      apNote: entry.apNote ?? null,
+    };
+  });
+  entries += familiarTrickValues.length;
+  await db.insert(familiarTricksTable).values(familiarTrickValues);
+
+  console.log("🌱 Seeding witch curses...");
+  const witchCurseValues = witchCursesData.map(entry => {
+    const propertyId = magicPropertyMap.get(entry.property);
+    if (!propertyId) {
+      console.warn(`⚠️ Merkmal nicht gefunden: ${entry.property} für ${entry.name}`);
+    }
+    return {
+      name: entry.name,
+      check: entry.check,
+      modifiedByZK: entry.modifiedByZK ? 1 : 0,
+      modifiedBySK: entry.modifiedBySK ? 1 : 0,
+      effect: entry.effect,
+      aspCost: entry.aspCost,
+      aspText: entry.aspText ?? null,
+      duration: entry.duration,
+      propertyId: propertyId!,
+    };
+  });
+  entries += witchCurseValues.length;
+  await db.insert(witchCursesTable).values(witchCurseValues);
+
+  console.log("🌱 Seeding witch special abilities...");
+  const witchSpecialAbilityValues = witchSpecialAbilitiesData.map(entry => ({
+    name: entry.name,
+    rules: entry.rules,
+    requirements: entry.requirements || null,
+    apValue: entry.apValue,
+  }));
+  entries += witchSpecialAbilityValues.length;
+  await db.insert(witchSpecialAbilitiesTable).values(witchSpecialAbilityValues);
+
+  console.log("🌱 Seeding elven songs...");
+  const elvenSongValues = elvenSongsData.map(entry => {
+    const propertyId = magicPropertyMap.get(entry.property);
+    if (!propertyId) {
+      console.warn(`⚠️ Merkmal nicht gefunden: ${entry.property} für ${entry.name}`);
+    }
+    return {
+      name: entry.name,
+      check: entry.check,
+      effect: entry.effect,
+      talent: entry.talent,
+      aspCost: entry.aspCost,
+      aspText: entry.aspText ?? null,
+      duration: entry.duration,
+      propertyId: propertyId!,
+      improvementCost: entry.improvementCost,
+    };
+  });
+  entries += elvenSongValues.length;
+  await db.insert(elvenSongsTable).values(elvenSongValues);
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);
