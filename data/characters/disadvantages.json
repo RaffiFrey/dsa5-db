@@ -1,0 +1,491 @@
+﻿[
+  {
+    "name": "Angst vor ... I-III",
+    "description": "Der Held fürchtet sich derart vor etwas, dass er hierdurch in seinem Handeln eingeschränkt wird. Der Auslöser der Angst sollte nicht zu selten vorkommen. Beispiele für Ängste sind Angst vor Blut, Magie, Spinnen, Dunkelheit, dem Meer, großer Höhe, freien Flächen, engen Räumen oder Toten und Untoten.",
+    "rules": "Pro Stufe der Angst erleidet der Held eine Stufe Furcht, so lange er dem Auslöser ausgesetzt ist.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -8,
+    "apText": "-8 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Arm I-III",
+    "description": "Der Held ist aus der Unterschicht oder aus irgendeinem Grund verarmt. Er hat kaum Vermögen und nur wenige Ressourcen.",
+    "rules": "Durch den Nachteil Arm erhält ein Held bei der Generierung 250 Silbertaler weniger pro Stufe. Wählt er also 3 Stufen Arm, beginnt er ohne Startkapital und besitzt nur ein Kleiderpaket der Kategorie Unfrei.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Reich",
+    "apValue": -1,
+    "apText": "-1 Abenteuerpunkt pro Stufe"
+  },
+  {
+    "name": "Artefaktgebunden",
+    "description": "Ein Zauberer mit diesem Nachteil ist an ein Artefakt gebunden. Eventuell ist bei der Erschaffung oder Bindung des Artefakts ein Patzer unterlaufen oder irgendeine andere magische Beeinflussung hat für die Verbindung gesorgt. Bei dem Artefakt kann es sich um ein Traditionsartefakt wie zum Beispiel einen Magierstab oder das persönliche Musikinstrument eines Elfen handeln. Es muss nicht das persönliche Traditionsartefakt sein.",
+    "rules": "Ist der Held nicht in direktem Kontakt mit dem Artefakt (dies bedeutet: Kontakt mit der Haut), kann er nur erschwert Zaubern. Dieser Nachteil erschwert Zauber um 1, wenn die Bedingung des Körperkontaktes nicht erfüllt ist. Wird das Artefakt vernichtet, kann er so lange nur mit der Erschwernis Zauber wirken, bis er selbst ein neues Artefakt gleicher Machart hergestellt hat, in das die Artefaktgebundenheit automatisch einfließt.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer",
+    "apValue": -10
+  },
+  {
+    "name": "Behäbig",
+    "description": "Behäbige Personen sind deutlich langsamer als andere und brauchen länger, um eine Strecke zu überwinden.",
+    "rules": "Durch Behäbig verliert ein Held 1 Punkt von seinem Geschwindigkeit-Grundwert.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Flink",
+    "apValue": -4
+  },
+  {
+    "name": "Blind",
+    "description": "Der Charakter ist von Geburt an, durch eine Augenverletzung oder in Folge einer Krankheit erblindet. Er kann nichts sehen und sich nur nach seinen anderen Sinnen orientieren.",
+    "rules": "Durch den Nachteil ist ihm der Einsatz vieler Fertigkeiten erschwert oder erst gar nicht möglich. Dies gilt ebenfalls für Sonderfertigkeiten. Welche Handlungen um wie viel erschwert oder gar unmöglich sind, entscheidet der Meister. Die Blindheit ist nicht heilbar, außer durch ein Großes Wunder. Der Held erhält den Status Blind.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Herausragender Sinn (Sicht), keine Nachteile Einäugig, Farbenblind, Nachtblind, Eingeschränkter Sinn (Sicht)",
+    "apValue": -50
+  },
+  {
+    "name": "Blutrausch",
+    "description": "Der Held greift wütend alles in seiner näheren Umgebung an, ohne sich unter Kontrolle zu haben. Gerade bei den Thorwalern ist der Blutrausch bekannt.",
+    "rules": "Der Held erhält unter speziellen Umständen den Status Blutrausch. Der Blutrausch wird aktiviert, wenn der Held durch einen Angriff eine Stufe des Zustands Schmerz erleidet oder ihm seine Probe auf Willenskraft zur Aktivierung der Schlechten Eigenschaft Jähzorn misslingt.",
+    "range": "",
+    "actions": "",
+    "requirements": "Schlechte Eigenschaft Jähzorn, kein Nachteil Angst vor Blut",
+    "apValue": -10
+  },
+  {
+    "name": "Eingeschränkter Sinn",
+    "description": "Ein Held mit eingeschränkten Sinnen könnte über schlechtes Augenlicht verfügen, seinen Geschmackssinn durch eine Krankheit verloren haben oder durch das Alter schlechter hören.",
+    "rules": "Wer über einen Eingeschränkten Sinn verfügt, dessen Proben auf Sinnesschärfe sind um 2 erschwert, wenn die Probe den entsprechenden Sinn betrifft. Eingeschränkte Sicht erschwert zudem Proben auf Fernkampf um 2. Folgende Sinne können gewählt werden: Sicht, Gehör, Geruch & Geschmack, Tastsinn. Ein Held kann bis zu zwei eingeschränkte Sinne besitzen.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Herausragender Sinn für den gleichen Sinn, kein Nachteil Blind (bei Sicht), kein Nachteil Taub (bei Gehör)",
+    "apValue": 0,
+    "apText": "Sicht: -15 Abenteuerpunkte; Gehör: -10 Abenteuerpunkte; Geruch & Geschmack: -6 Abenteuerpunkte; Tastsinn: -2 Abenteuerpunkte"
+  },
+  {
+    "name": "Farbenblind",
+    "description": "Farbenblinde Helden können keine Unterschiede zwischen Farben erkennen. Für sie ist die Welt schwarz-weiß.",
+    "rules": "Für den Abenteurer sind Farben nicht zu unterscheiden. Dies kann sich bei einigen Proben, etwa auf Alchimie, beim Zuordnen von Wappen (Etikette) oder bei der Orientierung im Dschungel negativ auswirken. Ob eine Probe abgelegt werden kann und wie hoch die Erschwernis ist, entscheidet der Meister.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Blind",
+    "apValue": -2
+  },
+  {
+    "name": "Fettleibig",
+    "description": "Wenn ein Held mindestens 50% schwerer ist als bei seiner Größe üblich, gilt er als fettleibig.",
+    "rules": "Der Nachteil hat zur Folge, dass Proben auf Klettern, Körperbeherrschung, Tanzen und Verbergen um 1 erschwert sind.",
+    "range": "",
+    "actions": "",
+    "requirements": "Nachteil Behäbig",
+    "apValue": -25
+  },
+  {
+    "name": "Giftanfällig I-II",
+    "description": "Einige Personen können Giften und anderen schädlichen Substanzen wie Rauschmitteln weniger gut widerstehen.",
+    "rules": "Eine Giftanfälligkeit verschlechtert Zähigkeit und Seelenkraft um 1 pro Stufe, wenn es darum geht, Giften zu widerstehen.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Giftresistenz",
+    "apValue": -5,
+    "apText": "-5 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Hässlich I-II",
+    "description": "Der Charakter ist im Vergleich zu anderen Angehörigen seiner Spezies besonders hässlich und wirkt auf die meisten kulturschaffenden Wesen abstoßend.",
+    "rules": "Durch jede Stufe dieses Nachteils erleidet der Held eine Erschwernis von 1 auf Betören (Anbändeln, Liebeskünste), Überreden (Manipulieren, Schmeicheln) und Handel (Feilschen).",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Gutaussehend",
+    "apValue": -10,
+    "apText": "-10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Hitzeempfindlich",
+    "description": "Wesen, die den Nachteil Hitzeempfindlich haben, leiden stärker unter hohen Temperaturen.",
+    "rules": "Hitzestufen werden für den Helden um 1 Stufe erhöht, sobald er mindestens unter Hitzestufe 2 leidet.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Hitzeresistenz",
+    "apValue": -3
+  },
+  {
+    "name": "Kälteempfindlich",
+    "description": "Wesen, die den Nachteil Kälteempfindlich aufweisen, leiden stärker unter niedrigen Temperaturen.",
+    "rules": "Kältestufen werden für den Helden um 1 Stufe erhöht, sobald er mindestens unter Kältestufe 1 leidet.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Kälteresistenz",
+    "apValue": -3
+  },
+  {
+    "name": "Keine Flugsalbe",
+    "description": "Einigen Hexen ist es nicht vergönnt, an Hexennächten Flugsalbe zu erhalten oder die Fähigkeit zu erwerben, Flugsalbe zu brauen oder zu benutzen.",
+    "rules": "Der Held kann die Sonderfertigkeit Flugsalbe nicht erwerben. Dadurch wird die Sonderfertigkeit Tradition (Hexe) um 10 AP billiger.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer, Zauberertradition kann Sonderfertigkeit Flugsalbe wählen",
+    "apValue": -25
+  },
+  {
+    "name": "Kein Vertrauter",
+    "description": "Zwar kommt es nur selten vor, dass eine Hexe kein Vertrautentier an sich bindet, aber einigen Hexen ist es aus ungeklärten Umständen einfach nie vergönnt, eines zu bekommen. Diese Hexen gelten in der Regel als Außenseiter unter den Hexen.",
+    "rules": "Der Held kann die Sonderfertigkeit Vertrautenbindung nicht erwerben. Dadurch wird die Sonderfertigkeit Tradition (Hexe) um 10 AP billiger.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer, Zauberertradition kann Sonderfertigkeit Vertrautenbindung wählen",
+    "apValue": -25
+  },
+  {
+    "name": "Körpergebundene Kraft",
+    "description": "Im Haar des Zauberers ist ein Teil seiner magischen Kraft gebunden und er verfügt über einen ausgeprägten Haarwuchs. Der Nachteil ist vor allem bei Hexen und Elfen verbreitet.",
+    "rules": "Sobald der Held, aus welchem Grunde auch immer, einen Teil seiner Haarpracht einbüßt (z.B. durch Abschneiden, Feuer etc.; unabhängig von der Länge), verliert er sofort 10 Astralpunkte (bis zu einem Minimum von 0). Diese können normal regeneriert werden. Der normale menschliche Haarverlust zählt nicht als Verlust der Haarpracht.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer, Spezies des Zauberers muss über Haare verfügen",
+    "apValue": -5
+  },
+  {
+    "name": "Körperliche Auffälligkeit",
+    "description": "Der Held verfügt über eine körperliche Auffälligkeit, z.B. eine Hexensträhne, eine Warze auf der Nase, eine Hasenscharte oder einen kleinen Buckel.",
+    "rules": "Ein Held kann maximal zwei Körperliche Auffälligkeiten wählen. Die Körperliche Auffälligkeit zieht gelegentlich Erschwernisse auf Gesellschaftstalente aufgrund von Aberglauben oder Misstrauen nach sich.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -2
+  },
+  {
+    "name": "Krankheitsanfällig I-II",
+    "description": "Manche Personen können Krankheiten weniger gut widerstehen. Sie erkranken häufiger als andere Aventurier.",
+    "rules": "Eine Krankheitsanfälligkeit verschlechtert Zähigkeit und Seelenkraft um 1 pro Stufe, wenn es darum geht, Krankheiten zu widerstehen.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Krankheitsresistenz",
+    "apValue": -5,
+    "apText": "-5 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Lästige Mindergeister",
+    "description": "Mindergeister sind kleine Elementarwesen, die zwar nicht gefährlich sind, aber lästig werden können. Einige Zauberanwender ziehen beim Wirken ihrer Magie Mindergeister geradezu an.",
+    "rules": "Jedes Mal wenn der Zauberer Astralenergie ausgibt, würfelt er auf den W20. Ist das Ergebnis gleich oder kleiner der ausgegebenen Astralenergimenge, tauchen Mindergeister auf und belästigen den Zauberer. Außerdem sind alle Fertigkeitsproben wegen der Ablenkung um 1 erschwert. Die Mindergeister bleiben für 10 Minuten, ehe sie von selbst wieder verschwinden. Sind durch zu häufiges Zaubern mehrere Mindergeister erschienen, summieren sich die Erschwernis dennoch nicht auf.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer",
+    "apValue": -20
+  },
+  {
+    "name": "Lichtempfindlich",
+    "description": "Lichtempfindliche Personen erleiden Schmerzen, wenn Sonnenlicht ihre Haut berührt. Albinos leiden oft unter Lichtempfindlichkeit, aber es gibt auch andere Gründe.",
+    "rules": "Der Held erleidet eine Stufe Schmerz, sobald er Sonnenlicht ausgesetzt ist, das heller ist als Dämmerlicht. Diese Auswirkung lässt sich vermeiden, wenn der Betroffene seinen kompletten Körper inklusive der Augen verhüllt.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -20
+  },
+  {
+    "name": "Magische Einschränkung",
+    "description": "Anders als der Vorteil Magische Einstimmung bringt dieser Nachteil Erschwernisse für Proben auf magische Fertigkeiten. Immer wenn der Zauberer nicht in einer nicht hinderlichen Umgebung ist, erleidet er eine Erschwernis. Besonders häufig ist der Fluch der Nacht, der dafür sorgt, dass der Zauberer nur bei Nacht ungehindert zaubern kann.",
+    "rules": "In der Umgebung, für die der Nachteil gilt, hat der Zauberer bei magischen Fertigkeitsproben keine Erschwernisse, ansonsten eine von 1.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer",
+    "apValue": -30
+  },
+  {
+    "name": "Nachtblind",
+    "description": "Der Held hat große Schwierigkeiten, im Dunkeln die Umgebung wahrzunehmen.",
+    "rules": "Sobald der Held mindestens eine Stufe Sichterschwerniss durch Dunkelheit erleidet, wird diese Erschwernis für ihn um eine Stufe erhöht.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Dunkelsicht, kein Nachteil Blind",
+    "apValue": -10
+  },
+  {
+    "name": "Niedrige Astralkraft I-VII",
+    "description": "Der Körper des Helden kann weniger Astralenergie speichern als die anderer Zauberer.",
+    "rules": "Der AE-Grundwert sinkt durch diesen Nachteil um 1 Punkt pro Stufe des Nachteils.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer, kein Vorteil Hohe Astralkraft",
+    "apValue": -2,
+    "apText": "-2 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Niedrige Karmalkraft I-VII",
+    "description": "Der Körper des Helden kann weniger Karmaenergie speichern als die anderer Geweihter.",
+    "rules": "Der KE-Grundwert sinkt durch diesen Nachteil um 1 Punkt pro Stufe des Nachteils.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Geweihter, kein Vorteil Hohe Karmalkraft",
+    "apValue": -2,
+    "apText": "-2 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Niedrige Lebenskraft I-VII",
+    "description": "Der Held ist körperlich weniger zäh als andere Mitglieder seiner Spezies und verträgt weniger Schaden.",
+    "rules": "Der LE-Grundwert sinkt durch diesen Nachteil um 1 Punkt pro Stufe des Nachteils.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Hohe Lebenskraft",
+    "apValue": -4,
+    "apText": "-4 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Niedrige Seelenkraft",
+    "description": "Der Held ist empfindlicher gegen viele Zauber als andere Vertreter seiner Spezies.",
+    "rules": "Der SK-Grundwert des Helden ist um 1 schlechter.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Hohe Seelenkraft",
+    "apValue": -25
+  },
+  {
+    "name": "Niedrige Zähigkeit",
+    "description": "Der Held ist nicht so widerstandsfähig wie andere Vertreter seiner Spezies.",
+    "rules": "Der ZK-Grundwert des Helden ist um 1 schlechter.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Hohe Zähigkeit",
+    "apValue": -25
+  },
+  {
+    "name": "Pech I-III",
+    "description": "Nicht jeder Held ist mit besonders viel Glück ausgestattet. Einige Abenteurer haben sogar deutlich weniger Glück als ihre Kollegen.",
+    "rules": "Der Held startet pro Stufe des Nachteils mit 1 Schicksalspunkt weniger als üblich. Sein Maximum an Schicksalspunkten sinkt hierdurch um einen Punkt pro Stufe. Die Anzahl der Schicksalspunkte darf hierbei nicht unter 0 fallen.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Glück",
+    "apValue": -20,
+    "apText": "-20 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Pechmagnet",
+    "description": "Manch ein Held ist wahrlich vom Unglück verfolgt. Diese als Pechmagneten bekannten Personen sind in der Regel diejenigen, bei der zufälligen Bestimmung, wen es trifft, ganz oben auf der Liste des Schicksals stehen.",
+    "rules": "Bei jeder zufälligen Bestimmung des Meisters (Wer wird vom Pfeil getroffen? Wer stand von der Gruppe in der Nähe der Falle, als sie ausgelöst würde?) sind die Chancen bei einem Abenteurer mit diesem Nachteil mindestens doppelt so hoch wie die eines Helden ohne Pechmagnet.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -5
+  },
+  {
+    "name": "Persönlichkeitsschwäche",
+    "description": "Persönlichkeitsschwächen stellen extrem unangenehme Verhaltensweisen oder Angewohnheiten des Helden dar. Sie beeinträchtigen das Leben des Helden mit anderen Mitmenschen erheblich.",
+    "rules": "In passenden Situationen kann der Meister durchaus für die angegebenen Fertigkeiten eine Erschwernis von 1 aussprechen, wenn er dies für angemessen hält. Es dürfen bis zu zwei Persönlichkeitsschwächen pro Held gewählt werden.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 0,
+    "apText": "je nach Persönlichkeitsschwäche"
+  },
+  {
+    "name": "Prinzipientreue I-III",
+    "description": "Der Charakter folgt strengen moralischen oder religiösen Beschränkungen. Er wird stets versuchen, diese Prinzipien einzuhalten. Ein Brechen dieser Prinzipien kann unterschiedliche Auswirkungen haben.",
+    "rules": "Prinzipientreue gibt es in drei Stufen. Während die erste Stufe den Helden nur leicht einschränkt, ist die zweite Stufe schon fordernd, die letzte Stufe benachteiligt den Helden schwer. Ein Held kann mehreren Prinzipien folgen, er bekommt jedoch nur einmal Abenteuerpunkte für den Nachteil (und zwar für die höchste Prinzipientreunstufe). Wer gegen seine Prinzipien verstößt, erleidet eine Erschwernis von 1 auf alle Fertigkeitsproben. Dieser Zustand dauert mindestens eine Stunde an.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -10,
+    "apText": "-10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Schlafwandler",
+    "description": "Der Abenteurer ist ein Schlafwandler. Der Meister kann bestimmen, was während der Phase des Schlafwandelns geschieht.",
+    "rules": "Kein Held sollte mehr als einmal pro Woche schlafwandeln. Am Tag nach dem Schlafwandeln erhält der Held 24 Stunden lang eine Stufe des Zustands Betäubung durch die geringe Erholung in der Nacht. Die Regeneration ist für den Held in der Nacht, in der er schlafwandelt um 1 gesenkt.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -10
+  },
+  {
+    "name": "Schlechte Angewohnheit",
+    "description": "Die meisten Schlechten Angewohnheiten schaden dem Helden selten, sie sind lästig und störend, führen aber nur sehr selten zu unangenehmen Konsequenzen.",
+    "rules": "Ein Held kann so viele Schlechte Angewohnheiten wählen, wie er möchte, erhält hierdurch allerdings insgesamt maximal 6 AP. In seltenen Fällen kann der Meister auch Erschwernisse auf Gesellschaftstalente vergeben.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -2,
+    "apText": "-2 Abenteuerpunkte pro Schlechter Angewohnheit"
+  },
+  {
+    "name": "Schlechte Eigenschaft",
+    "description": "Viele Helden werden nicht nur von rationalen Motiven angetrieben. Sie sind beispielsweise gierig, abergläubisch oder jähzornig.",
+    "rules": "In jeder Situation, in der der Held mit einem potenziellen Auslöser seiner Schlechten Eigenschaft konfrontiert wird, muss er eine Probe auf Willenskraft bestehen, um sich zu beherrschen. Gelingt ihm diese Probe, ist alles in Ordnung, ansonsten muss er entsprechend der Schlechten Eigenschaft agieren. Es dürfen bis zu zwei Schlechte Eigenschaften pro Held gewählt werden.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 0,
+    "apText": "je nach Schlechter Eigenschaft"
+  },
+  {
+    "name": "Schlechte Regeneration (Astralenenergie) I-III",
+    "description": "Dieser Nachteil blockiert bei einem magischen Helden während einer Regenerationsphase die Rückgewinnung von Astralpunkten.",
+    "rules": "Für jede Stufe des Nachteils muss der Held beim Regenerationswurf 1 Punkt abziehen (bis zu einem Minimum von 0).",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer, kein Vorteil Verbesserte Regeneration (Astralenenergie)",
+    "apValue": -10,
+    "apText": "-10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Schlechte Regeneration (Karmaenergie) I-III",
+    "description": "Dieser Nachteil blockiert bei einem geweihten Helden während einer Regenerationsphase die Rückgewinnung von Karmapunkten.",
+    "rules": "Für jede Stufe des Nachteils muss der Held beim Regenerationswurf 1 Punkt abziehen (bis zu einem Minimum von 0).",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Geweihter, kein Vorteil Verbesserte Regeneration (Karmaenergie)",
+    "apValue": -10,
+    "apText": "-10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Schlechte Regeneration (Lebensenergie) I-III",
+    "description": "Dieser Nachteil blockiert bei einem Helden während einer Regenerationsphase die Rückgewinnung von Lebenspunkten.",
+    "rules": "Für jede Stufe des Nachteils muss der Held beim Regenerationswurf 1 Punkt abziehen (bis zu einem Minimum von 0).",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Verbesserte Regeneration (Lebensenergie)",
+    "apValue": -10,
+    "apText": "-10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Schwacher Astralkörper",
+    "description": "Der Körper des Zauberers ist ungeeignet als Sammelbecken magischer Kräfte.",
+    "rules": "Jedes Mal, wenn der Held Astralpunkte ausgibt, verliert er einen Astralpunkt zusätzlich.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer",
+    "apValue": -15
+  },
+  {
+    "name": "Schwacher Karmalkörper",
+    "description": "Der Körper des Geweihten ist ungeeignet als Sammelbecken karmaler Kräfte.",
+    "rules": "Jedes Mal, wenn der Held Karmapunkte ausgibt, verliert er einen Karmapunkt zusätzlich.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Geweihter",
+    "apValue": -15
+  },
+  {
+    "name": "Sensibler Geruchssinn",
+    "description": "Dieser Nachteil sorgt dafür, dass Gerüche, die beispielsweise von Fäulnis, Fäkalien und anderen übel riechenden Quellen erzeugt werden, Schwindel und Übelkeit verursachen.",
+    "rules": "Solange der Held dem Geruch ausgesetzt ist, erleidet er eine Stufe Verwirrung.",
+    "range": "",
+    "actions": "",
+    "requirements": "Spezies, Kultur oder Profession muss Sensibler Geruchssinn als automatischen oder empfohlenen Nachteil besitzen, kein Eingeschränkter Sinn (Geruch)",
+    "apValue": -10
+  },
+  {
+    "name": "Sprachfehler",
+    "description": "Ein Charakter mit diesem Nachteil lispelt, stottert oder leidet an einem anderen Sprachfehler.",
+    "rules": "Bei Gesellschaftstalenten (außer Menschenkenntnis und Willenskraft) und Handeln (Feilschen) kann er nach Meisterentscheid eine Erschwernis von 1 erhalten, wenn es darum geht, mit anderen Personen zu sprechen.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Stumm",
+    "apValue": -15
+  },
+  {
+    "name": "Stigma",
+    "description": "Von Geburt an, durch einen Unfall oder einen Fluch ist der Held mit einem Stigma ausgestattet. Dieses Zeichen kann unterschiedlichste Formen annehmen. Das Stigma kann dazu führen, dass Personen, mit denen der Held zu tun hat, sich ihm gegenüber ablehnend oder zurückweisend verhalten.",
+    "rules": "Der Meister kann eine Erschwernis von 1 auf Gesellschaftstalente (ausgenommen Einschüchtern, Menschenkenntnis und Willenskraft) und Handel (Feilschen) aussprechen, wenn er dies für angemessen hält. Ein Held kann den Nachteil nur einmal wählen.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -10
+  },
+  {
+    "name": "Stumm",
+    "description": "Der Held ist nicht in der Lage zu sprechen. Die Verständigung mit ihm ist schwierig, selbst wenn er die gemeinsame Sprache versteht.",
+    "rules": "Der Held kann sich in den meisten Fällen mit anderen Personen nicht verständigen (außer über Zeichensprache oder schriftlich). Der Einsatz von Zaubern und anderen Handlungen, die Sprache erfordern, ist unmöglich oder stark erschwert. Der Held erhält dauerhaft den Status Stumm.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Wohlklang, kein Vorteil Geborener Redner, kein Nachteil Sprachfehler",
+    "apValue": -40
+  },
+  {
+    "name": "Taub",
+    "description": "Der Held kann nichts hören. Er ist taub, entweder von Geburt an oder durch ein Ereignis in seinem Leben, das ihm das Hörvermögen genommen hat.",
+    "rules": "Der Held kann keine Probe auf Sinnesschärfe ablegen, die mit dem Hören zu tun haben. Er erhält den Status Taub.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Herausragender Sinn (Gehör)",
+    "apValue": -40
+  },
+  {
+    "name": "Unfähig",
+    "description": "Es gibt Personen, die sich in bestimmten Talenten als besonders unfähig erweisen.",
+    "rules": "Der Held muss bei einer Probe auf das Talent das beste Würfelergebnis einer Teilprobe neu würfeln. Das zweite Ergebnis ist bindend. Ein Abenteurer kann maximal zwei Unfähigkeiten besitzen.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Begabung auf das gleiche Talent, maximal 2 Unfähigkeiten",
+    "apValue": 0,
+    "apText": "A-/B-/C-/D-Talent: -1/-2/-3/-4 Abenteuerpunkte"
+  },
+  {
+    "name": "Unfrei",
+    "description": "Der Held ist ein Leibeigener oder Sklave. Er hat kaum oder keine Rechte in der Kultur, in der er leben muss. Er kann über Besitz verfügen, aber dieser ist stark reglementiert.",
+    "rules": "Der Held kann eine Erschwernis erhalten, wenn er als Unfreier Höhergestellte mit Gesellschaftstalenten überzeugen will. In seiner Kultur ist er zudem mit Unterdrückung zu kämpfen, genießt fast keinen rechtlichen Schutz und gilt als Besitz eines Höhergestellten.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -8
+  },
+  {
+    "name": "Verpflichtungen I-III",
+    "description": "Der Abenteurer ist gegenüber einer Gruppe, Organisation oder Einzelperson Verpflichtungen eingegangen. Dabei kann es sich beispielsweise um einen Lehrmeister, eine Kirche oder einen Orden handeln.",
+    "rules": "Der Held muss Anweisungen desjenigen befolgen, dem er verpflichtet ist, oder den Konsequenzen leben. Ein Held kann mehreren Institutionen oder Personen verpflichtet sein, er bekommt jedoch nur einmal Abenteuerpunkte für den Nachteil (und zwar für die höchste Verpflichtungsstufe).",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -10,
+    "apText": "-10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Verstümmelt",
+    "description": "Durch einen Kampf, Folter oder von Geburt an, ist der Held verkrüppelt oder verstümmelt. Die Auswirkungen sind unterschiedlich und hängen vom Körperteil ab. Verstümmelungen können nicht wieder rückgängig zu machen.",
+    "rules": "Viele Fertigkeitsproben können durch die Verstümmelung erschwert oder unmöglich sein. Die Entscheidung hierüber obliegt dem Meister je nach Situation.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 0,
+    "apText": "Einarmig: -30 Abenteuerpunkte; Einäugig: -10 Abenteuerpunkte; Einbeinig: -30 Abenteuerpunkte; Einhändig: -20 Abenteuerpunkte; Einohrig: -5 Abenteuerpunkte"
+  },
+  {
+    "name": "Wahrer Name",
+    "description": "Der Legende nach besitzt jedes Wesen (und zahlreiche Objekte) einen 'Wahren Namen'. Der Wahre Name muss der Person nicht bewusst sein, doch für einige Personen kann es ein Nachteil sein, wenn der Name in die falschen Hände gerät.",
+    "rules": "Wenn ein Zauberer einen Zauberspruch gegen ein Ziel einsetzt, dessen Wahren Namen er kennt (und über diesen Nachteil verfügt), verschlechtert sich die Seelenkraft und die Zähigkeit des Ziels um 4, womit es leichter zu verzaubern ist.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": -10
+  },
+  {
+    "name": "Wilde Magie",
+    "description": "Dem Zauberer unterlaufen häufiger Patzer beim Zaubern, da er nur eine chaotische Einsicht in die Matrix von Sprüchen oder Ritualen besitzt.",
+    "rules": "19er werden bei Fertigkeitsproben auf Zauber und Rituale in Hinsicht auf die Bestimmung eines Patzers wie eine 20 behandelt.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer",
+    "apValue": -10
+  },
+  {
+    "name": "Zauberanfällig I-II",
+    "description": "Einige Personen können Zaubern und anderen magischen Effekten weniger gut widerstehen.",
+    "rules": "Gegen Magie sind Seelenkraft und Zähigkeit um 1 pro Stufe schlechter als üblich.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Schwer zu verzaubern",
+    "apValue": -12,
+    "apText": "-12 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Zerbrechlich",
+    "description": "Manche Helden sind empfindlicher als andere. Sie besitzen ein höheres Schmerzempfinden, was sie bei Verletzungen stärker einschränkt.",
+    "rules": "Erschwernisse durch den Zustand Schmerz werden wie bei einer Stufe höher behandelt. Die Handlungsunfähigkeit tritt somit bereits bei Stufe III ein.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Vorteil Zäher Hund",
+    "apValue": -20
+  }
+]

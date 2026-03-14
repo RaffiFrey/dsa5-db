@@ -11,7 +11,9 @@ import {
   racesTable,
   generalSpecialAbilitiesTable,
   specialAbilityTalentRequirementsTable,
-  specialAbilityCombinedTalentRequirementsTable
+  specialAbilityCombinedTalentRequirementsTable,
+  advantagesTable,
+  disadvantagesTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -23,6 +25,8 @@ import statusData from "../../data/gameplay/status.json";
 import racesData from "../../data/characters/races.json";
 import talentsData from "../../data/characters/talents.json";
 import generalSpecialAbilitiesData from "../../data/gameplay/general_special_abilities.json";
+import advantagesData from "../../data/characters/advantages.json";
+import disadvantagesData from "../../data/characters/disadvantages.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -206,6 +210,38 @@ async function seed() {
       }
     }
   }
+
+  console.log("🌱 Seeding advantages...");
+  const advantageValues = advantagesData
+    .filter(entry => entry.name)
+    .map(entry => ({
+      name: entry.name,
+      description: entry.description,
+      rules: entry.rules,
+      range: entry.range || null,
+      actions: entry.actions || null,
+      requirements: entry.requirements || null,
+      apValue: entry.apValue,
+      apText: (entry as any).apText || null,
+    }));
+  entries += advantageValues.length;
+  await db.insert(advantagesTable).values(advantageValues);
+
+  console.log("🌱 Seeding disadvantages...");
+  const disadvantageValues = disadvantagesData
+    .filter(entry => entry.name)
+    .map(entry => ({
+      name: entry.name,
+      description: entry.description,
+      rules: entry.rules,
+      range: entry.range || null,
+      actions: entry.actions || null,
+      requirements: entry.requirements || null,
+      apValue: entry.apValue,
+      apText: (entry as any).apText || null,
+    }));
+  entries += disadvantageValues.length;
+  await db.insert(disadvantagesTable).values(disadvantageValues);
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);

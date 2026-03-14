@@ -1,0 +1,472 @@
+﻿[
+  {
+    "name": "Adel I-III",
+    "description": "Ein Held, der über diesen Vorteil verfügt, ist von adliger\nGeburt und in seiner Kultur angesehen und mit Privilegien\nausgestattet. Stufe I ist für Ritter und ähnlich niedrige\nAdlige gedacht, während Stufe zwei Niederadlige wie\nJunker und Edle symbolisiert. Die höchste Stufe hat\netwa den Einfluss eines mittelreichischen Baron. Bei\nden unterschiedlichen Kulturen können die Adelstitel\nverschiedene Bezeichnungen besitzen",
+    "rules": "Der Held ist angesehen, genießt die Privilegi\n-\nen des Adels und kann vom Meister Erleichterungen\nzugesprochen bekommen, wenn er gegenüber Rang\n-\nniedrigeren agiert.",
+    "range": "",
+    "actions": "",
+    "requirements": "Kultur muss über einen passenden\nAdel verfügen.",
+    "apValue": 5,
+    "apText": "5 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Altersresistenz",
+    "description": "Einige aventurische Wesen wie Elfen oder eigeborene\nHexen altern nicht wie gewöhnliche Sterbliche. Ein\nSpielcharakter mit Altersresistenz altert ab einem\nbestimmten Zeitpunkt nicht mehr körperlich. Bei den\nmeisten Spezies setzt das Alterungsende etwa zwischen\ndem 25. und 30. Lebensjahr ein.",
+    "rules": "Der Held ist immun gegen natürliche wie magische\nAlterungserscheinungen. Negative Auswirkungen des\nAlters werden bei ihm nicht berücksichtigt.",
+    "range": "",
+    "actions": "",
+    "requirements": "Spezies, Kultur oder Profession muss\nAltersresistenz als automatischen oder empfohlenen\nVorteil aufweisen, kein Nachteil Schnelle Alterung",
+    "apValue": 5
+  },
+  {
+    "name": "Angenehmer Geruch",
+    "description": "Personen mit diesem Vorteil verströmen einen wohlrie\n-\nchenden Duft, der vom Großteil der kulturschaffenden\nSpezies Deres als angenehm wahrgenommen wird. ",
+    "rules": "Fertigkeitsproben auf Betören (Anbändeln,\nLiebeskünste) sind um 1 erleichtert.",
+    "range": "1 Schritt Radius",
+    "actions": "",
+    "requirements": "",
+    "apValue": 6
+  },
+  {
+    "name": "Begabung",
+    "description": "Manche Aventurier sind in einer Fertigkeit besonders\ntalentiert und gelten darin als begabt. Ihnen unterlaufen\nselten Missgeschicke und ihre Leistungen sind deutlich\nbesser als bei anderen Anwender der Fertigkeit.",
+    "rules": "Ein begabter Abenteurer kann bei jeder Probe\nauf eine bestimmte Fertigkeit einen W20 neu würfeln.\nDer Spieler kann zunächst die 3W20 würfeln und sich eines der drei Ergebnisse aussuchen, dass er neu würfeln kann.\nEs gilt das bessere Ergebnis beider Würfe. Eine Begabung muss für jede Fertigkeit einzeln gewählt werden,\nalso zum Beispiel auf ein bestimmtes Talent, einen Zauber oder eine Liturgie. Man kann nicht mehrfach in einer\nFertigkeit begabt sein und somit zwei oder gar drei W20-\nWürfe in einer Probe wiederholen. Fällt eine Doppel-20\noder Dreifach-20 kann man diesen Vorteil nicht nutzen.\nEine Begabung kann nur für eine Fertigkeit, nicht aber für\neine Kampftechnik gewählt werden (dafür gibt es jedoch\nden Vorteil Waffenbegabung). Ein Einsatz von Schicksalspunkten ist vor oder nach dem Einsatz einer Begabung\nerlaubt (siehe Seite 29). Dadurch ist es möglich, mehrfach\nneu zu würfeln oder eine andere Wirkung der Schicksalspunkte mit der Begabung zu kombinieren.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Unfähig für diese\nFertigkeit, nicht mehr als drei Begabungen pro Person",
+    "apValue": 0,
+    "apText": "A-/B-/C-/D-Fertigkeit: 6/12/18/24\nAbenteuerpunkte"
+  },
+  {
+    "name": "Beidhändig",
+    "description": "Durch den Vorteil Beidhändig verfügt ein Held über die angeborene Fähigkeit, beide Hände gleich geschickt einzusetzen.",
+    "rules": "Der Held erleidet keine Erschwernisse bei Fertigkeitsproben, wenn er die falsche Hand benutzt. Im Kampf hebt der Vorteil alle Abzüge auf, die durch das Führen einer Waffe mit der falschen Hand anfallen (siehe Seite 238).",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 15
+  },
+  {
+    "name": "Dunkelsicht I-II (*)",
+    "description": "Es gibt Wesen auf Dere, die trotz wenig Licht beinahe so gut sehen können wie am Tag. Über Dunkelsicht verfügen vor allem nichtmenschliche Spezies wie Elfen, Zwerge, Orks und Goblins.",
+    "rules": "Auf Stufe I werden Erschwernisse durch Dunkelheit um eine Stufe gesenkt, auf Stufe II können alle Erschwernisse durch Dunkelheit ignoriert werden. Bei vollständiger Finsternis ist aber Dunkelsicht (egal ob Stufe I oder II) wirkungslos und es gelten die Abzüge für vollständige Finsternis.",
+    "range": "",
+    "actions": "",
+    "requirements": "Spezies, Kultur oder Profession muss Dunkelsicht als automatischen oder empfohlenen Vorteil aufweisen, kein Nachteil Nachtblind",
+    "apValue": 10,
+    "apText": "10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Eisenaffine Aura",
+    "description": "Einige Zauberer sind weniger empfindlich gegenüber Berührungen mit und dem Tragen von Metall.",
+    "rules": "Wer diesen Vorteil aufweist, erleidet durch den Bann des Eisens lediglich pro vollen 4 Stein Gewicht Erschwernisse, anstatt bereits bei 2 vollen Stein.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer",
+    "apValue": 15
+  },
+  {
+    "name": "Flink",
+    "description": "Flinke Personen sind deutlich gewandter als andere und können kurze Strecken in erstaunlich kurzer Zeit überwinden.",
+    "rules": "Durch Flink bekommt ein Held 1 Punkt auf seinen Geschwindigkeit-Grundwert hinzu.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Behäbig, Fettleibig oder Verstümmelt (Einbeinig)",
+    "apValue": 8
+  },
+  {
+    "name": "Fuchssinn",
+    "description": "Der Held spürt die Anwesenheit von Fallen, die außerhalb seiner normalen Sinne liegen. Dies könnten beispielsweise eine magische Truhenfalle oder ein verfluchter Gegenstand sein, aber auch mechanische Fallen, die er nicht mit seinen normalen fünf Sinnen bemerken kann.",
+    "rules": "Der Held kann Fallen erspüren, die mit den herkömmlichen Sinnen nicht entdeckt werden können. Durch den Vorteil wird das Anwendungsgebiet Fuchssinn im Talent Sinnesschärfe erworben.",
+    "range": "10 Schritt",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 15
+  },
+  {
+    "name": "Geborener Redner",
+    "description": "Der Held ist eine Inspiration und kann andere ausgezeichnet motivieren. Er ist ein geborener Demagoge und Redner.",
+    "rules": "Proben auf das Talent Bekehren & Überzeugen (öffentliche Rede) sind um 1 erleichtert.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Stumm",
+    "apValue": 4
+  },
+  {
+    "name": "Geweihter",
+    "description": "Nur wer sich weihen lässt und von seiner Gottheit akzeptiert wird, kann zu einem Geweihten werden, Karma erhalten und Liturgien wirken.",
+    "rules": "Der Geweihte erhält als Karmaenergie-Grundwert 20 KaP. Der Vorteil beinhaltet nicht die Sonderfertigkeit Tradition. Diese muss einzeln erworben werden. Jeder Geweihte muss mit einer Tradition starten. Ein Held kann im späteren Verlauf seines Lebens diesen Vorteil erwerben und Geweihter werden. Allerdings kann man nur eine geweihte Tradition besitzen. Ein Erwerb einer weiteren geweihten Tradition ist nicht möglich.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 25
+  },
+  {
+    "name": "Giftresistenz I-II",
+    "description": "Von Geburt an oder durch eine Gewöhnung ist der Held gegen Gifte resistenter als üblich.",
+    "rules": "Eine Giftresistenz verbessert Zähigkeit und Seelenkraft um 1 pro Stufe, wenn es darum geht, Giften zu widerstehen.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Giftanfällig",
+    "apValue": 10,
+    "apText": "10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Glück I-III",
+    "description": "Manche Abenteurer scheinen aus jeder noch so gefährlichen Lage mit heiler Haut davonzukommen. Aus irgendeinem Grund hat der Held in den entscheidenden Momenten noch das Quäntchen Glück, das er braucht, um Herr der Lage zu werden.",
+    "rules": "Das für den Helden erreichbare Maximum an Schicksalspunkten steigt hierdurch um 1 je Stufe und der Held erhält diesen Schip gleich zu Spielbeginn zu seinem Vorrat.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Pech",
+    "apValue": 30,
+    "apText": "30 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Gutaussehend I-II",
+    "description": "Der Held ist im Vergleich zu anderen Angehörigen seiner Spezies besonders anmutig und wirkt auf die meisten kulturschaffenden Wesen anziehend.",
+    "rules": "Jede Stufe des Vorteils gibt dem Helden eine Erleichterung von 1 auf Betören (Anbändeln, Liebeskünste), Überreden (Aufschwatzen, Herausreden, Manipulieren, Schmeicheln) und Handel (Feilschen).",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Hässlich",
+    "apValue": 20,
+    "apText": "20 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Entfernungssinn",
+    "description": "Mithilfe dieses Vorteils kann ein Charakter Entfernungen gut einschätzen und bis auf einen halben Schritt genau sagen, wie weit ein Objekt von ihm entfernt ist.",
+    "rules": "Proben auf Fernkampf mit Schusswaffen (und nur mit Schusswaffen) sind bei der Entfernungskategorie Weit nur um 1 anstatt um 2 erschwert.",
+    "range": "200 Schritt, darüber hinaus sind Distanzschätzungen ungenauer",
+    "actions": "",
+    "requirements": "kein Nachteil Blind, Eingeschränkter Sinn (Sicht), Farbenblind oder Verstümmelt (Einäugig)",
+    "apValue": 10
+  },
+  {
+    "name": "Herausragende Fertigkeit",
+    "description": "In einer bestimmten Fertigkeit (Talent, Zauber, Liturgie) ist der Held ganz besonders gut und besser als der Durchschnitt.",
+    "rules": "Durch den Vorteil Herausragende Fertigkeit verschiebt sich das Maximum in einer Fertigkeit um 1 nach oben, sowohl beim Maximum der Heldenerschaffung als auch beim endgültigen Maximum (abhängig von der höchsten beteiligten Eigenschaft). Der Vorteil kann bis zu viermal gewählt werden, wobei jede Fertigkeit nicht mehr als zweimal gewählt werden kann. Bei zweifacher Zuteilung auf eine Fertigkeit erhöht der Vorteil das Maximum um 2.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Unfähig in der Fertigkeit",
+    "apValue": 0,
+    "apText": "A-/B-/C-/D-Fertigkeit: 2/4/6/8 Abenteuerpunkte pro Anwendung"
+  },
+  {
+    "name": "Herausragende Kampftechnik",
+    "description": "In einer bestimmten Kampftechnik ist der Held ganz besonders gut und besser als der Durchschnitt.",
+    "rules": "Durch den Vorteil Herausragende Kampftechnik verschiebt sich das Maximum in einer Kampftechnik um 1 nach oben, sowohl beim Maximum der Heldenerschaffung als auch beim endgültigen Maximum (abhängig von der Leiteigenschaft). Der Vorteil kann bis zu zweimal gewählt werden, wobei jede Kampftechnik nur einmal gewählt werden kann.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 0,
+    "apText": "B-/C-/D-Kampftechnik: 8/12/16 Abenteuerpunkte"
+  },
+  {
+    "name": "Herausragender Sinn",
+    "description": "Von Geburt an oder durch eine Entwicklung im Laufe seines Lebens ist ein körperlicher Sinn des Helden extrem gut ausgeprägt. Gerade bei Nichtmenschen wie den Elfen kommt es häufig vor, dass ihre Sinne die der Menschen übertreffen.",
+    "rules": "Wer über einen Herausragenden Sinn verfügt, dessen Proben auf Sinnesschärfe sind um 1 erleichtert, wenn die Probe den entsprechenden Sinn betrifft. Folgende Sinne können gewählt werden: Sicht, Gehör, Geruch & Geschmack, Tastsinn. Herausragender Sinn ist mehrfach für die verschiedenen Sinne wählbar, nicht aber für einen einzelnen.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Eingeschränkter Sinn für den gleichen Sinn, kein Nachteil Blind (für Sicht), kein Nachteil Taub (für Gehör)",
+    "apValue": 0,
+    "apText": "Sicht/Gehör: 12 Abenteuerpunkte; Geruch & Geschmack: 6 Abenteuerpunkte; Tastsinn: 2 Abenteuerpunkte"
+  },
+  {
+    "name": "Hitzeresistenz",
+    "description": "Helden, die über Hitzeresistenz verfügen, leiden weniger unter großer Hitze. Sie sind es z.B. gewohnt, in der Wüste oder im schwülwarmen Dschungel unterwegs zu sein.",
+    "rules": "Hitzestufen werden für den Helden um 1 Stufe reduziert, bis zu einem Minimum von Hitzestufe 1.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Hitzeempfindlich",
+    "apValue": 5
+  },
+  {
+    "name": "Hohe Astralkraft I-VII",
+    "description": "Der Held kann mehr Astralenergie aufnehmen als ein durchschnittlicher Zauberer.",
+    "rules": "Der AE-Grundwert steigt durch diesen Vorteil um 1 Punkt pro Stufe des Vorteils.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer, kein Nachteil Niedrige Astralkraft",
+    "apValue": 6,
+    "apText": "6 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Hohe Karmalkraft I-VII",
+    "description": "Der Held kann mehr Karmaenergie auf sich vereinen als ein durchschnittlicher Geweihter.",
+    "rules": "Der KE-Grundwert steigt durch diesen Vorteil um 1 Punkt pro Stufe des Vorteils.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Geweihter, kein Nachteil Niedrige Karmalkraft",
+    "apValue": 6,
+    "apText": "6 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Hohe Lebenskraft I-VII",
+    "description": "Der Held ist zäh und robust. Er kann deutlich mehr einstecken als ein durchschnittlicher Aventurier.",
+    "rules": "Der LE-Grundwert steigt durch diesen Vorteil um 1 Punkt pro Stufe des Vorteils.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Niedrige Lebenskraft",
+    "apValue": 6,
+    "apText": "6 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Hohe Seelenkraft",
+    "description": "Der Wille des Helden ist nur mit Anstrengung zu brechen, Zauber und Liturgien können ihn schwerer beeinflussen.",
+    "rules": "Der SK-Grundwert des Helden ist um 1 besser.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Niedrige Seelenkraft",
+    "apValue": 25
+  },
+  {
+    "name": "Hohe Zähigkeit",
+    "description": "Gifte, Krankheiten und andere Dinge, die den Körper des Helden negativ beeinflussen, zeigen seltener Wirkung gegen ihn.",
+    "rules": "Der ZK-Grundwert des Helden ist um 1 besser.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Niedrige Zähigkeit",
+    "apValue": 25
+  },
+  {
+    "name": "Immunität gegen (Gift)",
+    "description": "Der Held ist von Geburt an oder durch eine Immunisierung vollständig immun gegen ein bestimmtes Gift.",
+    "rules": "Wer immun gegen ein bestimmtes Gift ist, auf den hat dieses Gift keinerlei Wirkung. Eine Immunität muss für jedes Gift einzeln erworben werden.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 0,
+    "apText": "halbe Giftstufe in Abenteuerpunkten"
+  },
+  {
+    "name": "Immunität gegen (Krankheit)",
+    "description": "Der Held ist von Geburt an oder durch eine Immunisierung vollständig immun gegen eine bestimmte Krankheit.",
+    "rules": "Wer immun gegen eine bestimmte Krankheit ist, kann nicht an ihr erkranken. Eine Immunität muss für jede Krankheit einzeln erworben werden.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 0,
+    "apText": "halbe Krankheitsstufe in Abenteuerpunkten"
+  },
+  {
+    "name": "Kälteresistenz",
+    "description": "Helden, die über Kälteresistenz verfügen, leiden weniger unter großer Kälte.",
+    "rules": "Kältestufen werden für den Helden um 1 Stufe reduziert, bis zu einem Minimum von 0.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Kälteempfindlich",
+    "apValue": 5
+  },
+  {
+    "name": "Krankheitsresistenz I-II",
+    "description": "Ein Abenteurer, der krankheitsresistent ist, wird seltener schwer krank, da er über ein gutes Immunsystem verfügt.",
+    "rules": "Eine Krankheitsresistenz verbessert Zähigkeit und Seelenkraft um 1 pro Stufe, wenn es darum geht, Krankheiten zu widerstehen.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Krankheitsanfällig",
+    "apValue": 10,
+    "apText": "10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Magische Einstimmung",
+    "description": "Es gibt Zauberer, die sich in einer bestimmten Umgebung oder Situation besonders wohlfühlen. Am häufigsten sind sicherlich die Wesen der Nacht, die während der Nachtstunden ihr größtes Potenzial entwickeln.",
+    "rules": "Man muss sich für eine Variante des Vorteils entscheiden. In der betreffenden Umgebung oder Situation, für die der Vorteil gewählt wurde, hat der Zauberer bei magischen Fertigkeitsproben eine Erleichterung von 1.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer, kein Nachteil Magische Einschränkung auf die gleiche Umgebung",
+    "apValue": 40
+  },
+  {
+    "name": "Mystiker",
+    "description": "Unter den Geweihten gibt es zahlreiche Priester, die einer spirituellen und mystischen Tradition folgen. Diese bevorzugen es, sich länger in selbst gewählte Entrückung zu begeben.",
+    "rules": "Bei einem Mystiker baut sich Entrückung erst nach zwei Stunden statt einer Stunde pro Stufe ab.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Geweihter, kein Vorteil Pragmatiker",
+    "apValue": 20
+  },
+  {
+    "name": "Nichtschläfer",
+    "description": "Einige Wesen können sehr lange ohne Schlaf auskommen. Vor allem Elfen sind dafür bekannt, tagelang wach zu sein, ohne Erschöpfungserscheinungen zu zeigen.",
+    "rules": "Ein Wesen mit diesem Vorteil muss nicht regelmäßig schlafen, sondern kann bis zu einer Woche wach bleiben, ohne zu ermüden. Der Schlaf muss aber anschließend nachgeholt werden, was bei einigen Spezies durch echten Schlaf, bei anderen durch Meditation oder vergleichbare Techniken erreicht wird. Während der Zeit, in der der Nichtschläfer nicht schläft, kann er auch nicht durch Ausruhen und Schlafen regenerieren.",
+    "range": "",
+    "actions": "",
+    "requirements": "Spezies, Kultur oder Profession muss Nichtschläfer als automatischen oder empfohlenen Vorteil besitzen",
+    "apValue": 8
+  },
+  {
+    "name": "Pragmatiker",
+    "description": "Unter den Geweihten gibt es Priester, die sich mehr weltlichen als spirituellen Angelegenheiten zuwenden und seltener entrückt sind.",
+    "rules": "Bei einem Pragmatiker baut sich Entrückung bereits nach einer halben Stunde statt einer Stunde pro Stufe ab.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Geweihter, kein Vorteil Mystiker",
+    "apValue": 10
+  },
+  {
+    "name": "Reich I-X",
+    "description": "Reiche Helden verfügen über weit mehr Geld für den Erwerb von Ausrüstung. Sie können Kinder von Patrizieren sein oder sind aus anderen Gründen zu Wohlstand gekommen.",
+    "rules": "Durch den Vorteil Reich erhält ein Held bei der Generierung zusätzlich 250 Silbertaler pro Stufe.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Arm",
+    "apValue": 1,
+    "apText": "1 Abenteuerpunkt pro Stufe"
+  },
+  {
+    "name": "Richtungssinn",
+    "description": "Mittels dieses inneren Kompasses haben Helden ein Gefühl für die Himmelsrichtung – egal ob sie sich in einem Wald, einem Gebäude oder einer unterirdischen Anlage aufhalten.",
+    "rules": "Proben auf Orientierung sind immer um 1 erleichtert.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine Nachteil Unfähig in Orientierung",
+    "apValue": 10
+  },
+  {
+    "name": "Schlangenmensch",
+    "description": "Schlangenmenschen sind dazu in der Lage, ihren Körper extrem zu verbiegen und können sich so beispielsweise durch enge Öffnungen hindurchzwängen und sich leichter aus Fesseln befreien. Außerdem sind sie generell beweglicher als andere Menschen.",
+    "rules": "Proben auf Körperbeherrschung (Akrobatik, Entwinden) sind um 1 erleichtert.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 6
+  },
+  {
+    "name": "Schwer zu verzaubern",
+    "description": "Durch ungeklärte Umstände ist der Held besonders resistent gegen Magie. Dieser Vorteil ist besonders bei Zwergen anzutreffen, denen man eine ungewöhnlich hohe Resistenz gegenüber Magie nachsagt.",
+    "rules": "Viele Zauber, die auf den Helden gesprochen werden können, die auf ihn wirken, sind um 1 erschwert. Dies gilt für alle Zauber und magischen Effekte mit den Merkmalen Einfluss, Heilung, Hellsicht und Verwandlung sowie für solche, die durch Seelenkraft oder Zähigkeit modifiziert werden.",
+    "range": "",
+    "actions": "",
+    "requirements": "Spezies, Kultur oder Profession muss Schwer zu verzaubern als automatischen oder empfohlenen Vorteil besitzen",
+    "apValue": 15
+  },
+  {
+    "name": "Soziale Anpassungsfähigkeit",
+    "description": "Manche Helden besitzen eine angeborene Fähigkeit, sich in jedem sozialen Umfeld gleich gut zu bewegen.",
+    "rules": "Personen mit Sozialer Anpassungsfähigkeit können Erschwernisse auf Gesellschaftstalente ignorieren, die durch Standesunterschiede entstehen. Die Soziale Anpassungsfähigkeit täuscht aber keine Personen des Hochadels.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Unfähig auf ein Gesellschaftstalent, kein Nachteil Unfrei",
+    "apValue": 10
+  },
+  {
+    "name": "Unscheinbar",
+    "description": "Einige Personen erscheinen so unscheinbar, dass sie in Menschenmengen leicht untertauchen können.",
+    "rules": "Helden mit diesem Vorteil erhalten eine Erleichterung von 1 auf Gassenwissen (Beschatten).",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 4
+  },
+  {
+    "name": "Verbesserte Regeneration (Astralenenergie) I-III",
+    "description": "Dieser Vorteil verhilft einem magischen Helden während einer Regenerationsphase zu mehr Astralpunkten.",
+    "rules": "Für jede Stufe des Vorteils bekommt der Held 1 zusätzlichen Punkt dazu, wenn er regeneriert.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer, kein Nachteil Schlechte Regeneration (Astralenenergie)",
+    "apValue": 10,
+    "apText": "10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Verbesserte Regeneration (Karmaenergie) I-III",
+    "description": "Dieser Vorteil verhilft einem geweihten Helden während einer Regenerationsphase zu mehr Karmapunkten.",
+    "rules": "Für jede Stufe des Vorteils bekommt der Held 1 zusätzlichen Punkt dazu, wenn er regeneriert.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Geweihter, kein Nachteil Schlechte Regeneration (Karmaenergie)",
+    "apValue": 10,
+    "apText": "10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Verbesserte Regeneration (Lebensenergie) I-III",
+    "description": "Dieser Vorteil verhilft einem Helden während einer Regenerationsphase zu mehr Lebenspunkten.",
+    "rules": "Für jede Stufe des Vorteils bekommt der Held 1 zusätzlichen Punkt dazu, wenn er regeneriert.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Schlechte Regeneration (Lebensenergie)",
+    "apValue": 10,
+    "apText": "10 Abenteuerpunkte pro Stufe"
+  },
+  {
+    "name": "Verhüllte Aura",
+    "description": "Ein Zauberer kann sich mit diesem Vorteil besser davor schützen, als Zauberkundiger wahrgenommen zu werden. Insbesondere Hexen sind oft mit dieser Gabe gesegnet.",
+    "rules": "Bei ungerichteter magischer Wahrnehmung erscheint der Zauberkundige immer als nicht magisch. Wer gezielt versucht, den Zauberkundigen zu entdecken oder zu analysieren, muss eine Erschwernis von 3 hinnehmen.",
+    "range": "",
+    "actions": "",
+    "requirements": "Vorteil Zauberer",
+    "apValue": 20
+  },
+  {
+    "name": "Vertrauenerweckend",
+    "description": "Ein Abenteurer mit diesem Vorteil wirkt auf die meisten kulturschaffenden Wesen vertrauenswürdig.",
+    "rules": "Proben auf Bekehren & Überzeugen (öffentliche Rede, Einzelgespräch, Diskussionsführung), Überreden (Betteln, Manipulieren, Schmeicheln) und Handel (Feilschen) sind um 1 erleichtert.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Unfähig in einem Gesellschaftstalent",
+    "apValue": 25
+  },
+  {
+    "name": "Waffenbegabung",
+    "description": "Helden mit einer Waffenbegabung sind ausgesprochen talentiert im Umgang mit Waffen. Ihnen unterlaufen nur in den seltensten Fällen Missgeschicke.",
+    "rules": "Eine Waffenbegabung erlaubt bei Kritischen Erfolgen und Patzern bei einer Probe auf eine Kampftechnik eine Wiederholung des Bestätigungswurfs.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 0,
+    "apText": "B-/C-/D-Kampftechnik: 5/10/15 Abenteuerpunkte"
+  },
+  {
+    "name": "Wohlklang",
+    "description": "Der Abenteurer verfügt über eine Stimme, die sich für die meisten kulturschaffenden Wesen angenehm anhört.",
+    "rules": "Fertigkeitsproben auf Singen sind um 1 erleichtert.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Stumm",
+    "apValue": 5
+  },
+  {
+    "name": "Zäher Hund",
+    "description": "Durch diesen Vorteil erlangt der Held eine beeindruckende Widerstandsfähigkeit gegenüber Verletzungen bzw. Schmerzen.",
+    "rules": "Dieser Vorteil sorgt dafür, dass der Held die Auswirkungen der höchsten Stufe des Zustands Schmerz ignorieren darf. Er erleidet lediglich die Auswirkungen der nächstniedrigeren Stufe. Schmerz Stufe I wird so behandelt, als hätte der Held keine Stufe Schmerz.",
+    "range": "",
+    "actions": "",
+    "requirements": "kein Nachteil Zerbrechlich",
+    "apValue": 20
+  },
+  {
+    "name": "Zeitgefühl",
+    "description": "Manche Aventurier verfügen über eine innere Uhr, die ihnen genau sagt, wie die aktuelle Tageszeit ist, auch wenn sie keine Anhaltspunkte wie den Sonnenstand haben.",
+    "rules": "Der Charakter hat ein ausgezeichnetes Zeitgefühl und kann, ohne den Stand der Sonne zu sehen oder auf andere Hilfsmittel zurückzugreifen, die Tageszeit genau bestimmen.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 2
+  },
+  {
+    "name": "Zweistimmiger Gesang",
+    "description": "Der Zweistimmige Gesang ist eine Fähigkeit, die Elfen besitzen und die es ihnen erlaubt, Elfenlieder zu singen. Der Klang der Stimme hört sich so an, als habe der Elf eine zweite Stimme, die sich mit der ersten vermischt.",
+    "rules": "Ein Held kann den Zweistimmigen Gesang singen und hat somit die Möglichkeit, Elfenlieder zu erlernen. Durch den Vorteil erwirbt der Held das Anwendungsgebiet Zweistimmiger Gesang im Talent Singen.",
+    "range": "",
+    "actions": "",
+    "requirements": "Spezies, Kultur oder Profession muss Zweistimmiger Gesang als automatischen oder empfohlenen Vorteil besitzen",
+    "apValue": 5
+  },
+  {
+    "name": "Zwergennase",
+    "description": "Zwergennase ist ein übernatürlicher Instinkt, der einem Helden die Lage von geheimen Türen, Zugängen oder Hohlräumen verrät. Auch wenn der Vorteil bei Zwergen am häufigsten vorkommt, können andere Spezies ebenso Zwergennase wählen.",
+    "rules": "Der Abenteurer erhält bei Proben auf Sinnesschärfe zur Entdeckung von Geheimtüren, Hohlräumen, versteckten Schubladen und Ähnlichem eine Erleichterung von 1.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 8
+  },
+  {
+    "name": "Zauberer",
+    "description": "Auf Dere muss man mit der Gabe der Magie geboren werden. Nur wer diesen Vorteil wählt, erhält Astralenergie und besitzt die grundlegende Befähigung, Zaubersprüche anwenden und magische Handlungen durchführen zu können.",
+    "rules": "Der Zauberer erhält als Astralenergie-Grundwert 20 AsP. Der Vorteil beinhaltet nicht die Sonderfertigkeit Tradition. Diese muss einzeln erworben werden. Jeder Zauberer muss mit einer Tradition starten. Dieser Vorteil lässt sich im späteren Spielverlauf nicht mehr erwerben.",
+    "range": "",
+    "actions": "",
+    "requirements": "keine",
+    "apValue": 25
+  }
+]
