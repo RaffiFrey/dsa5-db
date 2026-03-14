@@ -25,6 +25,7 @@ import {
   witchCursesTable,
   witchSpecialAbilitiesTable,
   elvenSongsTable,
+  cantripsTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -46,6 +47,7 @@ import familiarTricksData from "../../data/magic/familiar_tricks.json";
 import witchCursesData from "../../data/magic/witch_curses.json";
 import witchSpecialAbilitiesData from "../../data/magic/witch_special_abilities.json";
 import elvenSongsData from "../../data/magic/elven_songs.json";
+import cantripsData from "../../data/magic/cantrips.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -55,6 +57,7 @@ async function seed() {
   console.log("🗑️  Truncating all tables...");
   await db.execute(sql`
     TRUNCATE TABLE
+      cantrips,  
       elven_songs,
       witch_special_abilities,
       witch_curses,
@@ -518,6 +521,22 @@ async function seed() {
   });
   entries += elvenSongValues.length;
   await db.insert(elvenSongsTable).values(elvenSongValues);
+
+  console.log("🌱 Seeding cantrips...")
+  const cantripValues = cantripsData.map(entry => {
+    const propertyId = magicPropertyMap.get(entry.property);
+    return {
+      name: entry.name,
+      effect: entry.effect,
+      range: entry.range,
+      duration: entry.duration,
+      targetCategory: entry.targetCategory,
+      propertyId: propertyId!,
+      apValue: entry.apValue,
+    }
+  });
+  entries += cantripValues.length;
+  await db.insert(cantripsTable).values(cantripValues);
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);

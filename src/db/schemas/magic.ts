@@ -59,6 +59,19 @@ export const witchSpecialAbilitiesTable = pgTable("witch_special_abilities", {
   apValue: integer().notNull(),
 });
 
+export const cantripsTable = pgTable("cantrips", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  name: varchar({ length: 255 }).notNull(),
+  effect: text().notNull(),
+  range: text().notNull(),
+  duration: text().notNull(),
+  targetCategory: text("target_category").notNull(),
+  propertyId: integer("property_id")
+    .notNull()
+    .references(() => magicPropertiesTable.id, { onDelete: "restrict" }),
+  apValue: integer("ap_value").notNull(),
+});
+
 export const elvenSongsTable = pgTable("elven_songs", {
   id: integer().primaryKey().generatedByDefaultAsIdentity(),
   name: varchar({ length: 255 }).notNull(),

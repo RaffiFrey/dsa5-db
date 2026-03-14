@@ -1,0 +1,110 @@
+﻿[
+  {
+    "name": "Abkühlung",
+    "effect": "Der Zauberer senkt die Temperatur einer kleinen Menge Flüssigkeit (maximal ein Becher voll) um bis zu 10 Grad.",
+    "range": "Berührung",
+    "duration": "sofort",
+    "targetCategory": "Objekt",
+    "property": "Elementar",
+    "apValue": 1
+  },
+  {
+    "name": "Bauchreden",
+    "effect": "Ein einzelnes Wort oder ein anderes kurzes, nicht allzu lautes Geräusch nach Wahl erklingt bis zu 8 Schritt entfernt vom Zaubernden.",
+    "range": "8 Schritt",
+    "duration": "1 Aktion",
+    "targetCategory": "Zone",
+    "property": "Illusion",
+    "apValue": 1
+  },
+  {
+    "name": "Duft",
+    "effect": "Der Zauberer riecht für etwa 5 Minuten nach einem Parfüm oder einem anderen für ihn angenehmen Geruch.",
+    "range": "selbst",
+    "duration": "5 Minuten",
+    "targetCategory": "Kulturschaffende",
+    "property": "Illusion",
+    "apValue": 1
+  },
+  {
+    "name": "Feuerfinger",
+    "effect": "Eine kleine Flamme entsteht etwa einen Zentimeter über einem Finger des Zaubernden. Sie brennt bis zu 5 Minuten. Der Zaubertrick schützt die Hand nicht vor der Hitze der Flamme.",
+    "range": "selbst",
+    "duration": "5 Minuten",
+    "targetCategory": "Kulturschaffende",
+    "property": "Elementar",
+    "apValue": 1
+  },
+  {
+    "name": "Glücksgriff",
+    "effect": "Der Zaubernde kann aus einer überschaubaren Menge Objekte das gewünschte herausgreifen. Er kann aus einem Kartenstapel eine bestimmte Karte ziehen, aus einem Beutel eine gewünschte Münze oder von einem Schlüsselbund den richtigen Schlüssel. Er muss dazu das gewünschte Objekt kennen und dieses muss auch wirklich an dem Ort vorhanden sein.",
+    "range": "selbst",
+    "duration": "sofort",
+    "targetCategory": "Objekt",
+    "property": "Hellsicht",
+    "apValue": 1
+  },
+  {
+    "name": "Handwärmer",
+    "effect": "Dieser Zaubertrick hält die Temperatur eines maximal faustgroßen Objektes konstant, so lange es in der Hand gehalten wird, maximal jedoch 5 Minuten.",
+    "range": "Berührung",
+    "duration": "5 Minuten",
+    "targetCategory": "Objekt",
+    "property": "Elementar",
+    "apValue": 1
+  },
+  {
+    "name": "Lockruf",
+    "effect": "Ein kleines Tier (Eichhörnchen, Taube) kommt neugierig auf den Zaubernden zu. Die Wirkung hält 5 Minuten an.",
+    "range": "4 Schritt",
+    "duration": "5 Minuten",
+    "targetCategory": "Tiere",
+    "property": "Einfluss",
+    "apValue": 1
+  },
+  {
+    "name": "Regenbogenaugen",
+    "effect": "Die Augenfarbe des Zaubernden ändert sich für 5 Minuten. Es sind unnatürliche Farben möglich.",
+    "range": "selbst",
+    "duration": "5 Minuten",
+    "targetCategory": "Kulturschaffende",
+    "property": "Illusion",
+    "apValue": 1
+  },
+  {
+    "name": "Schlangenhände",
+    "effect": "Die Hand- und Fingerknochen des Zaubernden werden sehr flexibel, sodass sie durch enge Öffnungen gezwängt werden können. Die Wirkung hält 5 Minuten an.",
+    "range": "selbst",
+    "duration": "5 Minuten",
+    "targetCategory": "Kulturschaffende",
+    "property": "Verwandlung",
+    "apValue": 1
+  },
+  {
+    "name": "Schnipsen",
+    "effect": "Eine kurze telekinetische Entladung mit einer Reichweite von 4 Schritt, die beispielsweise eine Münze von einem Tisch fegen kann. Sie ist nicht stark genug, um eine Glasflasche zu zerbrechen, genügt aber für eine Ohrfeige.",
+    "range": "4 Schritt",
+    "duration": "sofort",
+    "targetCategory": "Objekt und Wesen",
+    "property": "Telekinese",
+    "apValue": 1
+  },
+  {
+    "name": "Signatur",
+    "effect": "Auf einem leblosen Objekt nach Wahl des Zaubernden erscheint eine Glyphe oder ein Symbol und verbleibt dauerhaft. Der Zaubernde muss das Objekt berühren. Das Symbol wirkt wie gemalt und kann weggeputzt werden. Mittels dieses Tricks kann man jeweils nur eine Art von Zeichen auftauchen lassen (z.B. ein Piktogramm).",
+    "range": "Berührung",
+    "duration": "dauerhaft",
+    "targetCategory": "Objekt",
+    "property": "Objekt",
+    "apValue": 1
+  },
+  {
+    "name": "Trocken",
+    "effect": "Der Zaubernde und seine Kleidung sind etwa 5 Minuten vor Nässe, beispielsweise durch Regen oder Schnee, geschützt. Nasse Kleidung wird durch den Trick nicht wieder trocken.",
+    "range": "selbst",
+    "duration": "5 Minuten",
+    "targetCategory": "Objekt und Kulturschaffende",
+    "property": "Elementar",
+    "apValue": 1
+  }
+]
