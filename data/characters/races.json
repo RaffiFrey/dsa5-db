@@ -1,0 +1,46 @@
+﻿[
+  {
+    "name": "Human",
+    "LE": 5,
+    "SK": -5,
+    "ZK": -5,
+    "GS": 8,
+    "attribute": "eine beliebige +1",
+    "advantages": [],
+    "disadvantages": [],
+    "apCost": 0
+  },
+  {
+    "name": "Elf",
+    "LE": 2,
+    "SK": -4,
+    "ZK": -6,
+    "GS": 8,
+    "attribute": "IN und GE +1; KL oder KK -2",
+    "advantages": ["Zauberer", "Zweistimmiger Gesang"],
+    "disadvantages": [],
+    "apCost": 18
+  },
+  {
+    "name": "Halfelf",
+    "LE": 5,
+    "SK": -4,
+    "ZK": -6,
+    "GS": 8,
+    "attribute": "eine beliebige +1",
+    "advantages": [],
+    "disadvantages": [],
+    "apCost": 0
+  },
+  {
+    "name": "Dwarf",
+    "LE": 8,
+    "SK": -4,
+    "ZK": -6,
+    "GS": 6,
+    "attribute": "KO und KK +1; CH oder GE -2",
+    "advantages": [],
+    "disadvantages": [],
+    "apCost": 61
+  }
+]
