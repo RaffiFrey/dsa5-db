@@ -19,7 +19,8 @@ import {
   cultureAdvantagesTable,
   cultureDisadvantagesTable,
   combatSpecialAbilitiesTable,
-  magicPropertiesTable
+  magicPropertiesTable,
+  staffSpellsTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -36,14 +37,40 @@ import disadvantagesData from "../../data/characters/disadvantages.json";
 import culturesData from "../../data/characters/cultures.json";
 import combatSpecialAbilitiesData from "../../data/gameplay/combat_special_abilities.json";
 import magicPropertiesData from "../../data/magic/magic_properties.json";
+import staffSpellsData from "../../data/magic/staff_spells.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
 async function seed() {
 
   console.log("🌱 Seeding database");
+  console.log("🗑️  Truncating all tables...");
+  await db.execute(sql`
+    TRUNCATE TABLE
+      staff_spells,
+      magic_properties,
+      combat_special_abilities,
+      culture_advantages,
+      culture_disadvantages,
+      culture_talent_package,
+      cultures,
+      advantages,
+      disadvantages,
+      special_ability_combined_talent_requirements,
+      special_ability_talent_requirements,
+      general_special_abilities,
+      talents,
+      races,
+      derived_values,
+      attributes,
+      condition_levels,
+      conditions,
+      experience_levels,
+      status,
+      gods
+    RESTART IDENTITY CASCADE
+  `);
   console.log("🌱 Seeding gods & demons...");
-  await db.execute(sql`TRUNCATE TABLE gods RESTART IDENTITY`);
   let entries = 0;
   const godValues = godsData.map(entry => ({
     name: entry.name,
@@ -381,6 +408,30 @@ async function seed() {
 
   entries += magicPropertyValues.length;
   await db.insert(magicPropertiesTable).values(magicPropertyValues);
+
+  console.log("🌱 Seeding staff spells...");
+  const magicProperties = await db.select().from(magicPropertiesTable);
+  const magicPropertyMap = new Map(magicProperties.map(p => [p.name, p.id]));
+
+  const staffSpellValues = staffSpellsData.map(entry => {
+    const propertyId = entry.property ? magicPropertyMap.get(entry.property) ?? null : null;
+    if (entry.property && !propertyId) {
+      console.warn(`⚠️ Merkmal nicht gefunden: ${entry.property} für ${entry.name}`);
+    }
+    return {
+      name: entry.name,
+      effect: entry.effect,
+      requirements: entry.requirements || null,
+      volume: entry.volume,
+      bindingCost: entry.bindingCost || null,
+      propertyId,
+      propertyNote: (entry as any).propertyNote ?? null,
+      apValue: entry.apValue,
+      apNote: entry.apNote ?? null,
+    };
+  });
+  entries += staffSpellValues.length;
+  await db.insert(staffSpellsTable).values(staffSpellValues);
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);
