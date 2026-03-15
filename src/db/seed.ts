@@ -33,6 +33,7 @@ import {
   churchTraditionFavorableTalentsTable,
   moralCodexEntriesTable,
   churchTraditionRanksTable,
+  blessingsTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -58,6 +59,7 @@ import cantripsData from "../../data/magic/cantrips.json";
 import spellsData from "../../data/magic/spells.json";
 import ritualsData from "../../data/magic/rituals.json";
 import churchTraditionsData from "../../data/gods/church_traditions.json";
+import blessingsData from "../../data/gods/blessings.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -68,6 +70,7 @@ async function seed() {
   await db.execute(sql`
     TRUNCATE TABLE
       cantrips,  
+      blessings,
       church_tradition_ranks,
       moral_codex_entries,
       church_tradition_favorable_talents,
@@ -683,6 +686,20 @@ async function seed() {
       entries += rankRows.length;
     }
   }
+
+  console.log("🌱 Seeding blessings...");
+  const blessingValues = blessingsData.map(entry => ({
+    name: entry.name,
+    effect: entry.effect,
+    range: entry.range,
+    duration: entry.duration,
+    targetCategory: entry.targetCategory,
+    aspect: entry.aspect,
+    kapCost: entry.kapCost,
+    apValue: entry.apValue,
+  }));
+  entries += blessingValues.length;
+  await db.insert(blessingsTable).values(blessingValues);
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);

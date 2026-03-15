@@ -61,3 +61,15 @@ export const churchTraditionRanksTable = pgTable("church_tradition_ranks", {
   title: varchar({ length: 255 }).notNull(),
   order: integer().notNull(),
 });
+
+export const blessingsTable = pgTable("blessings", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  name: varchar({ length: 255 }).notNull(),
+  effect: text().notNull(),
+  range: text().notNull(),
+  duration: text().notNull(),
+  targetCategory: text("target_category").notNull(),
+  aspect: varchar({ length: 100 }).notNull(),
+  kapCost: integer("kap_cost").notNull().default(1),
+  apValue: integer("ap_value").notNull().default(1),
+});
