@@ -2,6 +2,13 @@
 import { talentsTable } from "./characters";
 import { advantagesTable, disadvantagesTable } from "./advantages";
 
+export const socialStatusesTable = pgTable("social_statuses", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  level: integer().notNull().unique(),
+  name: varchar({ length: 100 }).notNull(),
+  examples: text().array(),
+});
+
 export const culturesTable = pgTable("cultures", {
   id: integer().primaryKey().generatedByDefaultAsIdentity(),
   name: varchar({ length: 255 }).notNull(),
@@ -13,7 +20,6 @@ export const culturesTable = pgTable("cultures", {
   language: text().notNull(),
   script: text(),
   areaKnowledge: text(),
-  socialStatus: text().array(),
   commonMundaneProfessions: text().array(),
   commonMagicProfessions: text().array(),
   commonBlessedProfessions: text().array(),
@@ -62,4 +68,15 @@ export const cultureDisadvantagesTable = pgTable("culture_disadvantages", {
     .references(() => disadvantagesTable.id, { onDelete: "cascade" }),
   isCommon: boolean("is_common").notNull().default(true),
   note: text(),
+});
+
+// Social status per culture (FK mapping)
+export const cultureSocialStatusesTable = pgTable("culture_social_statuses", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  cultureId: integer("culture_id")
+    .notNull()
+    .references(() => culturesTable.id, { onDelete: "cascade" }),
+  socialStatusId: integer("social_status_id")
+    .notNull()
+    .references(() => socialStatusesTable.id, { onDelete: "cascade" }),
 });

@@ -18,6 +18,8 @@ import {
   cultureTalentPackageTable,
   cultureAdvantagesTable,
   cultureDisadvantagesTable,
+  socialStatusesTable,
+  cultureSocialStatusesTable,
   combatSpecialAbilitiesTable,
   magicPropertiesTable,
   staffSpellsTable,
@@ -50,6 +52,7 @@ import generalSpecialAbilitiesData from "../../data/gameplay/general_special_abi
 import advantagesData from "../../data/characters/advantages.json";
 import disadvantagesData from "../../data/characters/disadvantages.json";
 import culturesData from "../../data/characters/cultures.json";
+import socialStatusesData from "../../data/gameplay/social_statuses.json";
 import combatSpecialAbilitiesData from "../../data/gameplay/combat_special_abilities.json";
 import magicPropertiesData from "../../data/magic/magic_properties.json";
 import staffSpellsData from "../../data/magic/staff_spells.json";
@@ -94,8 +97,10 @@ async function seed() {
       combat_special_abilities,
       culture_advantages,
       culture_disadvantages,
+      culture_social_statuses,
       culture_talent_package,
       cultures,
+      social_statuses,
       advantages,
       disadvantages,
       special_ability_combined_talent_requirements,
@@ -326,6 +331,18 @@ async function seed() {
   const disadvantages = await db.select().from(disadvantagesTable);
   const disadvantageMap = new Map(disadvantages.map(d => [d.name, d.id]));
 
+  console.log("🌱 Seeding social statuses...");
+  const socialStatusValues = socialStatusesData.map(entry => ({
+    level: entry.level,
+    name: entry.name,
+    examples: entry.examples,
+  }));
+  entries += socialStatusValues.length;
+  await db.insert(socialStatusesTable).values(socialStatusValues);
+
+  const socialStatuses = await db.select().from(socialStatusesTable);
+  const socialStatusMap = new Map(socialStatuses.map(s => [s.name, s.id]));
+
   console.log("🌱 Seeding cultures...");
   for (const entry of culturesData) {
     const [culture] = await db.insert(culturesTable).values({
@@ -338,7 +355,6 @@ async function seed() {
       language: entry.language,
       script: entry.script || null,
       areaKnowledge: entry.areaKnowledge || null,
-      socialStatus: entry.socialStatus,
       commonMundaneProfessions: entry.commonMundaneProfessions,
       commonMagicProfessions: entry.commonMagicProfessions,
       commonBlessedProfessions: entry.commonBlessedProfessions,
@@ -371,6 +387,22 @@ async function seed() {
     if (talentPackageRows.length > 0) {
       await db.insert(cultureTalentPackageTable).values(talentPackageRows as any);
       entries += talentPackageRows.length;
+    }
+
+    const socialStatusRows = (entry.socialStatus ?? [])
+      .map((statusName: string) => {
+        const socialStatusId = socialStatusMap.get(statusName);
+        if (!socialStatusId) {
+          console.warn(`⚠️ Sozialer Stand nicht gefunden: ${statusName} für Kultur ${entry.name}`);
+          return null;
+        }
+        return { cultureId: culture.id, socialStatusId };
+      })
+      .filter(Boolean);
+
+    if (socialStatusRows.length > 0) {
+      await db.insert(cultureSocialStatusesTable).values(socialStatusRows as any);
+      entries += socialStatusRows.length;
     }
 
     // Common & uncommon advantages

@@ -169,6 +169,13 @@
       "when": 1773574771706,
       "tag": "0023_fuzzy_luke_cage",
       "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1773575264097,
+      "tag": "0024_polite_purple_man",
+      "breakpoints": true
     }
   ]
 }

@@ -1,0 +1,27 @@
+﻿[
+  {
+    "level": 1,
+    "name": "Unfrei",
+    "examples": ["Plantagensklave", "Gladiator", "Sträfling", "unfreier Bauer"]
+  },
+  {
+    "level": 2,
+    "name": "Frei",
+    "examples": ["Bürger", "Händler", "freier Bauer"]
+  },
+  {
+    "level": 3,
+    "name": "Niederadel",
+    "examples": ["Edler", "Ritter", "Junker"]
+  },
+  {
+    "level": 4,
+    "name": "Adel",
+    "examples": ["Baron", "Graf"]
+  },
+  {
+    "level": 5,
+    "name": "Hochadel",
+    "examples": ["Herzog", "König", "Kaiser"]
+  }
+]
