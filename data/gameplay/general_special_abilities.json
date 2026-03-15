@@ -827,5 +827,58 @@
     },
     "apValue": 20,
     "category": "Magische Sonderfertigkeit"
+  },
+  {
+    "name": "Aspektkenntnis",
+    "description": "Durch diese Sonderfertigkeit erlangt ein Geweihter besondere Kenntnisse in einem bestimmten Aspekt seiner Kirche. Neben den üblichen Aspekten der unterschiedlichen Kirchen gibt es auch noch die Aspektkenntnis (allgemein). Diese wirkt sich auf alle Liturgien aus, die den Aspekt den Eintrag 'allgemein' aufweisen.",
+    "rules": "Erst durch eine Aspektkenntnis kann ein Geweihter eine Liturgie auf einen FW von über 14 steigern. Nachdem das Aspekt erworben wurde, gibt es für Liturgien mit diesem Aspekt keine weitere spezielle Grenze (außer der der normalen Höchstwerte für Fertigkeiten).",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": { "talents": [], "level": 0 },
+      "noDisadvantage": [],
+      "text": "Leiteigenschaft der Tradition 15, 3 Liturgien und Zeremonien des Aspekts auf 10"
+    },
+    "apValue": 15,
+    "dynamicApText": "15 Abenteuerpunkte für die erste, 25 Abenteuerpunkte für die zweite, 45 Abenteuerpunkte für die dritte Aspektkenntnis",
+    "category": "Karmale Sonderfertigkeit"
+  },
+  {
+    "name": "Fokussierung",
+    "description": "Wird der Held in seiner Konzentration beim Wirken von Liturgien oder Zeremonien gestört, sind die nötigen Proben auf Selbstbeherrschung (Störungen ignorieren) durch diese Sonderfertigkeit um 1 erleichtert.",
+    "rules": "Proben auf Selbstbeherrschung (Störungen ignorieren) beim Wirken von Liturgien oder Zeremonien sind um 1 erleichtert.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": { "talents": [], "level": 0 },
+      "noDisadvantage": [],
+      "text": "MU 13"
+    },
+    "apValue": 8,
+    "category": "Karmale Sonderfertigkeit"
+  },
+  {
+    "name": "Stärke des Glaubens",
+    "description": "Der Geweihte verharrt in einer Position, ruft seine Gottheit an und konzentriert sich. Niedere Dämonen können den Geweihten nicht berühren oder direkt angreifen, so lange er die Konzentration aufrechterhält und sich nicht bewegt.",
+    "rules": "Niedere Dämonen können den Geweihten nicht berühren oder direkt angreifen, so lange er die Konzentration aufrechterhält und sich nicht bewegt.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": { "talents": [], "level": 0 },
+      "noDisadvantage": [],
+      "text": "MU 15"
+    },
+    "apValue": 10,
+    "category": "Karmale Sonderfertigkeit"
+  },
+  {
+    "name": "Starke Segnungen",
+    "description": "Die Segnungen des Helden sind besonders stark.",
+    "rules": "Segnungen gelten als mit 2 QS bestanden.",
+    "requirements": {
+      "talents": [],
+      "combinedTalents": { "talents": [], "level": 0 },
+      "noDisadvantage": [],
+      "text": "Vorteil Geweihter"
+    },
+    "apValue": 2,
+    "category": "Karmale Sonderfertigkeit"
   }
 ]

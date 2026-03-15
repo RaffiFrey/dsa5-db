@@ -1,0 +1,323 @@
+﻿[
+  {
+    "name": "Tradition der Praiosgeweihten",
+    "god": "Praios",
+    "description": "Die Geweihten des Götterfürsten dienen der Gerechtigkeit und Ordnung. Sie helfen den Menschen gegen die Machenschaften der Diener der Erzdämonen und gehen gegen alles Namenlose vor. Ihre Liturgien sind oftmals Waffen gegen unheilige Wesen oder werden genutzt, um die Wahrheit herauszufinden.",
+    "leadingAttribute": "Klugheit",
+    "requirements": "Vorteil Geweihter",
+    "apValue": 130,
+    "rules": [
+      "Wird Magie gegen den Praiosgeweihten gewirkt, so verbessert sich hiergegen seine Seelenkraft um 1.",
+      "Bei der Liturgiemodifikation Erzwingen erhält der Geweihte eine Erleichterung von 2 (statt 1).",
+      "Ein Praiosgeweihter muss sich an den Moralkodex (Prinzipientreue) halten. Die Wahl des Nachteils ist Voraussetzung, wenn der Spieler einen Geweihten der Kirche spielen will."
+    ],
+    "favorableTalents": [
+      "Bekehren & Überzeugen",
+      "Einschüchtern",
+      "Etikette",
+      "Menschenkenntnis",
+      "Willenskraft",
+      "Orientierung",
+      "Götter & Kulte",
+      "Magiekunde",
+      "Rechtskunde",
+      "Sphärenkunde"
+    ],
+    "moralCodex": [
+      {
+        "name": "Gehorsam",
+        "description": "Der Geweihte ist verpflichtet, sich an die Befehle von Personen zu halten, die über ihm in der Kirchenhierarchie stehen."
+      },
+      {
+        "name": "Offensichtlichkeit",
+        "description": "Der Geweihte versteckt sich nicht."
+      },
+      {
+        "name": "Schutz von Gesetz und Staat",
+        "description": "Der Geweihte verteidigt zwölfgöttliche Reiche und Strukturen und achtet auf die Einhaltung der Gesetze."
+      },
+      {
+        "name": "Magiebann",
+        "description": "Magie, vor allem schwarze Magie, sollte gebannt werden. Die Weiße Magie kann unter Umständen toleriert werden. Das Gildenrecht der Magier ist zu achten."
+      },
+      {
+        "name": "Mission",
+        "description": "Der Glaube an den Götterfürsten und seine Geschwister muss in alle Winkel Deres verbreitet werden."
+      }
+    ],
+    "ranks": [
+      { "rank": "Novize/Novizin", "title": "Lichtsucher/in", "order": 1 },
+      { "rank": "Akoluth/in", "title": "Lichtverehrender/in", "order": 2 },
+      { "rank": "Priester/in", "title": "Lichtbringer/in", "order": 3 },
+      { "rank": "Erzpriester/in", "title": "Lichtträger/in", "order": 4 },
+      { "rank": "Praetor/in", "title": "Lichthüter/in", "order": 5 },
+      { "rank": "Erzpraetor/in", "title": "Erleuchete/r", "order": 6 },
+      { "rank": "Metropolitan/in", "title": "Wahrer/in der Ordnung", "order": 7 },
+      { "rank": "Patriarch/Matriarchin", "title": "Bote/Botin des Lichts", "order": 8 }
+    ]
+  },
+  {
+    "name": "Tradition der Rondrageweihten",
+    "god": "Rondra",
+    "description": "Der Kirche der Rondra steht das Schwert der Schwerter vor. Für die Geweihten hat der Schutz von Gläubigen und Tempeln oberste Priorität. Ebenfalls in ihrem Interesse sind der ewige Kampf und die Verbesserung der Schwertkunst und anderer Kampftechniken.",
+    "leadingAttribute": "Mut",
+    "requirements": "Vorteil Geweihter",
+    "apValue": 150,
+    "rules": [
+      "Fürchtet nichts: Dieser Vorteil sorgt dafür, dass der Held die Auswirkungen der höchsten Stufe des Zustands Furcht ignorieren darf. Er erleidet lediglich die Auswirkungen der nächstniedrigeren Stufe. Bei Furcht Stufe IV wird der Held dennoch handlungsunfähig.",
+      "Der Geweihte erhält eine neue Einsatzmöglichkeit für Selbstbeherrschung (Handlungsfähigkeit bewahren). Wenn ein Rondrageweihter durch Zustände handlungsunfähig wird, kann er trotzdem noch eine Aktion oder Verteidigung pro Kampfrunde ausführen, wenn ihm eine Probe auf Selbstbeherrschung (Handlungsfähigkeit bewahren) gelingt.",
+      "Ein Rondrageweihter muss sich an den Moralkodex (Prinzipientreue) halten. Die Wahl des Nachteils ist Voraussetzung, wenn der Spieler einen Geweihten der Kirche spielen will."
+    ],
+    "favorableTalents": [
+      { "talent": null, "note": "alle Nahkampftechniken" },
+      { "talent": "Körperbeherrschung" },
+      { "talent": "Kraftakt" },
+      { "talent": "Reiten" },
+      { "talent": "Selbstbeherrschung" },
+      { "talent": "Götter & Kulte" },
+      { "talent": "Kriegskunst" }
+    ],
+    "moralCodex": [
+      {
+        "name": "Verteidigung des Glaubens",
+        "description": "Die Verteidigung des Glaubens ist die Pflicht jedes Rondrageweihten."
+      },
+      {
+        "name": "Ritterlichkeit",
+        "description": "Der Rondrageweihte setzt im Kampf keine Armbrüste ein oder verhält sich sonst unehrenhaft."
+      },
+      {
+        "name": "Verantwortung",
+        "description": "Der Schutz aller Gläubigen, der Heiligtümer und der Tempel der Zwölfgötter steht im Vordergrund der Aufgaben eines Geweihten."
+      },
+      {
+        "name": "Zweikampf",
+        "description": "Der ehrenhafte Zweikampf ist von allen Kampfhandlungen die ehrenhafteste."
+      },
+      {
+        "name": "Schwertmeisterschaft",
+        "description": "Sich in allen Waffengattungen auszukennen und sie zu meistern ist eine Selbstverständlichkeit für den Geweihten."
+      }
+    ],
+    "ranks": [
+      { "rank": "Novize/Novizin", "title": "Page/Pagin der Göttin", "order": 1 },
+      { "rank": "Akoluth/in", "title": "Löwenritter/in", "order": 2 },
+      { "rank": "Priester/in", "title": "Knappe/Knappin der Göttin", "order": 3 },
+      { "rank": "Erzpriester/in", "title": "Ritter/in der Göttin", "order": 4 },
+      { "rank": "Praetor/in", "title": "Schwertbruder/Schwertschwestern", "order": 5 },
+      { "rank": "Erzpraetor/in", "title": "Roter Rat", "order": 6 },
+      { "rank": "Metropolit", "title": "Meister des Bundes", "order": 7 },
+      { "rank": "Patriarch/Matriarchin", "title": "Schwert der Schwerter", "order": 8 }
+    ]
+  },
+  {
+    "name": "Tradition der Borongeweihten",
+    "god": "Boron",
+    "description": "Die Geweihten des Boron sind für die Menschen da, wenn es darum geht, einen Verwandten und Freund zu bestatten und ihm die letzte Ehre zu erweisen. Ihre ärgsten Feinde sind Geisterbeschwörer und Nekromanten.",
+    "leadingAttribute": "Mut",
+    "requirements": "Vorteil Geweihter",
+    "apValue": 130,
+    "rules": [
+      "Gewöhnt an die Dunkelheit: Sichtmodifikatoren, die durch Dunkelheit entstehen, haben eine um eine Stufe schwächere Auswirkung für den Geweihten (z.B. wird Stufe II wie Stufe I behandelt). Bei vollständiger Dunkelheit kann der Geweihte aber dennoch nichts sehen.",
+      "Borongeweihte Waffen machen doppelten Schaden an Untoten. Die Trefferpunkte werden ausgewürfelt, dann verdoppelt, anschließend der Rüstungsschutz abgezogen.",
+      "Ein Borongeweihter muss sich an den Moralkodex (Prinzipientreue) halten. Die Wahl des Nachteils ist Voraussetzung, wenn der Spieler einen Geweihten der Kirche spielen will."
+    ],
+    "favorableTalents": [
+      "Selbstbeherrschung",
+      "Verbergen",
+      "Zechen",
+      "Einschüchtern",
+      "Menschenkenntnis",
+      "Willenskraft",
+      "Götter & Kulte",
+      "Sphärenkunde",
+      "Sternkunde",
+      "Heilkunde Gift",
+      "Heilkunde Krankheiten",
+      "Heilkunde Seele",
+      "Heilkunde Wunden"
+    ],
+    "moralCodex": [
+      {
+        "name": "Bestattung",
+        "description": "Kein Leichnam sollte unbestattet sein. Der Geweihte muss für die Totenruhe sorgen."
+      },
+      {
+        "name": "Schweigen",
+        "description": "Schweigen ist eine Tugend. Kein Geweihter sollte ohne Grund reden."
+      },
+      {
+        "name": "Traum",
+        "description": "Ergründe die Welt der Träume. In ihr kann der Geweihte den Willen Borons ergründen."
+      }
+    ],
+    "ranks": [
+      { "rank": "Novize/Novizin", "title": "Novize/Novizin (in Almada: Räblein)", "order": 1 },
+      { "rank": "Priester/in", "title": "Diener/in des Raben", "order": 2 },
+      { "rank": "Erzpriester/in", "title": "Deuter/in in Bishdariels oder Golgaris", "order": 3 },
+      { "rank": "Praetor/in", "title": "Hüter/in des Raben", "order": 4 },
+      { "rank": "Erzpraetor/in", "title": "Schweigende/r (Ordensvorsteher)", "order": 5 },
+      { "rank": "Patriarch/Matriarchin", "title": "Rabe von Punin (Puniner Ritus) / in Al'Anfa: Patriarch/Matriarchin", "order": 6 }
+    ]
+  },
+  {
+    "name": "Tradition der Hesindegeweihten",
+    "god": "Hesinde",
+    "description": "Das Sammeln und Bewahren von Wissen ist für die Hesindegeweihten eine heilige Pflicht. Vor allem in den Tulamidenlanden und dem Horasreich sind die Geweihten Hesindes anzutreffen, wo sie sich um Archive kümmern und weite Reisen unternehmen, um längst vergessene Mysterien zu ergründen und gefährliche magische Artefakte zu bergen.",
+    "leadingAttribute": "Klugheit",
+    "requirements": "Vorteil Geweihter",
+    "apValue": 130,
+    "rules": [
+      "Gegen Illusionen erhält ein Hesindegeweihter eine Erleichterung von 1 bei Proben auf Sinnesschärfe.",
+      "Klarer Verstand: Für den Geweihten sind die Auswirkungen von Verwirrung um eine Stufe gesenkt (z.B. wird Verwirrung Stufe II wie Stufe I behandelt). Ausnahme ist Stufe IV, hier erleidet der Geweihte alle Einbußen vollständig.",
+      "Ein Hesindegeweihter muss sich an den Moralkodex (Prinzipientreue) halten. Die Wahl des Nachteils ist Voraussetzung, wenn der Spieler einen Geweihten der Kirche spielen will."
+    ],
+    "favorableTalents": [
+      "Sinnesschärfe",
+      "Bekehren & Überzeugen",
+      "Willenskraft",
+      "Pflanzenkunde",
+      "Tierkunde",
+      "Geographie",
+      "Geschichtswissen",
+      "Götter & Kulte",
+      "Magiekunde",
+      "Mechanik",
+      "Rechnen",
+      "Rechtskunde",
+      "Sagen & Legenden",
+      "Sphärenkunde",
+      "Sternkunde",
+      "Alchimie"
+    ],
+    "moralCodex": [
+      {
+        "name": "Sammeln von Wissen",
+        "description": "Artefakte, Bücher und anderes Wissen sind in den Augen der Göttin so wertvoll, dass es gesammelt werden muss."
+      },
+      {
+        "name": "Ewige Lehre",
+        "description": "Der Geweihte sollte sich bemühen, stets fortzubilden."
+      },
+      {
+        "name": "Ästhetik",
+        "description": "Die Welt ist schön und der Geweihte soll die Schönheit der Welt ehren und mehren."
+      }
+    ],
+    "ranks": [
+      { "rank": "Novize/Novizin", "title": "Scholar/in", "order": 1 },
+      { "rank": "Akoluth/in", "title": "Consortis", "order": 2 },
+      { "rank": "Priester/in", "title": "Mentor/in", "order": 3 },
+      { "rank": "Erzpriester/in", "title": "Magister/in", "order": 4 },
+      { "rank": "Praetor/in", "title": "Hohe/r Lehrmeister/in", "order": 5 },
+      { "rank": "Erzpraetor/in", "title": "Erzmagister/in", "order": 6 },
+      { "rank": "Metropolitan/in", "title": "Erzwissensbewahrer/in", "order": 7 },
+      { "rank": "Patriarch/Matriarchin", "title": "Magister/in der Magister", "order": 8 }
+    ]
+  },
+  {
+    "name": "Tradition der Phexgeweihten",
+    "god": "Phex",
+    "description": "Der Gott der Diebe verfügt über eine sehr individuelle Geweihtenschaft. Viele Phexgeweihte sind selbst so etwas wie Diebe und Fassadenkletterer, die ihrem Gott die wertvollsten Schätze als Opfer darbringen wollen. Andere hingegen sind mehr Händler. Phexgeweihte machen jedoch nichts ohne eine Gegenleistung.",
+    "leadingAttribute": "Intuition",
+    "requirements": "Vorteil Geweihter",
+    "apValue": 150,
+    "rules": [
+      "Der Spieler des Geweihten kann sich beim Einsatz von Schicksalspunkten zur Wiederholung eines Wurfes (egal wie viele Würfel) das jeweils bessere Ergebnis aussuchen.",
+      "Phexgeweihte feilschen bei Zeremonien mit ihrem Gott. Sie erhalten +1 auf die jeweilige Zeremonie, wenn sie 5 Silbertaler pro Steigerungsfaktor an ihn opfern, also 5 Silbertaler für eine Zeremonie mit Faktor A, 10 Silbertaler für eine Zeremonie mit Faktor B und so weiter.",
+      "Ein Phexgeweihter muss sich an den Moralkodex (Prinzipientreue) halten. Die Wahl des Nachteils ist Voraussetzung, wenn der Spieler einen Geweihten der Kirche spielen will."
+    ],
+    "favorableTalents": [
+      "Gaukeleien",
+      "Klettern",
+      "Sinnesschärfe",
+      "Taschendiebstahl",
+      "Verbergen",
+      "Gassenwissen",
+      "Überreden",
+      "Brett- & Glücksspiel",
+      "Götter & Kulte",
+      "Rechnen",
+      "Rechtskunde",
+      "Sternkunde",
+      "Handel",
+      "Schlösserknacken"
+    ],
+    "moralCodex": [
+      {
+        "name": "Gegenleistung",
+        "description": "Für eine zu erfüllende Aufgabe muss der Geweihte stets eine Gegenleistung verlangen."
+      },
+      {
+        "name": "Heimlichkeit",
+        "description": "Der Geweihte soll seine Pläne im Verborgenen ausführen."
+      },
+      {
+        "name": "Herausforderung",
+        "description": "Je größer die Herausforderung, desto größer der Ruhm. Der Geweihte soll große Herausforderungen suchen und sich ihnen stellen."
+      }
+    ],
+    "ranks": [
+      { "rank": "Novize/Novizin", "title": "Grauling/Füchschen", "order": 1 },
+      { "rank": "Akoluth/in", "title": "Schatten", "order": 2 },
+      { "rank": "Priester/in", "title": "Mondschatten", "order": 3 },
+      { "rank": "Erzpriester/in", "title": "Nachtschatten", "order": 4 },
+      { "rank": "Praetor/in", "title": "Vogtvikar/in", "order": 5 },
+      { "rank": "Kirchenoberhaupt", "title": "Der Mond", "order": 6 }
+    ]
+  },
+  {
+    "name": "Tradition der Perainegeweihten",
+    "god": "Peraine",
+    "description": "Die als friedliebend bekannten Geweihten der Peraine sind bekannt für ihre Heilkünste. Sie sind nicht nur bereit, Bedürftigen zu helfen, sondern auch profunde Kenner von Giften und Krankheiten. Außerdem sind sie tatkräftige Helfer der aventurischen Bauern und helfen bei der Aussaat und der Ernte von Korn, Heilpflanzen und anderen Erzeugnissen.",
+    "leadingAttribute": "Intuition",
+    "requirements": "Vorteil Geweihter",
+    "apValue": 110,
+    "rules": [
+      "Die Segnung Kleiner Heilsegen bringt 2 LeP anstatt 1 LeP.",
+      "Widerstandsfähigkeit gegen Krankheiten: Sollte eine Krankheitsprobe gegen den Geweihten gelingen, nimmt die Krankheit nur den leichten Verlauf; misslingt die Krankheitsprobe, so steckt sich der Perainegeweihte nicht an der Krankheit an.",
+      "Ein Perainegeweihter muss sich an den Moralkodex (Prinzipientreue) halten. Die Wahl des Nachteils ist Voraussetzung, wenn der Spieler einen Geweihten der Kirche spielen will."
+    ],
+    "favorableTalents": [
+      "Zechen",
+      "Bekehren & Überzeugen",
+      "Menschenkenntnis",
+      "Willenskraft",
+      "Fischen & Angeln",
+      "Pflanzenkunde",
+      "Tierkunde",
+      "Götter & Kulte",
+      "Sagen & Legenden",
+      "Heilkunde Gift",
+      "Heilkunde Krankheiten",
+      "Heilkunde Seele",
+      "Heilkunde Wunden"
+    ],
+    "moralCodex": [
+      {
+        "name": "Hilfe",
+        "description": "Leiste jedem Hilfe, der Hilfe benötigt."
+      },
+      {
+        "name": "Aufopferung",
+        "description": "Arbeite hart und halte dich vom Müßiggang fern."
+      },
+      {
+        "name": "Bescheidenheit",
+        "description": "Verschwende nicht die Gaben der Göttin."
+      },
+      {
+        "name": "Heilkunst",
+        "description": "Bilde dich in der Heilkunst fort."
+      }
+    ],
+    "ranks": [
+      { "rank": "Novize/Novizin", "title": "Knecht/Magd der Göttin", "order": 1 },
+      { "rank": "Akoluth/in", "title": "Diener/in der Ähre", "order": 2 },
+      { "rank": "Priester/in", "title": "Meister/in der Ernte", "order": 3 },
+      { "rank": "Praetor/in", "title": "Hüter/in der Saat", "order": 4 },
+      { "rank": "Erzpraetor/in", "title": "Pfleger/in des Landes", "order": 5 },
+      { "rank": "Patriarch/Matriarchin", "title": "Diener/in des Lebens", "order": 6 }
+    ]
+  }
+]

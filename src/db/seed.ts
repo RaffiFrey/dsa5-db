@@ -28,6 +28,11 @@ import {
   cantripsTable,
   spellsTable,
   ritualsTable,
+  churchTraditionsTable,
+  churchTraditionRulesTable,
+  churchTraditionFavorableTalentsTable,
+  moralCodexEntriesTable,
+  churchTraditionRanksTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -52,6 +57,7 @@ import elvenSongsData from "../../data/magic/elven_songs.json";
 import cantripsData from "../../data/magic/cantrips.json";
 import spellsData from "../../data/magic/spells.json";
 import ritualsData from "../../data/magic/rituals.json";
+import churchTraditionsData from "../../data/gods/church_traditions.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -62,6 +68,11 @@ async function seed() {
   await db.execute(sql`
     TRUNCATE TABLE
       cantrips,  
+      church_tradition_ranks,
+      moral_codex_entries,
+      church_tradition_favorable_talents,
+      church_tradition_rules,
+      church_traditions,
       rituals,
       spells,
       cantrips,
@@ -596,6 +607,82 @@ async function seed() {
   });
   entries += ritualValues.length;
   await db.insert(ritualsTable).values(ritualValues);
+
+  console.log("🌱 Seeding church traditions...");
+  const gods = await db.select().from(godsTable);
+  const godMap = new Map(gods.map(g => [g.name, g.id]));
+
+  for (const entry of churchTraditionsData) {
+    const godId = godMap.get(entry.god);
+    if (!godId) {
+      console.warn(`⚠️ Gott nicht gefunden: ${entry.god} für ${entry.name}`);
+      continue;
+    }
+
+    const [tradition] = await db.insert(churchTraditionsTable).values({
+      name: entry.name,
+      godId,
+      description: entry.description,
+      leadingAttribute: entry.leadingAttribute,
+      requirements: entry.requirements || null,
+      apValue: entry.apValue,
+    }).returning();
+    entries++;
+
+    // Rules
+    const ruleRows = entry.rules.map((rule, i) => ({
+      traditionId: tradition.id,
+      rule,
+      order: i + 1,
+    }));
+    if (ruleRows.length > 0) {
+      await db.insert(churchTraditionRulesTable).values(ruleRows);
+      entries += ruleRows.length;
+    }
+
+    // Favorable talents — handle both string[] and object[] formats
+    const talentRows = (entry.favorableTalents as any[])
+      .map(t => {
+        const talentName = typeof t === "string" ? t : t.talent;
+        const note = typeof t === "string" ? null : (t.note ?? null);
+        if (!talentName) {
+          // pure note entry (e.g. "alle Nahkampftechniken")
+          return { traditionId: tradition.id, talentId: null, note };
+        }
+        const talentId = talentMap.get(talentName) ?? null;
+        if (!talentId) {
+          console.warn(`⚠️ Talent nicht gefunden: ${talentName} für ${entry.name}`);
+        }
+        return { traditionId: tradition.id, talentId, note };
+      });
+    if (talentRows.length > 0) {
+      await db.insert(churchTraditionFavorableTalentsTable).values(talentRows as any);
+      entries += talentRows.length;
+    }
+
+    // Moral codex
+    const codexRows = entry.moralCodex.map(c => ({
+      traditionId: tradition.id,
+      name: c.name,
+      description: c.description,
+    }));
+    if (codexRows.length > 0) {
+      await db.insert(moralCodexEntriesTable).values(codexRows);
+      entries += codexRows.length;
+    }
+
+    // Ranks
+    const rankRows = entry.ranks.map(r => ({
+      traditionId: tradition.id,
+      rank: r.rank,
+      title: r.title,
+      order: r.order,
+    }));
+    if (rankRows.length > 0) {
+      await db.insert(churchTraditionRanksTable).values(rankRows);
+      entries += rankRows.length;
+    }
+  }
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);
