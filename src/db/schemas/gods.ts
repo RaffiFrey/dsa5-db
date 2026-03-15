@@ -91,3 +91,21 @@ export const liturgiesTable = pgTable("liturgies", {
   distribution: varchar({ length: 255 }),
   improvementFactor: varchar("improvement_factor", { length: 5 }),
 });
+
+export const ceremoniesTable = pgTable("ceremonies", {
+  id: integer().primaryKey().generatedByDefaultAsIdentity(),
+  name: varchar({ length: 255 }).notNull(),
+  description: text(),
+  probe: varchar({ length: 100 }).notNull(),
+  modifiedBySK: integer("modified_by_sk").notNull().default(0),
+  modifiedByZK: integer("modified_by_zk").notNull().default(0),
+  effect: text().notNull(),
+  ceremonyDuration: varchar("ceremony_duration", { length: 100 }),
+  kapCost: varchar("kap_cost", { length: 255 }),
+  costsNotModifiable: integer("costs_not_modifiable").notNull().default(0),
+  range: varchar({ length: 100 }),
+  duration: varchar({ length: 100 }),
+  targetCategory: varchar("target_category", { length: 255 }),
+  distribution: varchar({ length: 255 }),
+  improvementFactor: varchar("improvement_factor", { length: 5 }),
+});

@@ -35,6 +35,7 @@ import {
   churchTraditionRanksTable,
   blessingsTable,
   liturgiesTable,
+  ceremoniesTable,
 } from "./schemas";
 import godsData from "../../data/gods/gods_demons.json";
 import conditionsData from "../../data/gameplay/conditions.json";
@@ -62,6 +63,7 @@ import ritualsData from "../../data/magic/rituals.json";
 import churchTraditionsData from "../../data/gods/church_traditions.json";
 import blessingsData from "../../data/gods/blessings.json";
 import liturgiesData from "../../data/gods/liturgies.json";
+import ceremoniesData from "../../data/gods/ceremonies.json";
 import db from "./index";
 import {sql} from "drizzle-orm";
 
@@ -74,6 +76,7 @@ async function seed() {
       cantrips,  
       blessings,
       liturgies,
+      ceremonies,
       church_tradition_ranks,
       moral_codex_entries,
       church_tradition_favorable_talents,
@@ -723,6 +726,26 @@ async function seed() {
   }));
   entries += liturgyValues.length;
   await db.insert(liturgiesTable).values(liturgyValues);
+
+  console.log("🌱 Seeding ceremonies...");
+  const ceremonyValues = ceremoniesData.map(entry => ({
+    name: entry.name,
+    description: entry.description ?? null,
+    probe: entry.probe,
+    modifiedBySK: (entry as any).modifiedBySK ? 1 : 0,
+    modifiedByZK: (entry as any).modifiedByZK ? 1 : 0,
+    effect: entry.effect,
+    ceremonyDuration: entry.ceremonyDuration ?? null,
+    kapCost: entry.kapCost ?? null,
+    costsNotModifiable: entry.costsNotModifiable ? 1 : 0,
+    range: entry.range ?? null,
+    duration: entry.duration ?? null,
+    targetCategory: entry.targetCategory ?? null,
+    distribution: entry.distribution ?? null,
+    improvementFactor: entry.improvementFactor ?? null,
+  }));
+  entries += ceremonyValues.length;
+  await db.insert(ceremoniesTable).values(ceremonyValues);
 
   console.log(`✅ ${entries} entries added.`);
   process.exit(0);

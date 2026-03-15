@@ -162,6 +162,13 @@
       "when": 1773574485740,
       "tag": "0022_jazzy_silk_fever",
       "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1773574771706,
+      "tag": "0023_fuzzy_luke_cage",
+      "breakpoints": true
     }
   ]
 }
